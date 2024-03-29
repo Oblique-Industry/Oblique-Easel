@@ -1,0 +1,4 @@
+#N canvas 827 239 527 327 12;
+#X obj 1060 307 EaselInputPanel;
+#X obj 1060 360 EaselOutputPanel;
+#X connect 0 0 1 0;
