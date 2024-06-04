@@ -78761,28 +78761,6 @@
 		(layer "User.4")
 		(uuid "0aa49af6-38a9-4aa8-8af1-ae4952515065")
 	)
-	(gr_circle
-		(center 261.62 96.52)
-		(end 264.62 96.52)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "User.5")
-		(uuid "1284f810-91f1-4ae5-bd4c-c655bf043bc6")
-	)
-	(gr_circle
-		(center 261.62 106.68)
-		(end 264.62 106.68)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "User.5")
-		(uuid "48917af6-c083-460e-82c6-2ead814785d4")
-	)
 	(gr_text "ArduinoPro Micro\nUSB UP ->\nOn BACK"
 		(at 259.08 142.24 90)
 		(layer "F.Cu")
@@ -78943,39 +78921,6 @@
 	(dimension
 		(type aligned)
 		(layer "F.Cu")
-		(uuid "01e5f45b-4cd1-43c5-883c-9f43737a0778")
-		(pts
-			(xy 256.54 96.52) (xy 256.54 88.9)
-		)
-		(height 17.78)
-		(gr_text "7.6200 mm"
-			(at 272.52 92.71 90)
-			(layer "F.Cu")
-			(uuid "01e5f45b-4cd1-43c5-883c-9f43737a0778")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
 		(uuid "052fa95a-6396-4655-9834-703099a2f3ac")
 		(pts
 			(xy 45.72 104.14) (xy 45.72 147.32)
@@ -79084,39 +79029,6 @@
 			(at 256.54 155.68 0)
 			(layer "F.Cu")
 			(uuid "16802cd8-3b5e-4014-ae18-55bb6b57ab9e")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "1d858347-cf17-4614-adf6-a6df91090c75")
-		(pts
-			(xy 256.54 96.52) (xy 256.54 106.68)
-		)
-		(height 5.08)
-		(gr_text "10.1600 mm"
-			(at 249.66 101.6 90)
-			(layer "F.Cu")
-			(uuid "1d858347-cf17-4614-adf6-a6df91090c75")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -79339,39 +79251,6 @@
 	(dimension
 		(type aligned)
 		(layer "F.Cu")
-		(uuid "9c0e2163-a646-48b6-9a22-3903b2b1a491")
-		(pts
-			(xy 256.54 106.68) (xy 256.54 114.3)
-		)
-		(height -17.78)
-		(gr_text "7.6200 mm"
-			(at 272.52 110.49 90)
-			(layer "F.Cu")
-			(uuid "9c0e2163-a646-48b6-9a22-3903b2b1a491")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
 		(uuid "c28f37f5-7df8-4459-979f-11c8742e1765")
 		(pts
 			(xy 265.54 114.3) (xy 265.54 147.3)
@@ -79381,39 +79260,6 @@
 			(at 272.52 130.8 90)
 			(layer "F.Cu")
 			(uuid "c28f37f5-7df8-4459-979f-11c8742e1765")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "B.Cu")
-		(uuid "258b7528-0f44-4690-98e1-0c32bd4b45b2")
-		(pts
-			(xy 258.62 106.68) (xy 264.62 106.68)
-		)
-		(height 5.08)
-		(gr_text "6.0000 mm"
-			(at 261.62 109.96 0)
-			(layer "B.Cu")
-			(uuid "258b7528-0f44-4690-98e1-0c32bd4b45b2")
 			(effects
 				(font
 					(size 1.5 1.5)
