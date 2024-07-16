@@ -17,6 +17,11 @@ like that from analog synthesizers or other experimental sources such as analog 
 
 The Palette's Output stage uses four MCP4822 Digital/Analog converters to convert the values that the Easel has sent
 to analog values in 4096 steps of precision.
+
+Changes in 0.3.4:
+• Add array of values for each channel instead of a single value to each packet sent to plugdata
+• Receive array of values from Easel for each channel instead of a single value in each packet from plugdata
+
 /************************************************/
 
 // Library for the MCP4822 (and others of the family) 2-channel 12-bit SPI DAC
@@ -25,14 +30,17 @@ to analog values in 4096 steps of precision.
 // Define the hardware inputs using an Arduino Pro Micro's onboard 12-bit ADCs
 const int numberOfInputPins = 8;                                             // Built-in Analog input pins
 const int ADCBitDepth = 10;                                                  // Arduino Pro Micro is 10 bit, with 1024 values from 0:1023
-int analogInputValue[numberOfInputPins];                                     // A list of all the current input values
+// const int numberOfInputValuesPerPacketPerChannel = 72;                       // The number of values from each channel to buffer to send to plugdata
+// int analogInputValue[numberOfInputPins][numberOfValuesPerPacketPerChannel];  // A list of all the current input values
+int analogInputValue[numberOfInputPins];
 int analogInputPin[numberOfInputPins] = { A0, A1, A2, A3, A6, A7, A8, A9 };  // A list of all used Arduino analog input pins
 
 // Digital/Analog Converters
-const int numberOfDACChannelsPerChip = 2;                                 // Each 4822 has 2 channels, A and B
-const int numberOfDACChips = 4;                                           // The Palette has 4 chips for a total of 8 channels
-#define numberOfDACChannels numberOfDACChannelsPerChip* numberOfDACChips  // rather than calculating this over and over
-const int DACBitDepth = 12;                                               // The 4822 is 12-bit, with 4096 levels from 0:4095
+const int numberOfDACChannelsPerChip = 2;                                       // Each 4822 has 2 channels, A and B
+const int numberOfDACChips = 4;                                                 // The Palette has 4 chips for a total of 8 channels
+#define numberOfDACChannels numberOfDACChannelsPerChip* numberOfDACChips        // rather than calculating this over and over
+const analogOutputValues[numberOfDACChannels][numberOfOutputValuesPerChannel];  // An array of buffers for each channel
+const int DACBitDepth = 12;                                                     // The 4822 is 12-bit, with 4096 levels from 0:4095
 
 const int serialBufferSize = (numberOfDACChannels * (4 + 1)) + 2;  // A buffer big enough for each of the values, plus the value delimiter, plus the newline delimiter and its delimiter
 char serialBuffer[serialBufferSize];
@@ -45,7 +53,7 @@ int debugValue;
 
 // Assign 4822 chips to spots in an array so we can access them by index.
 MCP4822 DACChip[] = { MCP4822(2), MCP4822(3), MCP4822(5), MCP4822(7) };  //Each 4822 DAC, listed with the Arduino Chip Select pin to identify it
-                                                                         // Additionally, all chips need to connect SCK (Serial Clock) to Arduino pin 15 
+                                                                         // Additionally, all chips need to connect SCK (Serial Clock) to Arduino pin 15
                                                                          // and SDI (Serial Data In) to Arduino pin 16.
 
 int analogOutputValue[numberOfDACChannels];  // An array of each of the output values
