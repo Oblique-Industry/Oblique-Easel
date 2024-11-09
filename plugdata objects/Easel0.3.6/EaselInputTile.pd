@@ -1,27 +1,6 @@
 #N canvas 827 239 527 327 12;
 #X obj 1081 539 knob 50 0 1 0 0.5 empty empty #ffcc00 #ddbb66 #333366 0 0 0 0 1 270 0 0 0;
-#X obj 1027 425 inlet;
-#N canvas 733 172 450 300 RangeSet 0;
-#X obj 779 269 int;
-#X obj 869 269 sig~;
-#X obj 779 299 any2bytes;
-#X obj 779 189 inlet;
-#X obj 779 329 outlet;
-#X obj 869 329 outlet~;
-#X obj 869 189 inlet;
-#X text 915 188 Maximum value \, set as Bit Depth;
-#X text 569 188 Maximum value \, set as Bit Depth;
-#X text 889 298 To be sent to the little oscilloscope;
-#X text 619 298 To be sent to [comport];
-#X obj 779 229 scale 0 1023 0 1;
-#X connect 0 0 2 0 32.................E.........PA.........n.....;
-#X connect 0 0 1 0 48.................F.....B...fA....f....L9+++uV....i++++qE...P6++++;
-#X connect 1 0 5 0;
-#X connect 2 0 4 0;
-#X connect 3 0 11 0;
-#X connect 6 0 11 2;
-#X connect 11 0 0 0;
-#X restore 1027 495 pd RangeSet;
+#X obj 1027 379 inlet;
 #N canvas 733 172 450 300 BitDepth 0;
 #X obj 119 134 pow;
 #X msg 119 104 2;
@@ -36,6 +15,7 @@
 #X msg 1097 425 10;
 #X text 1127 424 Palette ADC bit depth;
 #X obj 1027 563 outlet;
+<<<<<<< HEAD
 #X text 1004 343 A single input stage mirroring incoming values on the Oblique Palette analog IO hardware, f 33;
 #X obj 1097 399 loadbang;
 #X connect 1 0 2 0 32.................Y.........PF.........HC....;
@@ -44,4 +24,31 @@
 #X connect 3 0 2 1 32.................J....n++++uB....5++++SA....;
 #X connect 4 0 3 0 32.................E.........PA.........n.....;
 #X connect 8 0 4 0;
+=======
+#X text 1013 308 A single input stage mirroring incoming values on the Oblique Palette analog IO hardware, f 33;
+#X obj 1097 402 loadbang;
+#N canvas 733 172 450 300 inputRangeSet 1;
+#X obj 869 269 sig~;
+#X obj 779 189 inlet;
+#X obj 779 329 outlet;
+#X obj 869 329 outlet~;
+#X obj 869 189 inlet;
+#X text 915 188 Maximum value \, set as Bit Depth;
+#X text 569 188 Maximum value \, set as Bit Depth;
+#X text 619 298 To be sent to [comport];
+#X obj 779 229 scale 0 1023 0 1;
+#X text 941 328 To be sent to the [knob];
+#X connect 0 0 3 0;
+#X connect 1 0 8 0;
+#X connect 4 0 8 2 32.................K....f7++++B....H++++WA....;
+#X connect 8 0 0 0 32.................G....nE...vA....ZA...TA....;
+#X connect 8 0 2 0;
+#X restore 1027 495 pd inputRangeSet;
+#X connect 1 0 8 0 32.................Y.........PF.........HC....;
+#X connect 2 0 8 1 32.................J....n++++uB....5++++SA....;
+#X connect 3 0 2 0 32.................E.........PA.........n.....;
+#X connect 7 0 3 0;
+#X connect 8 0 5 0 32.................L....n8+++OC....Z++++iA....;
+#X connect 8 0 0 0 32.................L....7.....C....O....fA....;
+>>>>>>> 08f140f92acb46f422e1e60f65f71430f5accaee
 #X coords 0 0 1 1 41 40 2 1086 544;
