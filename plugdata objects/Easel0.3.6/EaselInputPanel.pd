@@ -1,6 +1,6 @@
 #N canvas 0 23 1440 855 12;
 #N canvas 0 0 450 250 (subpatch) 0;
-#X coords 0 1 100 -1 344 45 1 0 0;
+#X coords 0 1 100 -1 344 45 2 0 0;
 #X restore 107 511 graph;
 #X obj 109 359 sel 13 10;
 #X obj 109 457 unpack f f f f f f f f;
@@ -12,10 +12,10 @@
 #X msg 169 176 close;
 #X obj 109 145 loadbang;
 #N canvas 733 172 450 300 GetInfo 0;
-#X obj 1309 969 b;
-#X msg 1311 995 info;
-#X obj 1098 958 inlet;
-#X obj 1049 999 outlet;
+#X obj 1127 911 b;
+#X msg 1124 938 info;
+#X obj 1124 884 inlet;
+#X obj 1124 965 outlet;
 #X connect 0 0 1 0 32.................C....P....v.....D....X.....;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;

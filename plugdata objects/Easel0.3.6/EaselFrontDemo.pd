@@ -1,4 +1,4 @@
 #N canvas 827 239 527 327 12;
-#X obj 1060 307 EaselInputPanel;
+#X obj 1060 307 EaselInputPanel, f 24;
 #X obj 1060 395 EaselOutputPanel;
 #X obj 1136 494 cnv 15 100 60 empty empty empty 20 12 0 14 #a8a8a8 #373737 0;
