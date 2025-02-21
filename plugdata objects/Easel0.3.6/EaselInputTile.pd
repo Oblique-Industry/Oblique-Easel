@@ -2,11 +2,11 @@
 #X obj 1081 539 knob 50 0 1 0 0.5 empty empty #ffcc00 #ddbb66 #333366 0 0 0 0 1 270 0 0 0;
 #X obj 1027 379 inlet;
 #N canvas 733 172 450 300 BitDepth 0;
-#X obj 839 159 pow;
-#X msg 839 129 2;
-#X obj 889 159 - 1;
-#X obj 839 99 inlet;
-#X obj 779 219 outlet;
+#X obj 119 134 pow;
+#X msg 119 104 2;
+#X obj 169 134 - 1;
+#X obj 130 76 inlet;
+#X obj 169 183 outlet;
 #X connect 0 0 2 0 48.................F....DB...fA....g....b9+++uL....m++++KC...P6++++;
 #X connect 1 0 0 0 32.................E....D....PA....A....n.....;
 #X connect 2 0 4 0;
@@ -15,6 +15,16 @@
 #X msg 1097 425 10;
 #X text 1127 424 Palette ADC bit depth;
 #X obj 1027 563 outlet;
+<<<<<<< HEAD
+#X text 1004 343 A single input stage mirroring incoming values on the Oblique Palette analog IO hardware, f 33;
+#X obj 1097 399 loadbang;
+#X connect 1 0 2 0 32.................Y.........PF.........HC....;
+#X connect 2 0 6 0 32.................L....n8+++OC....Z++++iA....;
+#X connect 2 0 0 0 32.................L....7.....C....O....fA....;
+#X connect 3 0 2 1 32.................J....n++++uB....5++++SA....;
+#X connect 4 0 3 0 32.................E.........PA.........n.....;
+#X connect 8 0 4 0;
+=======
 #X text 1013 308 A single input stage mirroring incoming values on the Oblique Palette analog IO hardware, f 33;
 #X obj 1097 402 loadbang;
 #N canvas 733 172 450 300 inputRangeSet 1;
@@ -40,4 +50,5 @@
 #X connect 7 0 3 0;
 #X connect 8 0 5 0 32.................L....n8+++OC....Z++++iA....;
 #X connect 8 0 0 0 32.................L....7.....C....O....fA....;
+>>>>>>> 08f140f92acb46f422e1e60f65f71430f5accaee
 #X coords 0 0 1 1 41 40 2 1086 544;

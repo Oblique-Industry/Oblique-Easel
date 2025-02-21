@@ -1,0 +1,9827 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00348c18-df7d-44f3-beed-018db1dcb244")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:MCP6004"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6004"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6004_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Analog_DAC:MCP4822"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MCP4822"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "12-Bit DAC SPI Reference 2ch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP4822_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -0.889) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.143) (xy 2.286 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -0.889) (xy -0.381 -0.889) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 2.286 -1.27) (xy 2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.889) (xy 0.508 -1.397) (xy -0.508 -1.397) (xy 0 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 9.525 -3.81) (xy 9.525 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.27) (xy 9.525 1.27) (xy 9.525 2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.762 -0.381)
+					(end -0.762 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "CNTRL"
+					(at -2.032 -4.191 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "DAC"
+					(at 3.81 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "DAC"
+					(at 3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "MCP4822_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 -6.35)
+					(end -3.81 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 5.715 -1.905) (xy 1.27 -1.905) (xy 1.27 -5.715) (xy 5.715 -5.715) (xy 6.985 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.27) (xy 5.715 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 5.715 -0.635) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCP4822_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{LDAC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack2_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:IRL81A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRL81A"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRL81A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRL81A_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 187.325 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070a3b50-99bc-4384-b1f4-d48080dde9f0")
+	)
+	(junction
+		(at 202.565 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cff3ffd-5601-4ec8-924c-34aa9afb85b2")
+	)
+	(junction
+		(at 62.865 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "108541e1-1052-4a63-97ed-4ddafcc484be")
+	)
+	(junction
+		(at 167.005 103.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123e0098-3d1e-4468-b897-dbf2f37384cb")
+	)
+	(junction
+		(at 66.675 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "198bc87b-d09f-4485-a5a8-a9c71429f747")
+	)
+	(junction
+		(at 216.535 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20941be6-a2dd-4efd-88d0-0866da3bd165")
+	)
+	(junction
+		(at 211.455 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6b016a-11d2-4fbd-9175-2ce132ae4006")
+	)
+	(junction
+		(at 189.865 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e4706e1-9c55-4942-bcec-4e61f3406f95")
+	)
+	(junction
+		(at 252.095 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "317d9f6c-a13d-49ee-bfe5-5af9cc2acf4c")
+	)
+	(junction
+		(at 216.535 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40551427-f2cc-4c07-9ec7-1bcdb372557d")
+	)
+	(junction
+		(at 60.325 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f8e861-7dfe-477f-8a71-c8e70d076132")
+	)
+	(junction
+		(at 75.565 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3f9852-c80b-4c79-957a-b035c72c2759")
+	)
+	(junction
+		(at 173.355 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e5c9ae-f472-4e7f-a111-b6152bb732e2")
+	)
+	(junction
+		(at 197.485 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64c4fba1-07f9-438a-99e4-608997641830")
+	)
+	(junction
+		(at 103.505 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a0911c-434f-4d32-9176-7303184416f1")
+	)
+	(junction
+		(at 89.535 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69b9bf59-40b8-4048-b1c6-dca585c601f4")
+	)
+	(junction
+		(at 70.485 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f3eac5d-b898-430c-8461-296efcd5ea7f")
+	)
+	(junction
+		(at 84.455 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cfb3b1b-0035-4f3f-b7d2-ab6e816953a5")
+	)
+	(junction
+		(at 70.485 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d92a33-85ff-401f-8977-75c8fbad3305")
+	)
+	(junction
+		(at 235.585 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e24fd5-583b-4a30-b85a-c09492b39923")
+	)
+	(junction
+		(at 97.155 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a85cb0-4456-4787-8b35-10f84d166354")
+	)
+	(junction
+		(at 89.535 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d4d11e-8471-437e-adcb-323e3e00ebbd")
+	)
+	(junction
+		(at 125.095 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89ac119-e132-438a-8929-f78f0492813f")
+	)
+	(junction
+		(at 57.785 29.845)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a06875-2810-4ac1-a9c2-56348ab4d42f")
+	)
+	(junction
+		(at 224.155 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af46188d-ea98-46c2-b970-63c6c9118603")
+	)
+	(junction
+		(at 108.585 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b785e464-f649-425c-829d-9f7da00b1d55")
+	)
+	(junction
+		(at 151.765 103.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b956fd7c-f958-4457-82cb-47dece8e3980")
+	)
+	(junction
+		(at 60.325 37.465)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4d58c8-913f-4cfa-b5db-aabaa277321b")
+	)
+	(junction
+		(at 193.675 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48b385f-7eac-49e7-9083-196ea8c0bd3b")
+	)
+	(junction
+		(at 230.505 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c688dadf-5e24-4a77-b20d-ad7de2a6ad6b")
+	)
+	(junction
+		(at 46.355 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6173beb-491e-4e91-b0fd-efd2b9a6be90")
+	)
+	(no_connect
+		(at 111.125 146.685)
+		(uuid "674c7872-a854-4468-a311-e04f2f171c89")
+	)
+	(no_connect
+		(at 238.125 146.685)
+		(uuid "bbcc6f4e-857e-49b8-a23b-930671f02618")
+	)
+	(wire
+		(pts
+			(xy 84.455 37.465) (xy 86.995 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ad0eb2-2f86-4af2-917b-ed3c7db237af")
+	)
+	(wire
+		(pts
+			(xy 187.325 86.995) (xy 189.865 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e110fc-6ceb-45d7-9573-12c499c7682e")
+	)
+	(wire
+		(pts
+			(xy 95.885 145.415) (xy 94.615 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043ba08d-adc4-4dd7-bb91-7bf407f766ad")
+	)
+	(wire
+		(pts
+			(xy 201.295 86.995) (xy 202.565 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07798281-0c97-4b33-b8a2-e88ea7d3c16b")
+	)
+	(wire
+		(pts
+			(xy 187.325 120.015) (xy 193.675 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086cce36-99d0-4aa6-bb13-b331361bed5b")
+	)
+	(wire
+		(pts
+			(xy 130.175 78.105) (xy 130.175 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e65f441-1e7f-4950-9546-467c5d68f098")
+	)
+	(wire
+		(pts
+			(xy 65.405 45.085) (xy 70.485 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef39d9d-60f1-433d-8f07-6fd6d784fe6e")
+	)
+	(wire
+		(pts
+			(xy 189.865 86.995) (xy 193.675 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b5deb8-8a77-4bea-8d2d-66da57a89e19")
+	)
+	(wire
+		(pts
+			(xy 62.865 86.995) (xy 66.675 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dbe620-7c6b-4f3f-bc1b-04e1600b7805")
+	)
+	(wire
+		(pts
+			(xy 224.155 149.225) (xy 240.665 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b10e6ff-65d0-4e4d-9e3f-45ce01ab0e68")
+	)
+	(wire
+		(pts
+			(xy 108.585 78.105) (xy 130.175 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8b4745-5b40-49e6-8f31-7226400afc93")
+	)
+	(wire
+		(pts
+			(xy 230.505 86.995) (xy 240.665 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c66453d-20ec-47a2-90fc-808c3715d757")
+	)
+	(wire
+		(pts
+			(xy 173.355 78.105) (xy 216.535 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ec1b1c-4cb3-4792-a4d8-07a8cc65bc48")
+	)
+	(wire
+		(pts
+			(xy 57.785 26.67) (xy 64.77 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24776169-b99c-4d94-9683-ae1d6b0e5c60")
+	)
+	(wire
+		(pts
+			(xy 66.675 97.155) (xy 66.675 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e902ec-3aa8-4e28-9fe5-9b7c8b29bafa")
+	)
+	(wire
+		(pts
+			(xy 216.535 97.155) (xy 216.535 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fe9a0b-bf90-4821-83d9-4184f53006ee")
+	)
+	(wire
+		(pts
+			(xy 75.565 86.995) (xy 76.835 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2692ac1e-c9b6-45a3-b79b-481ac425f9ce")
+	)
+	(wire
+		(pts
+			(xy 235.585 78.105) (xy 235.585 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2722e266-d264-41b0-8fd4-9bd742bfc7ad")
+	)
+	(wire
+		(pts
+			(xy 75.565 86.995) (xy 75.565 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8a5c5c-5f76-4615-81f7-3a1eea88dfdd")
+	)
+	(wire
+		(pts
+			(xy 60.325 45.085) (xy 60.325 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe47189-0b45-4cb0-8022-b8d6b62ba386")
+	)
+	(wire
+		(pts
+			(xy 74.295 86.995) (xy 75.565 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b616da-b465-4905-823b-5e09d7df0069")
+	)
+	(wire
+		(pts
+			(xy 62.865 45.085) (xy 62.865 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3942bdb9-7fad-44ef-9239-e1fac897806a")
+	)
+	(wire
+		(pts
+			(xy 70.485 45.085) (xy 71.755 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a92ac8c-accc-4e12-9a6b-14fa9ca5a69e")
+	)
+	(wire
+		(pts
+			(xy 173.355 149.225) (xy 197.485 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d20fbf6-4e81-44a9-ab46-47ce9f8d0c84")
+	)
+	(wire
+		(pts
+			(xy 84.455 86.995) (xy 84.455 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4012e0c7-9d45-4715-988a-3cb4e022398a")
+	)
+	(wire
+		(pts
+			(xy 216.535 78.105) (xy 235.585 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407c62ec-2338-42c2-93d2-1d77bbfefbff")
+	)
+	(wire
+		(pts
+			(xy 57.785 45.085) (xy 57.785 29.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42228865-1a3a-4621-b6e4-5c6e93ab754c")
+	)
+	(wire
+		(pts
+			(xy 70.485 40.005) (xy 84.455 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47972ed8-0d54-4db8-9e55-eb70dde167d5")
+	)
+	(wire
+		(pts
+			(xy 46.355 149.225) (xy 70.485 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f038f0-a3f1-48bc-accb-4c242dba1c40")
+	)
+	(wire
+		(pts
+			(xy 184.785 70.485) (xy 184.785 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e5e7c3-1f7a-4afb-9233-37c3d9a4bd52")
+	)
+	(wire
+		(pts
+			(xy 221.615 142.875) (xy 221.615 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8fa7d0-cbed-4d6d-8d40-e2eac32396b1")
+	)
+	(wire
+		(pts
+			(xy 151.765 97.79) (xy 151.765 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b248897-a5bb-4abf-84ee-14a41b68ba75")
+	)
+	(wire
+		(pts
+			(xy 227.965 86.995) (xy 230.505 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556c9400-df07-4302-bd26-adc08cc716d4")
+	)
+	(wire
+		(pts
+			(xy 97.155 149.225) (xy 113.665 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562b393e-00cf-4f00-a464-ddf78d3a6a1b")
+	)
+	(wire
+		(pts
+			(xy 84.455 32.385) (xy 86.995 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57245507-0f3e-4098-9f3a-7533e2097391")
+	)
+	(wire
+		(pts
+			(xy 89.535 78.105) (xy 108.585 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b51b9d-e0c6-428d-a035-c8e0c7e30c27")
+	)
+	(wire
+		(pts
+			(xy 46.355 120.015) (xy 60.325 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f093f13-bfa0-4417-b70c-262400d32c26")
+	)
+	(wire
+		(pts
+			(xy 240.665 149.225) (xy 240.665 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d38e62-93fe-43e1-9b03-5d4430f2dc66")
+	)
+	(wire
+		(pts
+			(xy 65.405 70.485) (xy 184.785 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63edb2f7-6380-4f86-9f39-598521b9a2b8")
+	)
+	(wire
+		(pts
+			(xy 194.945 142.875) (xy 194.945 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b9f2e7-3997-4235-b945-843ec3f99ef3")
+	)
+	(wire
+		(pts
+			(xy 60.325 37.465) (xy 60.325 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6984e6d3-1cc3-4a3f-818a-5582a18fb9f3")
+	)
+	(wire
+		(pts
+			(xy 173.355 120.015) (xy 187.325 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e967ab5-c68c-4e94-9867-8f8d8035d32a")
+	)
+	(wire
+		(pts
+			(xy 193.675 86.995) (xy 193.675 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ef7394-4c9e-422d-90d4-949748afb892")
+	)
+	(wire
+		(pts
+			(xy 121.285 86.995) (xy 125.095 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7316a179-4b3d-467d-baff-b52a735fda1f")
+	)
+	(wire
+		(pts
+			(xy 62.865 86.995) (xy 62.865 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74af3d0c-6de9-4828-9726-db75a7f96019")
+	)
+	(wire
+		(pts
+			(xy 69.215 145.415) (xy 67.945 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77024cbb-35c7-41ce-901f-97c655a0920e")
+	)
+	(wire
+		(pts
+			(xy 235.585 78.105) (xy 257.175 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776c0078-c287-42c0-8362-354139735bd5")
+	)
+	(wire
+		(pts
+			(xy 192.405 142.875) (xy 192.405 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7924af66-208d-4a3a-9d20-c07a700c6848")
+	)
+	(wire
+		(pts
+			(xy 46.355 127.635) (xy 46.355 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be90f22-7f0a-428c-94ca-2e20c1a138a7")
+	)
+	(wire
+		(pts
+			(xy 144.145 86.995) (xy 141.605 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c33c33b-225a-4ded-9622-bfca6417ddb8")
+	)
+	(wire
+		(pts
+			(xy 57.785 29.845) (xy 57.785 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3eec15-1247-4aab-bfb2-91cc27f55cf7")
+	)
+	(wire
+		(pts
+			(xy 196.215 145.415) (xy 194.945 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8c04f2-93e2-4432-9e1a-d0996a84d8cc")
+	)
+	(wire
+		(pts
+			(xy 216.535 78.105) (xy 216.535 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82733b45-957e-406f-8849-f09d1efd6937")
+	)
+	(wire
+		(pts
+			(xy 57.785 29.845) (xy 84.455 29.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af3144f-86f5-4f6e-bc3f-6193afa2f237")
+	)
+	(wire
+		(pts
+			(xy 60.325 120.015) (xy 66.675 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cedefb-9c65-47d6-b302-b0553126ab0a")
+	)
+	(wire
+		(pts
+			(xy 70.485 149.225) (xy 97.155 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9291a000-da09-4f77-8ad6-5f5ad706eb96")
+	)
+	(wire
+		(pts
+			(xy 113.665 149.225) (xy 113.665 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973a8a6d-3207-498a-92df-2610cacd2bb0")
+	)
+	(wire
+		(pts
+			(xy 197.485 142.875) (xy 197.485 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997d2522-1c51-47a0-9280-a65a6d0f51ea")
+	)
+	(wire
+		(pts
+			(xy 103.505 86.995) (xy 103.505 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a20768a-4b63-430f-954a-29b21fa87b3c")
+	)
+	(wire
+		(pts
+			(xy 62.865 40.005) (xy 67.945 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5cc006-0fbd-49bb-b3ec-6a3606de2b9d")
+	)
+	(wire
+		(pts
+			(xy 97.155 142.875) (xy 97.155 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9b05bc-6826-476c-8ad2-138dd6264760")
+	)
+	(wire
+		(pts
+			(xy 84.455 40.005) (xy 84.455 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5cbeb0-de9d-4326-9b18-cfabfe2e3ac1")
+	)
+	(wire
+		(pts
+			(xy 66.675 86.995) (xy 66.675 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e925dcb-309b-4d7a-9e42-cea47441a6a5")
+	)
+	(wire
+		(pts
+			(xy 67.945 142.875) (xy 67.945 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fba28f-cd9a-470d-bb4a-ea30a39d633a")
+	)
+	(wire
+		(pts
+			(xy 219.075 142.875) (xy 219.075 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8686a9f-986e-448e-b199-ddb641745b5a")
+	)
+	(wire
+		(pts
+			(xy 224.155 142.875) (xy 224.155 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabb8439-28c0-4e5b-9888-1dca91c98fbf")
+	)
+	(wire
+		(pts
+			(xy 197.485 149.225) (xy 224.155 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade7edd1-7cc7-4ea1-b126-2aec1d3bc8d3")
+	)
+	(wire
+		(pts
+			(xy 84.455 29.845) (xy 84.455 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae799a0d-ab3e-42b9-92b5-1fa3c1ddb044")
+	)
+	(wire
+		(pts
+			(xy 211.455 86.995) (xy 220.345 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04fa0a8-3e9b-4552-a991-71245b6cdcad")
+	)
+	(wire
+		(pts
+			(xy 103.505 86.995) (xy 113.665 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b349a01f-b1f9-4da8-911c-2587fb3fab6c")
+	)
+	(wire
+		(pts
+			(xy 211.455 86.995) (xy 211.455 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37f20ab-56bb-4fcd-a5c5-a29bf14359c9")
+	)
+	(wire
+		(pts
+			(xy 133.985 86.995) (xy 125.095 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77eb656-8f8f-4c4e-b52f-e46c59c10cfa")
+	)
+	(wire
+		(pts
+			(xy 65.405 142.875) (xy 65.405 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b44f4f-faae-4e7e-a1f1-3796a3f1e88c")
+	)
+	(wire
+		(pts
+			(xy 257.175 78.105) (xy 257.175 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad91283-8012-40ce-99b1-b75b6590c080")
+	)
+	(wire
+		(pts
+			(xy 57.785 70.485) (xy 57.785 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5366601-009b-4097-b76a-7c22864e404a")
+	)
+	(wire
+		(pts
+			(xy 189.865 86.995) (xy 189.865 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65d2871-8507-41e6-b842-2ab92b680433")
+	)
+	(wire
+		(pts
+			(xy 60.325 86.995) (xy 62.865 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf81ca8-a31e-4cca-9712-4fd94a4ef15d")
+	)
+	(wire
+		(pts
+			(xy 70.485 142.875) (xy 70.485 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecb3e4f-0dc8-43aa-a0e0-9d5892cb80dc")
+	)
+	(wire
+		(pts
+			(xy 60.325 37.465) (xy 63.5 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2b8c40-723b-4227-90f8-703b22fefdc0")
+	)
+	(wire
+		(pts
+			(xy 100.965 86.995) (xy 103.505 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc1ba7c-3b22-4a82-b184-bc1084719659")
+	)
+	(wire
+		(pts
+			(xy 125.095 86.995) (xy 125.095 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3afec15-5d52-432e-b368-28d13c00a714")
+	)
+	(wire
+		(pts
+			(xy 173.355 127.635) (xy 173.355 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d489db2c-4447-478d-933c-f451c63e91ca")
+	)
+	(wire
+		(pts
+			(xy 202.565 86.995) (xy 203.835 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83036f9-7c32-4a73-868a-c3a19628b726")
+	)
+	(wire
+		(pts
+			(xy 193.675 97.155) (xy 193.675 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84e4dcf-80d5-40ab-abc2-a2fa75b76880")
+	)
+	(wire
+		(pts
+			(xy 173.355 78.105) (xy 173.355 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db08a659-8148-412d-bd43-d1a4dd69db13")
+	)
+	(wire
+		(pts
+			(xy 252.095 86.995) (xy 252.095 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db89e110-943f-445d-8ecb-0b5e0e9eda8a")
+	)
+	(wire
+		(pts
+			(xy 252.095 86.995) (xy 260.985 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1890cc-17d5-433a-a249-df3822c4ba3e")
+	)
+	(wire
+		(pts
+			(xy 89.535 78.105) (xy 89.535 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31b1432-1088-4916-89e2-230693f8a970")
+	)
+	(wire
+		(pts
+			(xy 46.355 78.105) (xy 89.535 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72b6efd-2e55-42cf-b780-e920a269096d")
+	)
+	(wire
+		(pts
+			(xy 167.005 103.505) (xy 167.005 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e791e3c3-b326-4751-a6b2-946864b23994")
+	)
+	(wire
+		(pts
+			(xy 230.505 86.995) (xy 230.505 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2844eb-c75f-4596-8d71-68cca47d7100")
+	)
+	(wire
+		(pts
+			(xy 94.615 142.875) (xy 94.615 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca5d4ec-2d0b-4d31-afcf-a845bdf240ef")
+	)
+	(wire
+		(pts
+			(xy 84.455 86.995) (xy 93.345 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2ad843-755b-46c3-a21f-60712c352ab7")
+	)
+	(wire
+		(pts
+			(xy 92.075 142.875) (xy 92.075 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2b3ef0-2663-4722-b276-332b4b7c07e6")
+	)
+	(wire
+		(pts
+			(xy 60.325 34.925) (xy 86.995 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04d70f3-0e0a-4037-a981-a98b651a3c1b")
+	)
+	(wire
+		(pts
+			(xy 222.885 145.415) (xy 221.615 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c405b6-26f6-4122-aba1-9ee909e3500f")
+	)
+	(wire
+		(pts
+			(xy 202.565 86.995) (xy 202.565 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c5e1c2-0a02-47a8-accc-0b4538842f4d")
+	)
+	(wire
+		(pts
+			(xy 70.485 45.085) (xy 70.485 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4315ee6-449a-4fd5-9dc6-a7a5cd49c679")
+	)
+	(wire
+		(pts
+			(xy 89.535 97.155) (xy 89.535 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59d2ee3-563f-4881-a06b-425f9f6ca23e")
+	)
+	(wire
+		(pts
+			(xy 108.585 78.105) (xy 108.585 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b7b4ed-faaa-4f72-8e26-7d36fedce9be")
+	)
+	(wire
+		(pts
+			(xy 46.355 78.105) (xy 46.355 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa45cb9b-ab37-4103-a02a-4b987151dc2d")
+	)
+	(wire
+		(pts
+			(xy 271.145 86.995) (xy 268.605 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc42304-1a79-485a-8a04-578c4ebe7fc0")
+	)
+	(wire
+		(pts
+			(xy 248.285 86.995) (xy 252.095 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe544af5-9a34-477d-b509-e5be4e94767b")
+	)
+	(text "Arduino Pin 2,3,5,7"
+		(exclude_from_sim no)
+		(at 101.854 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7375181b-2a04-4038-a0e9-eebcc4d1eefe")
+	)
+	(text "Dual output stages. The Board inlcudes 8 outputs, coming from 4 DACS\nThe Chip Select (CS) pins are in order:\nCS 2 is channels 1 and 2\nCS 3 is channels 3 and 4\nCS 5 is channels 5 and 6\nCS 7 is channels 7 and 8"
+		(exclude_from_sim no)
+		(at 257.429 56.515 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right)
+		)
+		(uuid "a4331590-a123-4fec-89ea-16774cf2f961")
+	)
+	(text "Arduino Pin 16"
+		(exclude_from_sim no)
+		(at 99.822 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b38839aa-e5a9-44de-a871-ab8e44b9d0f0")
+	)
+	(text "Arduino Pin 15"
+		(exclude_from_sim no)
+		(at 99.822 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c759aa06-0c19-412b-8aeb-2fd5df5fa893")
+	)
+	(hierarchical_label "SERIAL_CLOCK_"
+		(shape input)
+		(at 71.755 45.085 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ee59589-5b13-40d1-8803-bef8fdaf846b")
+	)
+	(hierarchical_label "CHIP_SELECT_"
+		(shape input)
+		(at 64.77 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "658466fc-d53c-4efe-b01f-3faa462f53a6")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 167.005 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8869aa82-3ffb-45d9-8cda-ec069d18646a")
+	)
+	(hierarchical_label "GNDREF"
+		(shape input)
+		(at 151.765 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea33ef52-ad7b-4f29-8c79-bc63b6b98564")
+	)
+	(hierarchical_label "SERIAL_DATA_"
+		(shape input)
+		(at 63.5 37.465 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4d6caa1-20f1-43d8-af51-93447d4c6391")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 233.045 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01cdc62c-a850-41b7-be76-b5a8bb932a3e")
+		(property "Reference" "#PWR0140"
+			(at 233.045 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 233.045 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 233.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8b05cd1-92e0-459b-bed0-960c782b2ead")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.645 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ecc575-bfc1-407e-8bcf-419b789f8505")
+		(property "Reference" "R69"
+			(at 80.645 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 80.645 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 80.645 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.645 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.645 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a7a477a-060a-4afb-b629-0a8e65674591")
+		)
+		(pin "1"
+			(uuid "b44cc925-c6de-4a89-8796-d5a138c68d49")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R91")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R135")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 221.615 137.795 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07018ba7-5dc2-4877-9483-b85b1e80d5c3")
+		(property "Reference" "J30"
+			(at 221.615 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Female_Pin"
+			(at 221.615 135.255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 221.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 221.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95993629-4d87-4760-9cbf-90a3bfb2bbf3")
+		)
+		(pin "3"
+			(uuid "2047e65d-c54d-4a5e-87be-27e48efe5051")
+		)
+		(pin "2"
+			(uuid "72a6062a-e3e4-464f-9f10-18b559d3ebfc")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J37")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J51")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 92.075 34.925 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b648b1a-baea-4d16-bf08-59f032a317b4")
+		(property "Reference" "J26"
+			(at 84.836 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Female_Pin"
+			(at 87.376 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 92.075 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.075 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 92.075 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66527029-59cc-4474-ba6e-4692b55a0c40")
+		)
+		(pin "3"
+			(uuid "09380cf5-39d6-4593-9cd3-2e89931b7f7b")
+		)
+		(pin "2"
+			(uuid "045d13ce-b8b5-40c7-b339-cff3cc0cc22d")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J47")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 233.045 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "149f70af-374d-450b-8cc7-449875262d9e")
+		(property "Reference" "D39"
+			(at 235.585 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 235.585 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 228.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 233.045 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 233.045 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12a8ef1-0304-4694-871e-58ecdb8e74e5")
+		)
+		(pin "2"
+			(uuid "d87fce4a-0c98-4107-ad32-16dae2966e1d")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D63")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 75.565 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15d28c4e-1087-4ea6-a9c3-0ca829658b5c")
+		(property "Reference" "#PWR0122"
+			(at 75.565 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 75.565 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 75.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db52a891-eca4-4c7b-846d-18730d871942")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.355 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1745e4b9-f701-417e-ac1f-8d26068f8839")
+		(property "Reference" "R65"
+			(at 48.895 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 48.895 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 44.577 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.355 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.355 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6729a601-a6ef-4740-861c-c9461fb75250")
+		)
+		(pin "1"
+			(uuid "fefbd613-519a-40b3-ac06-959f07587451")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R131")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 94.615 137.795 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d63ca8-830a-41ec-8aeb-e6294dc8a74a")
+		(property "Reference" "J27"
+			(at 94.615 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Female_Pin"
+			(at 94.615 135.255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 94.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 94.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 94.615 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd64d395-c59f-4162-8eba-eb54d600781c")
+		)
+		(pin "3"
+			(uuid "c266f917-aeed-4be0-817b-dec81d2c86f5")
+		)
+		(pin "2"
+			(uuid "012dd555-bdea-45bf-a033-98d407b21684")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J34")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J48")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 60.325 104.775 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220ea98c-ffa6-4b09-a4a3-c1eab8808a5d")
+		(property "Reference" "U9"
+			(at 53.975 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 53.975 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 57.785 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 55.245 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 60.325 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802b")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30442")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc4")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb69")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9bb")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd24")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127d")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484ca")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c89")
+		)
+		(pin "1"
+			(uuid "75f3e857-2dd5-4a63-9301-2f2ceed71c83")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f3e")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e3")
+		)
+		(pin "2"
+			(uuid "f7313027-84ed-4c05-a77b-741c4bbe800c")
+		)
+		(pin "3"
+			(uuid "1b494f3a-497f-4605-a6dd-4dd14feea4fb")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 192.405 144.145 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22da02d7-f684-4dc1-98db-d5be056776ab")
+		(property "Reference" "#PWR0134"
+			(at 192.405 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 192.405 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 192.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 192.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b604edb6-26cb-41f7-b033-3a4f9b130541")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 254.635 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23129783-36c6-4282-b628-7512baf4adf6")
+		(property "Reference" "#PWR0142"
+			(at 254.635 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 254.635 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 254.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d696123-0139-4c88-b041-7e3f092fac9a")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 86.995 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ea98da-ef91-4023-a006-9c5189793d3f")
+		(property "Reference" "D34"
+			(at 89.535 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 89.535 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 82.55 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 86.995 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 86.995 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49edd144-393e-442c-a080-7c5dac5e8c98")
+		)
+		(pin "2"
+			(uuid "0eca3d9b-d963-4486-966c-086b15573606")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 117.475 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295fda19-945f-4331-b5e0-a720bfa43647")
+		(property "Reference" "R73"
+			(at 117.475 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5k"
+			(at 117.475 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 117.475 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.475 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 117.475 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59f16199-b0d7-45d5-a1b5-2326e14bb08a")
+		)
+		(pin "1"
+			(uuid "87b2d79e-1317-4dfc-800c-1feb27706636")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R95")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R139")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 243.205 146.685 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b03ab71-bde7-411e-9473-f9bffe701edd")
+		(property "Reference" "#PWR0141"
+			(at 243.205 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 243.205 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 243.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a0fe95-aa50-4d92-b267-f48a8bba9c60")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127.635 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3047b29d-6576-4ce3-b7fe-2d07fcc1287e")
+		(property "Reference" "R74"
+			(at 130.175 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 130.175 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 125.857 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127.635 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d65f7dea-8b5e-4a40-9ff6-0ca14326d8bf")
+		)
+		(pin "1"
+			(uuid "a8a26714-668c-41a0-80cb-4afe2b29c906")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R96")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R140")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 222.885 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32b5680f-13c4-456f-94db-540ebd43a1c4")
+		(property "Reference" "#PWR0139"
+			(at 222.885 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 221.996 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 222.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b3184eb-2a36-4e03-9f91-c36b100f28b4")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 151.765 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39fae8b6-5aa7-485d-8e63-dd3590c547a5")
+		(property "Reference" "#PWR0130"
+			(at 151.765 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 151.765 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 151.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "258e15cf-571c-4155-9e66-64ecc16ced7f")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 65.405 144.145 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a9fa249-7bea-42ee-98d6-862c3b612217")
+		(property "Reference" "#PWR0118"
+			(at 65.405 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 65.405 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 65.405 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1586a2db-cbfa-4013-a145-a184d79136fa")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.645 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c832bfc-42df-46f5-a022-20f2b6efa22e")
+		(property "Reference" "R80"
+			(at 207.645 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 207.645 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 207.645 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.645 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.645 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a10a9b31-4db4-483f-a505-36dacea17373")
+		)
+		(pin "1"
+			(uuid "fdcd20fb-71cc-4731-a8f0-03f80575ba25")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R102")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R146")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 254.635 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46925582-a6d4-4400-ba45-8b091516593f")
+		(property "Reference" "D40"
+			(at 257.175 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 257.175 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 250.19 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 254.635 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 254.635 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e4665f6-77bf-40cc-a19f-a9c82107405c")
+		)
+		(pin "2"
+			(uuid "74877f22-ee48-4ed4-a5f2-9ec6686cc058")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D64")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.355 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ace8c63-0161-46f6-94ac-bc0583284603")
+		(property "Reference" "R76"
+			(at 175.895 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.895 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 171.577 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.355 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10db68bd-1bb5-48ce-84b8-2352ed793eea")
+		)
+		(pin "1"
+			(uuid "e8f01973-342f-4328-abb3-6cdef0cb49c2")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R142")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 60.325 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "505b772f-620e-4e96-af65-558a35cda85c")
+		(property "Reference" "#PWR0116"
+			(at 60.325 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 60.325 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 60.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1b0cc3-fcaa-4a57-b3fe-bec07a740cbb")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 106.045 104.775 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50935dad-934a-4238-8822-bedfbe51a519")
+		(property "Reference" "U9"
+			(at 112.395 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 112.395 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 108.585 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 111.125 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 106.045 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802f")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30446")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc8")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6d")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9bf")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd28")
+		)
+		(pin "10"
+			(uuid "269666c6-1e91-4e6e-a4c2-9ac28d08e0d9")
+		)
+		(pin "8"
+			(uuid "9c24081b-c8fe-4ffd-91f6-b4135826d392")
+		)
+		(pin "9"
+			(uuid "b6a2e780-aba3-47dd-8703-3f30ce044488")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a79c")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f42")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e7")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c4b")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4be1")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U13")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U19")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U9")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U16")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.885 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "515c84a0-2c19-45eb-a164-2496805b8ee8")
+		(property "Reference" "#PWR0125"
+			(at 95.885 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 95.885 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1532cef6-fdce-40a7-a084-a9c7d4089f34")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 50.165 57.785 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51addc3e-3b52-4296-b0e6-bcab80c95531")
+		(property "Reference" "#PWR0115"
+			(at 50.165 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 50.165 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.165 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.165 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 50.165 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e78863ce-b3b5-4d64-8eaf-f25b0102ad9d")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 233.045 104.775 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526ae2fa-ece4-46d5-983d-b59b631f42f1")
+		(property "Reference" "U11"
+			(at 239.395 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 239.395 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 235.585 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 238.125 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 233.045 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802c")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30443")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc5")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6b")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9bd")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd25")
+		)
+		(pin "10"
+			(uuid "e286700d-714a-41a5-b1c9-f8adf3bd887e")
+		)
+		(pin "8"
+			(uuid "3c0e1cf3-aa2b-44d0-965e-049b6bc6e3fc")
+		)
+		(pin "9"
+			(uuid "491fa21a-6ad9-4cb2-b338-bf789ee6703f")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a79a")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f3f")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e4")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c49")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4bdf")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U15")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U21")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U11")
+					(unit 3)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.995 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54ace5b7-6c2b-4507-891d-4ab51981d0b7")
+		(property "Reference" "R81"
+			(at 216.535 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 216.535 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 212.217 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.995 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.995 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd58ab68-6e1a-416d-8ac7-1d42901c3cd1")
+		)
+		(pin "1"
+			(uuid "8ef887bd-f9aa-4f0e-83b5-f9dc901d0572")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R103")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R147")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R81")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 60.325 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "589b3370-544c-4378-8cae-493064dada21")
+		(property "Reference" "D33"
+			(at 51.435 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "White"
+			(at 51.435 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 55.88 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 60.325 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 60.325 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faba10c1-3e66-469c-b8c6-080a92d2553e")
+		)
+		(pin "2"
+			(uuid "950101bf-044f-4ecd-8a89-600a9fb79334")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 106.045 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dea8815-aa93-468f-94d2-d294561180c5")
+		(property "Reference" "D35"
+			(at 108.585 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 108.585 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 106.045 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 106.045 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60cadd1c-365c-46af-8411-3c304a49eeb6")
+		)
+		(pin "2"
+			(uuid "ca5f7e11-2833-4a0f-a200-f4cee0493198")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D43")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.145 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ea0fabb-7e48-4574-a057-c8da3e3e1bc7")
+		(property "Reference" "#PWR0143"
+			(at 271.145 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 271.145 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2000798-da8c-4f65-aa36-5a5e764a6b6e")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4822")
+		(at 62.865 57.785 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a96c0e2-d91c-4290-9cb6-f2428dfac59b")
+		(property "Reference" "U10"
+			(at 49.53 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4822"
+			(at 82.296 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+			(at 55.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
+			(at 55.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
+			(at 62.865 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "8ab416f4-e0f1-45fe-82a7-313f7402d477")
+		)
+		(pin "5"
+			(uuid "d2ebae76-b637-49ed-9261-b6cf4a4d648b")
+		)
+		(pin "2"
+			(uuid "73df87db-b330-45d3-a17f-b3ddcdeea6e2")
+		)
+		(pin "1"
+			(uuid "7330200d-c4b4-483b-9e7a-b42d8eec7bfa")
+		)
+		(pin "8"
+			(uuid "7a6dbca9-9f97-445d-833d-cee03069d304")
+		)
+		(pin "7"
+			(uuid "a5125fd1-a492-4a90-a451-caa81da91ba5")
+		)
+		(pin "4"
+			(uuid "33b6479f-37d7-4ff8-a95d-c1e15d73a9ce")
+		)
+		(pin "3"
+			(uuid "d3718a8c-a619-4841-b38a-9b0efb49da85")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 127.635 104.775 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c096428-1b6c-4a06-9778-0aa2c01ddf8c")
+		(property "Reference" "U9"
+			(at 133.985 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 133.985 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 130.175 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 132.715 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 127.635 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "78b3ec51-c943-4989-8180-31720c426d44")
+		)
+		(pin "13"
+			(uuid "c26e5198-dae2-43ab-9d56-ab50b6574512")
+		)
+		(pin "14"
+			(uuid "974d2ab4-5cee-4430-a33e-caf76f426876")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb67")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9b9")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd21")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127a")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484c7")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c86")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a796")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f3b")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e0")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c45")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4bdb")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U13")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U19")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U9")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U16")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.025 57.785 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71bd6189-1c41-409a-bd5e-152c4f2dfdb3")
+		(property "Reference" "#PWR0121"
+			(at 73.025 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 73.025 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.025 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.025 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 73.025 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a979a2-81e9-4ad4-be11-cb4dd28f1291")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.145 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "721560e8-1ba6-449f-9995-970dc80b9a08")
+		(property "Reference" "#PWR0129"
+			(at 144.145 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 144.145 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.145 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d4be1a6-da71-401b-8503-37f4e444b282")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 86.995 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "728d9d8e-40ff-4ab3-8e17-7cb46143f318")
+		(property "Reference" "#PWR0123"
+			(at 86.995 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 86.995 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 86.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1a1b071-a326-4576-b57c-3f4e1eab65af")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 92.075 144.145 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74673f2c-c1cc-4d74-8515-081a02ab5aec")
+		(property "Reference" "#PWR0124"
+			(at 92.075 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 92.075 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 92.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda35ccd-7720-4560-bcd5-45328ab80775")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.325 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76e79550-5c7a-4009-8be6-1b52d6953a9d")
+		(property "Reference" "R77"
+			(at 189.865 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 189.865 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 185.547 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.325 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.325 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "754c22ae-968e-40b0-8032-5ff39840d80e")
+		)
+		(pin "1"
+			(uuid "51081ac6-1ed3-4c90-827a-3985526c3f01")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R143")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 213.995 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797969a7-8ba8-45ba-aac3-dbba68726b15")
+		(property "Reference" "D38"
+			(at 216.535 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 216.535 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 209.55 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 213.995 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 213.995 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4243e20-e61c-482f-abdd-6cb42521cfae")
+		)
+		(pin "2"
+			(uuid "6ab14ff9-c6f5-4d9a-801a-cdfbfe4e5901")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D62")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 67.945 137.795 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f97e25f-92c4-4e64-84b0-bd66a9c50133")
+		(property "Reference" "J25"
+			(at 67.945 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Male_Pin"
+			(at 67.945 135.255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 67.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 67.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b3749e9-af48-44d0-80df-f64848955e92")
+		)
+		(pin "3"
+			(uuid "a0601805-701d-4564-bd31-d709753cb155")
+		)
+		(pin "2"
+			(uuid "14d8343e-bf3e-4950-b427-46861daeb516")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J46")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 167.005 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bfa44e-2278-4907-bc62-61832e3debbe")
+		(property "Reference" "#PWR0131"
+			(at 167.005 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 167.005 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 167.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd8aa982-5085-4690-86c4-64ef07e3d68f")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 116.205 146.685 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f211fcc-8298-44d3-9434-e14ce03dc812")
+		(property "Reference" "#PWR0127"
+			(at 116.205 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 116.205 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 116.205 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92956e11-a31c-4715-b442-458dfb4b9f79")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 202.565 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f2d8834-70d0-4c3c-bc59-7b22bef92192")
+		(property "Reference" "#PWR0136"
+			(at 202.565 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 202.565 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 202.565 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555af5bb-0a4b-46e9-bf94-6187a0b897bf")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254.635 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f97ac0b-638d-4752-933a-727d83d4f594")
+		(property "Reference" "R85"
+			(at 257.175 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 257.175 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 252.857 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254.635 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254.635 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0117d68b-64ba-40dd-bea8-77b574838d41")
+		)
+		(pin "1"
+			(uuid "b05213c6-5a81-42e0-9d06-76489bca03ea")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R107")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R151")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R85")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 60.325 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934ff0ab-857e-4b9c-b01a-783130f8f13c")
+		(property "Reference" "#PWR0117"
+			(at 60.325 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 60.325 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 60.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23e5d73b-ff02-4624-80d5-5ba68e70f51b")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.675 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97e754fc-f94f-492a-a51c-025f6a09fb08")
+		(property "Reference" "R78"
+			(at 196.215 92.0749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 196.215 94.6149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 191.897 93.345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.675 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.675 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97fc82d2-4ff1-4054-8359-c16d77966c4f")
+		)
+		(pin "1"
+			(uuid "e30eca5b-1da9-4790-b21d-173ecce673e7")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R100")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R144")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 213.995 104.775 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982ab103-f0aa-461a-8c03-05b35bc86803")
+		(property "Reference" "U11"
+			(at 220.345 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 220.345 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 216.535 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 219.075 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 213.995 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb18030")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30447")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc9")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6e")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9c0")
+		)
+		(pin "7"
+			(uuid "da85dc24-8180-4011-9f8c-e0f1c452b764")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec821281")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484ce")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c8d")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a79d")
+		)
+		(pin "5"
+			(uuid "f96aa16c-f2cb-4773-8917-0de8de15f42a")
+		)
+		(pin "6"
+			(uuid "63d9d4b0-a946-4e6b-974c-5f78472ff60c")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c4c")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4be2")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U15")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U21")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U11")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 86.995 104.775 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c6c50a-f9bd-4376-ad5f-bcdc62e5b138")
+		(property "Reference" "U9"
+			(at 93.345 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 93.345 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 89.535 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 92.075 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 86.995 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802d")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30444")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc6")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6a")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9bc")
+		)
+		(pin "7"
+			(uuid "10520d4c-1540-4363-932d-1648e30a84a8")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127e")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484cb")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c8a")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a79b")
+		)
+		(pin "5"
+			(uuid "418eb36f-8b6b-4bd3-9f88-af7215806d94")
+		)
+		(pin "6"
+			(uuid "68b13fd5-e312-404f-8e20-0deb47f3687e")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c4a")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4be0")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U13")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U19")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U9")
+					(unit 2)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.045 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "994cd02e-a417-4256-bc1b-6d362cf27df4")
+		(property "Reference" "R72"
+			(at 108.585 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 108.585 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 104.267 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.045 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.045 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28838efe-c06b-4806-80b2-c16501fac397")
+		)
+		(pin "1"
+			(uuid "42a3f4df-951b-45ca-b514-5f963bbd03a0")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R94")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R138")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 197.485 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ecb32b-3f44-4f61-812c-36976dc9577a")
+		(property "Reference" "R79"
+			(at 197.485 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 197.485 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 197.485 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.485 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 197.485 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37945a8e-255e-4d2e-bb84-1436066572a7")
+		)
+		(pin "1"
+			(uuid "e31aff5d-b25c-4028-ab35-d3f5f4cfa8e0")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R145")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 187.325 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c47e8df-8d0b-45d4-9307-9a8db5f71351")
+		(property "Reference" "#PWR0132"
+			(at 187.325 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 187.325 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 187.325 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d7770c1-ac8c-452a-ac67-f151b53b787a")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 113.665 141.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cabe409-04ab-4317-bc12-a96dee2af97f")
+		(property "Reference" "J28"
+			(at 119.38 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 119.38 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 113.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 113.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "32141862-c060-48c6-8f4c-17ab0b046532")
+		)
+		(pin "T"
+			(uuid "5f4e4129-efa9-4d20-a5fb-4367d8bf1da0")
+		)
+		(pin "S"
+			(uuid "6b34216c-9e48-4f9d-860a-0e82e3da5722")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J35")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J49")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 213.995 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb2866c-54a2-468d-a9c7-28dab81b2067")
+		(property "Reference" "#PWR0137"
+			(at 213.995 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 213.995 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 213.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff6db14-7e44-4a9a-a4f5-192ff8a55464")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.155 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7c4cba-4238-403f-8b6a-cb1fb9b36c13")
+		(property "Reference" "R82"
+			(at 224.155 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 224.155 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 224.155 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.155 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.155 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79af300f-7163-458d-ac6e-9200e0993395")
+		)
+		(pin "1"
+			(uuid "29d264bb-778c-4d9b-910d-79d1525dbc39")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R104")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R148")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R82")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 127.635 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac5dbcc-5f16-4791-8efc-73d11efe87af")
+		(property "Reference" "#PWR0128"
+			(at 127.635 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 127.635 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 127.635 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a92884a-00f7-4d3b-8b00-210d228f8df9")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.675 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbd1141-d353-47de-90d1-88136c044179")
+		(property "Reference" "R67"
+			(at 69.215 92.0749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 69.215 94.6149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 64.897 93.345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.675 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.675 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c23a628-f1fb-4956-867b-d4414f23286d")
+		)
+		(pin "1"
+			(uuid "290aa1c6-cd8f-4c1d-9f21-5b04b57933c1")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R89")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R133")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 67.945 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae41a713-3a2b-45b5-9678-3def53a2f3d8")
+		(property "Reference" "#PWR0119"
+			(at 67.945 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 67.945 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.945 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.945 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 67.945 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de24a02b-b968-43e7-8bb3-557f4b8365e9")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.795 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e29b83-73b9-422b-a8b8-491439a55839")
+		(property "Reference" "R86"
+			(at 264.795 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 264.795 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 264.795 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.795 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.795 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a82ac14-dd1c-40de-97e3-575f9e677e6b")
+		)
+		(pin "1"
+			(uuid "a8a517dd-f9b2-4e65-a782-2ba37df46498")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R108")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R152")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 196.215 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57ad2a3-1625-4536-8fc5-7a1bf000640f")
+		(property "Reference" "#PWR0135"
+			(at 196.215 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 195.58 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 196.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd708177-0516-4b3c-9a74-ea2742272d5d")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 254.635 104.775 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c07506-8080-4a44-abd7-e7e36ccd3740")
+		(property "Reference" "U11"
+			(at 260.985 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 260.985 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 257.175 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 259.715 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 254.635 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "bcacba8f-806a-42b8-a656-3c060cb8bbab")
+		)
+		(pin "13"
+			(uuid "26d0cb2c-7e9f-4ea4-b655-dd0ef538ea07")
+		)
+		(pin "14"
+			(uuid "32e90f80-d654-4225-9a8b-27d5fb24c25c")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6f")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9c1")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd29")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec821282")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484cf")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c8e")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a79e")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f43")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e8")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c4d")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4be3")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U15")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U21")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U11")
+					(unit 4)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U18")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 70.485 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb7500c-4304-4c61-add6-5dc9fa8719f9")
+		(property "Reference" "R68"
+			(at 70.485 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 70.485 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 70.485 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.485 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 70.485 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef74c5de-bb72-4c6c-960a-f0e3f1645c2a")
+		)
+		(pin "1"
+			(uuid "3981e43d-5449-46b1-87bd-53662b93f565")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R90")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R134")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 106.045 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbe88ee6-dd87-4242-96de-4045f56974b3")
+		(property "Reference" "#PWR0126"
+			(at 106.045 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 106.045 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 106.045 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82211872-7718-4b69-8cc4-07579a756da3")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 187.325 104.775 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd0e627a-46fa-44f4-936e-8c554c068da4")
+		(property "Reference" "U11"
+			(at 180.975 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 180.975 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 184.785 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 182.245 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 187.325 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802e")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30445")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc7")
+		)
+		(pin "11"
+			(uuid "a909ea57-1e4f-41fe-87b7-2ba9598ccb6c")
+		)
+		(pin "4"
+			(uuid "965d492a-e25e-4c56-a1c7-8e8c5b48f9be")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd27")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127f")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484cc")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c8b")
+		)
+		(pin "1"
+			(uuid "8d646e37-fbbf-4f11-b94f-d7dcede198f8")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f41")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e6")
+		)
+		(pin "2"
+			(uuid "47506e49-0bfe-4177-82e6-1515133569d5")
+		)
+		(pin "3"
+			(uuid "b8f47024-fa78-45cb-8e5a-3cf7f2128c97")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 24.765 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c62c9e-167b-400d-9542-d67adbf9c21c")
+		(property "Reference" "#PWR0113"
+			(at 24.765 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 24.765 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 24.765 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2af4a2a7-bc6d-4de6-9fc3-feea233b4e4c")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 219.075 144.145 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a8a1e5-4024-4040-8d31-22bda9f6f962")
+		(property "Reference" "#PWR0138"
+			(at 219.075 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 219.075 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 219.075 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f0d56ea-04a8-49f5-ad8d-633625c01b59")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 32.385 106.045 270)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ab28bd-4d26-4cb3-b41d-852dc8b36f86")
+		(property "Reference" "U9"
+			(at 32.385 98.425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 32.385 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 34.925 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 37.465 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 32.385 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb18029")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30440")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc2")
+		)
+		(pin "11"
+			(uuid "2dc8bb04-aa04-4bf3-b4fb-afdaf25e9a7c")
+		)
+		(pin "4"
+			(uuid "010bb01c-4fe9-4d35-a96d-4f1e751e0976")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd22")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127b")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484c8")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c87")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a797")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f3c")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e1")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c46")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4bdc")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U13")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U19")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U9")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U16")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 194.945 137.795 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c0a3ac-14f5-4665-a59f-3287e79db74a")
+		(property "Reference" "J29"
+			(at 194.945 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Male_Pin"
+			(at 194.945 135.255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 194.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 194.945 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce8600ae-684d-4f55-ad28-fbb75f531be5")
+		)
+		(pin "3"
+			(uuid "e4cbcab5-f656-4a2b-aa58-773ccdf54862")
+		)
+		(pin "2"
+			(uuid "4f9e1f1d-61fb-4bd0-9160-330b8e04296b")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J36")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J50")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 40.005 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8aa995-5b8e-44b0-97ef-c90147fd3cea")
+		(property "Reference" "#PWR0114"
+			(at 40.005 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 40.005 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 40.005 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f159620f-9e10-40c2-9193-12c82a10ac3c")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.325 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce83677c-4aa9-458e-9d12-cd5a84f68b9a")
+		(property "Reference" "R66"
+			(at 62.865 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 62.865 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 58.547 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.325 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7dd3d588-ebcd-4d3d-98f1-22b4295723b6")
+		)
+		(pin "1"
+			(uuid "a35079c7-9680-49fb-80eb-ccf1dd329800")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R88")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R132")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 244.475 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bb699e-873b-4692-9c69-65c12e6f249f")
+		(property "Reference" "R84"
+			(at 244.475 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5k"
+			(at 244.475 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 244.475 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 244.475 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 244.475 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b11db6ba-4474-452f-87d5-f122cf8adf18")
+		)
+		(pin "1"
+			(uuid "0d4ed88c-cd4d-4929-b553-e319e7981a18")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R106")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R150")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 187.325 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d756a60a-0248-4780-8245-8af8c6ed423a")
+		(property "Reference" "D37"
+			(at 178.435 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "White"
+			(at 178.435 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 182.88 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 187.325 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 187.325 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b9636e-bfac-41cc-95ab-1cb51711942a")
+		)
+		(pin "2"
+			(uuid "82ef9bc2-947d-45ad-879f-7d0a704d6236")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D61")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.155 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd9e08b-c396-4434-b683-e9ad167e128f")
+		(property "Reference" "R71"
+			(at 97.155 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 97.155 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 97.155 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.155 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.155 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fff5fdd-8e95-4cb3-83df-898a55268ba0")
+		)
+		(pin "1"
+			(uuid "09c266cd-f09e-4986-91cd-7d1b9a4bf1cb")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R93")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R137")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 127.635 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7e1a66e-ce2d-47bc-8794-d3d47571a918")
+		(property "Reference" "D36"
+			(at 130.175 114.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 130.175 117.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+			(at 123.19 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 127.635 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+			(at 127.635 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "380d8867-5d61-4105-a0fe-51b8321c75e6")
+		)
+		(pin "2"
+			(uuid "75f537a2-ab2b-46c8-820a-bf91109547e7")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "D44")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.045 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7aa7fe-d0e7-46f5-a53b-8293351efe9b")
+		(property "Reference" "R83"
+			(at 235.585 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 235.585 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 231.267 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.045 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.045 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2817fd8e-ff3b-4489-b4e6-72b41455ce83")
+		)
+		(pin "1"
+			(uuid "04c321c8-33f0-4204-83c5-f97ae5eb0885")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R105")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R149")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R83")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.795 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2235c8d-9e7b-4a5a-8fab-c5b1fcb9cb7e")
+		(property "Reference" "R75"
+			(at 137.795 80.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 137.795 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 137.795 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.795 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.795 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1026954-516e-4e4c-a935-38eead6ae787")
+		)
+		(pin "1"
+			(uuid "cf76678f-25b0-44d6-bd20-a9b984b14c45")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R97")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R141")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 187.325 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49edcf9-6a37-454e-8d8c-c9596bcfab18")
+		(property "Reference" "#PWR0133"
+			(at 187.325 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 187.325 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 187.325 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bfbc549-83f2-4f59-adec-d5a5e6a9df66")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 159.385 106.045 270)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b61e8a-1900-4c58-97c3-252a81abd6a9")
+		(property "Reference" "U11"
+			(at 159.385 98.425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 159.385 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 161.925 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 164.465 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 159.385 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802a")
+		)
+		(pin "13"
+			(uuid "c4e06576-089d-4e3d-88eb-b8c980e30441")
+		)
+		(pin "14"
+			(uuid "d373c2f3-c49f-498d-b751-be2ac1874bc3")
+		)
+		(pin "11"
+			(uuid "eda7a8e5-4a46-406a-a4d7-f8dc109cc6ec")
+		)
+		(pin "4"
+			(uuid "95154d18-adef-4ba0-8c52-f67a5cd0c1f1")
+		)
+		(pin "7"
+			(uuid "83c999c2-ade7-4224-9354-459c0f8dfd23")
+		)
+		(pin "10"
+			(uuid "96e5858a-2080-4338-8478-06edec82127c")
+		)
+		(pin "8"
+			(uuid "e61f2df4-91d8-424c-b272-b865207484c9")
+		)
+		(pin "9"
+			(uuid "82ec49d2-41fc-493d-8960-2b4a58b90c88")
+		)
+		(pin "1"
+			(uuid "89b92640-131c-43ed-9347-1df111a9a798")
+		)
+		(pin "5"
+			(uuid "33eba7bf-458f-4f60-9117-9ff35f6f2f3d")
+		)
+		(pin "6"
+			(uuid "8ad286c4-76d5-4875-8cb8-97e94d8898e2")
+		)
+		(pin "2"
+			(uuid "e0275db2-404f-4974-b37e-77e30e806c47")
+		)
+		(pin "3"
+			(uuid "b92846fa-0634-4d58-b21e-9b9e7d2d4bdd")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "U15")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "U21")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "U11")
+					(unit 5)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "U18")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.995 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf759be-6c18-4410-a652-1c00db10615c")
+		(property "Reference" "R70"
+			(at 89.535 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 89.535 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 85.217 123.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.995 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a488627d-61dc-4870-89f2-3e0d45628316")
+		)
+		(pin "1"
+			(uuid "42198c49-dfff-494e-9a86-4e489b5d5d5e")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "R92")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "R136")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.215 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe9e53e2-5a13-4cd8-a15d-604126dc85f7")
+		(property "Reference" "#PWR0120"
+			(at 69.215 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 68.58 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.215 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3beeadd7-122e-427f-b437-403241b34ec4")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 240.665 141.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffba6cc6-c3b3-433b-825a-fdf75302a4fb")
+		(property "Reference" "J31"
+			(at 245.745 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 245.745 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 240.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 240.665 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "00f97806-bbda-4141-80d2-1e32da331dac")
+		)
+		(pin "T"
+			(uuid "05552907-01c3-4145-9b12-69703a355605")
+		)
+		(pin "S"
+			(uuid "98eea546-d231-417e-a02a-04e083b4dca2")
+		)
+		(instances
+			(project "Oblque Easel Full Circuit"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/17cb12bd-969f-43f4-868c-602488a1a6e5"
+					(reference "J38")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/8b1dcfbd-dbe4-4adf-99ff-83d4988a6896"
+					(reference "J52")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/cb476b1a-54da-438f-bce3-cb120081f854"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
