@@ -48,8 +48,8 @@ const int numValuesToEaselPerPacket = numInputChannels + numSamplesPerChannel;
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(27, 26, 22));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 dac;                           // Holds the value to write to the next DAC through the i2c mulitplexer
-bool setSDA(0);                             // Data line for DAC multiplexer
-bool setSCL(1);                             // Serial clock line for DAC multiplexer
+bool setSDA(0);                                 // Data line for DAC multiplexer
+bool setSCL(1);                                 // Serial clock line for DAC multiplexer
 byte servoPin[8] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // Servo pins mirror the output of their associated DAC channel
 Servo servoChannel[8];                          // All output servos
 
