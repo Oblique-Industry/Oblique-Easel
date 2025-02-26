@@ -4,6 +4,7 @@
 // It announces its presence with its name, version number, and hardware configuration.
 // The Easel responds with output values whenever it gets DAC values from the Palette.
 // The Palette responds back ADC values, (later, followed by the measured time between communications, to the Easel)
+// The Palette updates all DACs
 // ( The Palette adjusts its sample rate according to the round trip time)
 // ( The Easel adjusts it sample rate according to the round trip time)
 
@@ -13,16 +14,15 @@
 #include <Servo.h>             // For servo-range PWM controls
 #include <Wire.h>              // i2c communication for DACs
 #include <Adafruit_MCP4725.h>  // i2c DACs
-#define DACMuxAddress 0x70     // i2c Address of the PCA9548 multiplexer \
 
-using namespace admux;         // for ADC multiplexer
+using namespace admux;  // for ADC multiplexer
 
 
 /**********************************
 Hardware configuration of the Palette
 ***********************************/
 const char modelName[] = "Palette";       // Model name
-const char firmwareVersion[] = "v0.4.5";  // Version number to report
+const char firmwareVersion[] = "v0.4.6";  // Version number to report
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
@@ -33,6 +33,11 @@ const int numSamplesPerChannel = 1;  // How many samples to pack for transmissio
 const int maxDACValue = (pow(2, DACBitDepth) - 1);  // The maximum DAC value
 const int maxADCValue = (pow(2, ADCBitDepth) - 1);  // The maximum ADC value
 
+const int numValuesFromEaselPerPacket = numOutputChannels * numSamplesPerChannel;
+const int numValuesToEaselPerPacket = numInputChannels + numSamplesPerChannel;
+
+const byte numi2cBusses = 2;  // Using i2c busses 0 and 1
+
 /*********************************
 Analytics
 *********************************/
@@ -41,17 +46,18 @@ const int communicationTimeout = 1000;  // How long to wait to hear back
 long communicationTimeoutStart;         // If communication goes down, start a timer
 bool ledState = 0;
 
-const int numValuesFromEaselPerPacket = numOutputChannels * numSamplesPerChannel;
-const int numValuesToEaselPerPacket = numInputChannels + numSamplesPerChannel;
-
+/*********************************
+ADCs and DACs
+*********************************/
 #define ADCPin A2                                                     // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(27, 26, 22));  // For addressing ADC channels with a CD4051 multiplexer
 
-Adafruit_MCP4725 dac;                           // Holds the value to write to the next DAC through the i2c mulitplexer
-bool setSDA(0);                                 // Data line for DAC multiplexer
-bool setSCL(1);                                 // Serial clock line for DAC multiplexer
-byte servoPin[8] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // Servo pins mirror the output of their associated DAC channel
-Servo servoChannel[8];                          // All output servos
+Adafruit_MCP4725 DAC[numOutputChannels] = { dac0, dac1, dac2, dac3, dac4, dac5, dac6, dac7 };   // All DACs
+const byte DACAddress[numOutputChannels] = { 0x62, 0x63, 0x64, 0x65, 0x62, 0x63, 0x64, 0x65 };  // Their respective (duplicate) i2c addresses
+const byte DACi2cBus[numOutputChannels] = { 0, 0, 0, 0, 1, 1, 1, 1 };                           // Which bus each DAC is on respectively
+
+byte servoPin[numOutputChannels] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // Servo pins mirror the output of their associated DAC channel
+Servo servoChannel[numOutputChannels];                          // All output servos
 
 /********************************************************************
 Serial buffer and the values to parse between Easel and Palette & back
@@ -71,137 +77,132 @@ void setup() {
   Serial.begin(12000000);       // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
   digitalWrite(25, !ledState);  // Switch whenever something happens
 
+  Wire.setSDA(0);  // Data line for DACs 0-3
+  Wire.setSCL(1);  // Serial clock line for DACs 0-3
 
-  Wire.begin(0x70);  // i2c communication with the DAC multiplexer
-  dac.begin(0x62);   // Default address for MCP4725 DAC
+  Wire1.setSDA(10);  // Data line for the DACs 4-7
+  Wire1.setSCL(11);  // Serial clock line for DACs 4-7
 
-  digitalWrite(25, !ledState);  // Switch whenever something happens
-
-  for (byte thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
-    // Begin each DAC
-    dacSelect(thisDACChannel);
+  for (byte thisi2cDACChannel = 0; thisi2cDACChannel < 2; thisi2cDACChannel++) {  // begin all DACs on both i2c busses
+    for (byte thisDAC = 0; thisDAC < numOutputChannels; thisDAC++) {
+      if (ic2) {
+        DAC[thisDAC].begin(DACAddress[thisDAC]);  // begin each DAC}
+      }
+    }
     digitalWrite(25, !ledState);  // Switch whenever something happens
+
+    for (byte servoToSetup = 0; servoToSetup < numOutputChannels; servoToSetup++) {  // Make a servo object for each DAC channel
+      servoChannel[servoToSetup].attach(servoPin[servoToSetup]);                     // Attach each servo to its pin
+    }
+
+    while (!findEasel()) {}  // Look for the Easel on boot until the Palette gets back real values
   }
 
-  for (byte servoToSetup = 0; servoToSetup < numOutputChannels; servoToSetup++) {  // Make a servo object for each DAC channel
-    servoChannel[servoToSetup].attach(servoPin[servoToSetup]);                     // Attach each servo to its pin
+
+  /******************************************** LOOP ********************************************/
+  void loop() {
+    lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
+
+    // Receive Serial values into array
+    receiveDACs();
+
+    // Read ADC values into array
+    readAllADCs();
+    // Send ADC values
+    sendADCToEasel();
+
+    // Update DAC values
+    updateAllDACs();
+    // Update all servo DAC values
+    updateAllServos();
+
+    digitalWrite(25, !ledState);
   }
 
-  while (!findEasel()) {}  // Look for the Easel on boot until the Palette gets back real values
-}
-
-
-/******************************************** LOOP ********************************************/
-void loop() {
-  lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
-
-  // Receive Serial values into array
-  receiveDACs();
-
-  // Read ADC values into array
-  readAllADCs();
-  // Send ADC values
-  sendADCToEasel();
-
-  // // Update DAC values
-  // updateAllDACs();
-  // Update all servo DAC values
-  updateAllServos();
-
-  digitalWrite(25, !ledState);
-}
-
-/******************************************************************************************
+  /******************************************************************************************
 Functions
 ******************************************************************************************/
 
-// Call out for the Easel and blink the onboard LED if it's not found yet
-bool findEasel() {
-  if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
-    digitalWrite(25, HIGH);
-    communicationTimeoutStart = micros();
-    return (1);
+  // Call out for the Easel and blink the onboard LED if it's not found yet
+  bool findEasel() {
+    if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
+      digitalWrite(25, HIGH);
+      communicationTimeoutStart = micros();
+      return (1);
 
-  } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
-    Serial.print(modelName);
-    Serial.write(32);
-    Serial.print(firmwareVersion);
-    Serial.write(32);
-    Serial.print(numOutputChannels);
-    Serial.write(32);
-    Serial.print(DACBitDepth);
-    Serial.write(32);
-    Serial.print(numInputChannels);
-    Serial.write(32);
-    Serial.print(ADCBitDepth);
-    Serial.write(32);
-    Serial.write(13);
+    } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
+      Serial.print(modelName);
+      Serial.write(32);
+      Serial.print(firmwareVersion);
+      Serial.write(32);
+      Serial.print(numOutputChannels);
+      Serial.write(32);
+      Serial.print(DACBitDepth);
+      Serial.write(32);
+      Serial.print(numInputChannels);
+      Serial.write(32);
+      Serial.print(ADCBitDepth);
+      Serial.write(32);
+      Serial.write(13);
 
-    // Error code/waiting blinky for not hearing back from the Easel is ._ repeating
-    digitalWrite(25, LOW);
-    delay(100);
-    digitalWrite(25, HIGH);
-    delay(100);
-    digitalWrite(25, LOW);
-    delay(100);
-    digitalWrite(25, HIGH);
-    delay(200);
+      // Error code/waiting blinky for not hearing back from the Easel is ._ repeating
+      digitalWrite(25, LOW);
+      delay(100);
+      digitalWrite(25, HIGH);
+      delay(100);
+      digitalWrite(25, LOW);
+      delay(100);
+      digitalWrite(25, HIGH);
+      delay(200);
 
-    return (0);
+      return (0);
+    }
   }
-}
 
 
-/*************************** DAC/output functions ***************************/
-void receiveDACs() {  // Receive all DAC values from the Easel
-  for (int thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
-    DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
+  /*************************** DAC/output functions ***************************/
+  void receiveDACs() {  // Receive all DAC values from the Easel
+    for (int thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
+      DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
+    }
   }
-}
 
-void dacSelect(byte thisDAC) {  // Choose the DAC channel
-  if (thisDAC > 7) return;      // Nonblocking error
+  void updateAllDACs() {  // Scroll through all DACs to update them with data from the Easel
+    // Select the i2c channel
+    for (byte thisi2cDACChannel = 0; thisi2cDACChannel < 2; thisi2cDACChannel++) {           // Write to each i2c channel in order
+      for (byte thisADCChannel = 0; thisADCChannel < numOutputChannels; thisADCChannel++) {  // Write to each DAC
+        if (DACi2cBus[thisADCChannel] =) {
+          // I'M WORKIN' HEAH
+        }
+      }
+    }
 
-  Wire.beginTransmission(DACMuxAddress);
-  Wire.write(1 << thisDAC);
-  Wire.endTransmission();
-}
-
-void updateAllDACs() {                    // Scroll through all DACs to update them with data from the Easel
-  Wire.beginTransmission(DACMuxAddress);  // Tell the multiplexer each value to pass to its client DACs
-  for (byte thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
-    Wire.write(1 << thisDACChannel);                             // Select the DAC to write to
-    dac.setVoltage(DACSamplesFromEasel[thisDACChannel], false);  // Write each channel's value to its DAC
-  }
-  Wire.endTransmission();
-}
-
-void updateAllServos() {
-  for (byte thisServoToUpdate = 0; thisServoToUpdate < numOutputChannels; thisServoToUpdate++) {
-    servoChannel[thisServoToUpdate].write(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 0, 180));  // Map the DAC value to the servos within their range
-  }
-}
+    void updateAllServos() {
+      for (byte thisServoToUpdate = 0; thisServoToUpdate < numOutputChannels; thisServoToUpdate++) {
+        servoChannel[thisServoToUpdate].write(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 0, 180));  // Map the DAC value to the servos within their range
+      }
+    }
 
 
-/*************************** ADC/input functions ***************************/
-void readAllADCs() {
-  for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
-    ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);
-  }
-}
+    /*************************** ADC/input functions ***************************/
+    void readAllADCs() {
+      for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
+        ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);
+      }
+    }
 
-void sendADCToEasel() {
-  for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
-    Serial.print(ADCSamplesToEasel[thisADCChannel]);
-    Serial.write(32);
-  }
-  Serial.write(13);  // Carriage return to end the transmission
-}
+    void sendADCToEasel() {
+      for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
+        Serial.print(ADCSamplesToEasel[thisADCChannel]);
+        Serial.write(32);
+      }
+      Serial.write(13);  // Carriage return to end the transmission
+    }
 
-// Insert this f() before sending to the Easel to just repeat back input channels so we can make sure the Easel is sending/Palette is receiving.
-void testRepeater() {
-  for (int thisChannelToRepeat = 1; thisChannelToRepeat < numInputChannels; thisChannelToRepeat++) {
-    ADCSamplesToEasel[thisChannelToRepeat] = DACSamplesFromEasel[thisChannelToRepeat];
-  }
-  ADCSamplesToEasel[0] = lastTime / 100;
-}
+    // Insert this f() before sending to the Easel to just repeat back input channels so we can make sure the Easel is sending/Palette is receiving.
+    void testRepeater() {
+      for (int thisChannelToRepeat = 1; thisChannelToRepeat < numInputChannels; thisChannelToRepeat++) {
+        ADCSamplesToEasel[thisChannelToRepeat] = DACSamplesFromEasel[thisChannelToRepeat];
+      }
+      ADCSamplesToEasel[0] = lastTime / 100;
+    }
