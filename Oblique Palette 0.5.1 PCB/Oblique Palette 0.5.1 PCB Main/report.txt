@@ -1,0 +1,210 @@
+Annotated White as D9.
+Annotated Blue as D10.
+Annotated Yellow as D11.
+Annotated Red as D12.
+Annotated White as D29.
+Annotated Blue as D30.
+Annotated Yellow as D31.
+Annotated Red as D32.
+Annotated White as D33.
+Annotated Blue as D34.
+Annotated Yellow as D35.
+Annotated Red as D36.
+Annotated Conn_01x01_Pin as J9.
+Annotated Conn_01x03_Male_Pin as J10.
+Annotated Conn_01x03_Female_Pin as J11.
+Annotated AudioJack2_SwitchT as J12.
+Annotated Conn_01x03_Male_Pin as J29.
+Annotated Conn_01x03_Female_Pin as J30.
+Annotated Conn_01x03_Female_Pin as J31.
+Annotated AudioJack2_SwitchT as J32.
+Annotated Conn_01x03_Male_Pin as J33.
+Annotated Conn_01x03_Female_Pin as J34.
+Annotated AudioJack2_SwitchT as J35.
+Annotated 1k as R17.
+Annotated 5k as R18.
+Annotated 1k as R19.
+Annotated 2k as R20.
+Annotated 1k as R21.
+Annotated 2.5k as R22.
+Annotated 1k as R23.
+Annotated 500R as R24.
+Annotated 10k as R57.
+Annotated 1k as R58.
+Annotated 470R as R59.
+Annotated 2k as R60.
+Annotated 5k as R61.
+Annotated 1k as R62.
+Annotated 2k as R63.
+Annotated 1k as R64.
+Annotated 2.5k as R65.
+Annotated 1k as R66.
+Annotated 500 as R67.
+Annotated 10k as R68.
+Annotated 1k as R69.
+Annotated 470R as R70.
+Annotated 2k as R71.
+Annotated 5k as R72.
+Annotated 1k as R73.
+Annotated 2k as R74.
+Annotated 1k as R75.
+Annotated 2.5k as R76.
+Annotated 1k as R77.
+Annotated 500 as R78.
+Annotated R_Potentiometer_MountingPin as RV3.
+Annotated MCP6004 (unit A) as U3A.
+Annotated MCP6004 (unit B) as U3B.
+Annotated MCP6004 (unit C) as U3C.
+Annotated MCP6004 (unit D) as U3D.
+Annotated MCP6004 (unit E) as U3E.
+Annotated MCP6004 (unit E) as U8E.
+Annotated MCP6004 (unit A) as U8A.
+Annotated MCP4822 as U9.
+Annotated MCP6004 (unit B) as U8B.
+Annotated MCP6004 (unit C) as U8C.
+Annotated MCP6004 (unit D) as U8D.
+Annotated MCP6004 (unit E) as U10E.
+Annotated MCP6004 (unit A) as U10A.
+Annotated MCP6004 (unit B) as U10B.
+Annotated MCP6004 (unit C) as U10C.
+Annotated MCP6004 (unit D) as U10D.
+Error: Duplicate items D10
+
+Error: Duplicate items D11
+
+Error: Duplicate items D12
+
+Error: Duplicate items D29
+
+Error: Duplicate items D30
+
+Error: Duplicate items D31
+
+Error: Duplicate items D32
+
+Error: Duplicate items D33
+
+Error: Duplicate items D34
+
+Error: Duplicate items D35
+
+Error: Duplicate items D36
+
+Error: Duplicate items D9
+
+Error: Duplicate items J10
+
+Error: Duplicate items J11
+
+Error: Duplicate items J12
+
+Error: Duplicate items J29
+
+Error: Duplicate items J30
+
+Error: Duplicate items J31
+
+Error: Duplicate items J32
+
+Error: Duplicate items J33
+
+Error: Duplicate items J34
+
+Error: Duplicate items J35
+
+Error: Duplicate items J9
+
+Error: Duplicate items R17
+
+Error: Duplicate items R18
+
+Error: Duplicate items R19
+
+Error: Duplicate items R20
+
+Error: Duplicate items R21
+
+Error: Duplicate items R22
+
+Error: Duplicate items R23
+
+Error: Duplicate items R24
+
+Error: Duplicate items R57
+
+Error: Duplicate items R58
+
+Error: Duplicate items R59
+
+Error: Duplicate items R60
+
+Error: Duplicate items R61
+
+Error: Duplicate items R62
+
+Error: Duplicate items R63
+
+Error: Duplicate items R64
+
+Error: Duplicate items R65
+
+Error: Duplicate items R66
+
+Error: Duplicate items R67
+
+Error: Duplicate items R68
+
+Error: Duplicate items R69
+
+Error: Duplicate items R70
+
+Error: Duplicate items R71
+
+Error: Duplicate items R72
+
+Error: Duplicate items R73
+
+Error: Duplicate items R74
+
+Error: Duplicate items R75
+
+Error: Duplicate items R76
+
+Error: Duplicate items R77
+
+Error: Duplicate items R78
+
+Error: Duplicate items RV3
+
+Error: Duplicate items U10A
+
+Error: Duplicate items U10B
+
+Error: Duplicate items U10C
+
+Error: Duplicate items U10D
+
+Error: Duplicate items U10E
+
+Error: Duplicate items U3A
+
+Error: Duplicate items U3B
+
+Error: Duplicate items U3C
+
+Error: Duplicate items U3D
+
+Error: Duplicate items U3E
+
+Error: Duplicate items U8A
+
+Error: Duplicate items U8B
+
+Error: Duplicate items U8C
+
+Error: Duplicate items U8D
+
+Error: Duplicate items U8E
+
+Error: Duplicate items U9
+
