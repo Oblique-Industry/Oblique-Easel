@@ -110,8 +110,8 @@ void loop() {
   lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
 
   // Receive Serial values into array
-  //receiveDACs(); //PROBLEM HERE. Sample rate drops from 1kHz to 1Hz when reading or allocating the values in the function.
-
+  receiveDACs(); 
+  
   // Read ADC values into array
   readAllADCs();
   // Send ADC values
