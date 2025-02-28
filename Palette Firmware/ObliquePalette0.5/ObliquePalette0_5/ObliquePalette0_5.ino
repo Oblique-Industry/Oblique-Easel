@@ -147,7 +147,7 @@ void updateAllDACs() {
 // Map analog values to servo outputs
 void updateAllServos() {
   for (byte thisServoToUpdate = 0; thisServoToUpdate < numOutputChannels; thisServoToUpdate++) {
-    servoChannel[thisServoToUpdate].writeMicroseconds(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 1000, 2000));  // Map the DAC value to the servos within their range
+    servoChannel[thisServoToUpdate].writeMicroseconds(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 2000, 1000));  // Map the DAC value to the servos within their range
   }
 }
 
