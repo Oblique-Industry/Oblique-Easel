@@ -1,6 +1,6 @@
-// Oblique Palette 0.4.6
+// Oblique Palette
 // Communication of values in ASCII between the Easel and the Palette.
-// The Palette (this firmware) speaks with the Easel abstraction patch in plugdata.
+// The Palette (this firmware) speaks with the Easel abstraction patch in plugdata, running on a separate GP computer.
 // It announces its presence with its name, version number, and hardware configuration.
 // The Easel responds with output values whenever it gets DAC values from the Palette.
 // The Palette responds back ADC values, (later, followed by the measured time between communications, to the Easel)
@@ -27,6 +27,7 @@ const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
 const int numInputChannels = 8;           // Number of input channels on the Palette
+char specsheet[32];                       // Buffer to carry the specsheet string to the Easel
 
 const int numSamplesPerChannel = 1;  // How many samples to pack for transmission (for increasing sample rate later)
 
@@ -34,7 +35,7 @@ const int maxDACValue = (pow(2, DACBitDepth) - 1);  // The maximum DAC value
 const int maxADCValue = (pow(2, ADCBitDepth) - 1);  // The maximum ADC value
 
 const int numValuesFromEaselPerPacket = numOutputChannels * numSamplesPerChannel;
-const int numValuesToEaselPerPacket = numInputChannels + numSamplesPerChannel;
+const int numValuesToEaselPerPacket = numInputChannels * numSamplesPerChannel;
 
 const byte numi2cBusses = 2;  // Using i2c busses 0 and 1
 
@@ -53,7 +54,7 @@ ADCs and DACs
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(27, 26, 22));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
-const byte DACAddress[numOutputChannels] = { 0x62, 0x63, 0x64, 0x65, 0x62, 0x63, 0x64, 0x65 };  // Their respective (duplicate) i2c addresses
+const byte DACAddress[numOutputChannels] = { 0x60, 0x61, 0x62, 0x63, 0x60, 0x61, 0x62, 0x63 };  // Their respective (duplicate) i2c addresses
 const byte DACi2cBus[numOutputChannels] = { 0, 0, 0, 0, 1, 1, 1, 1 };                           // Which bus each DAC is on respectively
 
 byte servoPin[numOutputChannels] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // Servo pins mirror the output of their associated DAC channel
@@ -62,8 +63,8 @@ Servo servoChannel[numOutputChannels];                          // All output se
 /********************************************************************
 Serial buffer and the values to parse between Easel and Palette & back
 ********************************************************************/
-int DACSamplesFromEasel[numValuesFromEaselPerPacket];  // The buffer of combined byte values received from the Easel
-int ADCSamplesToEasel[numValuesToEaselPerPacket];      // The combined byte values to send to the Easel
+int DACSamplesFromEasel[numValuesFromEaselPerPacket] = { 511, 1023, 1535, 2047, 2559, 3071, 3583, 4095 };  // The buffer of values received from the Easel
+int ADCSamplesToEasel[numValuesToEaselPerPacket];                                                          // The values to send to the Easel
 
 
 
@@ -75,43 +76,41 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
 
-  Serial.begin(12000000);       // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
+  Serial.begin(12000000);                // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
   digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
 
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
-  Wire.begin();
 
-  Wire1.setSDA(10);  // Data line for the DACs 4-7
+  Wire1.setSDA(10);  // Data line for DACs 4-7
   Wire1.setSCL(11);  // Serial clock line for DACs 4-7
-  Wire1.begin();
 
   // begin all DACs on both i2c busses
-  for (byte thisi2cDACChannel = 0; thisi2cDACChannel < 2; thisi2cDACChannel++) {
-    for (byte thisDAC = 0; thisDAC < numOutputChannels; thisDAC++) {
-      if (DACi2cBus[thisi2cDACChannel] == 0) {
-        DAC[thisDAC].begin(DACAddress[thisDAC]);          // begin each DAC on i2c bus 0}
-      } else {                                            //
-        DAC[thisDAC].begin(DACAddress[thisDAC], &Wire1);  // begin each DAC on i2c bus 1}
-      }
+  for (byte thisDAC = 0; thisDAC < numOutputChannels; thisDAC++) {
+    if (DACi2cBus[thisDAC] == 0) {
+      DAC[thisDAC].begin(DACAddress[thisDAC]);          // begin each DAC on i2c bus 0
+    } else {                                            //
+      DAC[thisDAC].begin(DACAddress[thisDAC], &Wire1);  // begin each DAC on i2c bus 1
     }
-    digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
-
-    for (byte servoToSetup = 0; servoToSetup < numOutputChannels; servoToSetup++) {  // Make a servo object for each DAC channel
-      servoChannel[servoToSetup].attach(servoPin[servoToSetup]);                     // Attach each servo to its pin
-    }
-    digitalWrite(LED_BUILTIN, HIGH);  // Switch whenever something happens
-
-    while (!findEasel());  // Look for the Easel on boot until the Palette gets back real values
   }
+  testBlink();
+
+  for (byte servoToSetup = 0; servoToSetup < numOutputChannels; servoToSetup++) {  // Make a servo object for each DAC channel
+    servoChannel[servoToSetup].attach(servoPin[servoToSetup]);                     // Attach each servo to its pin
+  }
+  digitalWrite(LED_BUILTIN, HIGH);  // Switch whenever something happens
+
+  while (!findEasel())
+    ;  // Look for the Easel on boot until the Palette gets back real values
 }
+
 
 /******************************************** LOOP ********************************************/
 void loop() {
   lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
 
   // Receive Serial values into array
-  receiveDACs();
+  //receiveDACs(); //PROBLEM HERE. Sample rate drops from 1kHz to 1Hz when reading or allocating the values in the function.
 
   // Read ADC values into array
   readAllADCs();
@@ -123,54 +122,17 @@ void loop() {
   // Update all servo DAC values
   updateAllServos();
 
-  digitalWrite(LED_BUILTIN, !ledState);
+  // testBlink();
 }
 /******************************************************************************************
 Functions
 ******************************************************************************************/
 
-// Call out for the Easel and blink the onboard LED if it's not found yet
-bool findEasel() {
-  if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
-    digitalWrite(LED_BUILTIN, HIGH);
-    communicationTimeoutStart = micros();
-    return (1);
-
-  } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
-    Serial.print(modelName);
-    Serial.write(32);
-    Serial.print(firmwareVersion);
-    Serial.write(32);
-    Serial.print(numOutputChannels);
-    Serial.write(32);
-    Serial.print(DACBitDepth);
-    Serial.write(32);
-    Serial.print(numInputChannels);
-    Serial.write(32);
-    Serial.print(ADCBitDepth);
-    Serial.write(32);
-    Serial.write(13);
-
-    // Error code/waiting blinky for not hearing back from the Easel is ._ repeating
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(100);
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(100);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(100);
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(200);
-
-    return (0);
-  }
-}
-
-
 /*************************** DAC/output functions ***************************/
 
 // Receive all DAC values from the Easel
 void receiveDACs() {
-  for (int thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
+  for (byte thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
     DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
   }
 }
@@ -178,14 +140,14 @@ void receiveDACs() {
 // Scroll through all DACs to update them with data from the Easel
 void updateAllDACs() {
   for (byte thisi2cDACChannel = 0; thisi2cDACChannel < numOutputChannels; thisi2cDACChannel++) {  // Write to each DAC
-    DAC[thisi2cDACChannel].setVoltage(DACSamplesFromEasel[thisi2cDACChannel]);
+    DAC[thisi2cDACChannel].setVoltage(DACSamplesFromEasel[thisi2cDACChannel], false, 400000);
   }
 }
 
 // Map analog values to servo outputs
 void updateAllServos() {
   for (byte thisServoToUpdate = 0; thisServoToUpdate < numOutputChannels; thisServoToUpdate++) {
-    servoChannel[thisServoToUpdate].write(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 0, 180));  // Map the DAC value to the servos within their range
+    servoChannel[thisServoToUpdate].writeMicroseconds(map(DACSamplesFromEasel[thisServoToUpdate], 0, maxDACValue, 1000, 2000));  // Map the DAC value to the servos within their range
   }
 }
 
@@ -211,4 +173,34 @@ void testRepeater() {
     ADCSamplesToEasel[thisChannelToRepeat] = DACSamplesFromEasel[thisChannelToRepeat];
   }
   ADCSamplesToEasel[0] = lastTime / 100;
+}
+
+
+// Call out for the Easel and blink the onboard LED if it's not found yet
+bool findEasel() {
+  if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
+    digitalWrite(LED_BUILTIN, HIGH);
+    communicationTimeoutStart = micros();
+    return (1);
+
+  } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
+    sprintf(specsheet, "%s %s %u %u %u %u", modelName, firmwareVersion, numOutputChannels, DACBitDepth, numInputChannels, ADCBitDepth);
+    Serial.println(specsheet);
+
+    // Error code/waiting blinky for not hearing back from the Easel is ._ repeating
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(100);
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(100);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(100);
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(200);
+
+    return (0);
+  }
+}
+
+void testBlink() {
+  digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
 }
