@@ -2501,6 +2501,18 @@
 		)
 	)
 	(junction
+		(at 247.65 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f21679-125b-4ce8-bec7-d15bce5b022b")
+	)
+	(junction
+		(at 247.65 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "055f4486-a1a3-4fe0-92c9-20608184aac6")
+	)
+	(junction
 		(at 187.96 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2535,12 +2547,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "750b1b0d-cce2-460c-a92f-32223b669b8a")
-	)
-	(junction
-		(at 245.11 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87a4a76c-89f2-4721-a552-4bb6efc41bfe")
 	)
 	(junction
 		(at 72.39 154.94)
@@ -2758,16 +2764,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 16.51) (xy 245.11 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24d7af18-9c50-44e8-bff5-d8e2b8d46c15")
-	)
-	(wire
-		(pts
 			(xy 213.36 31.75) (xy 213.36 68.58)
 		)
 		(stroke
@@ -2825,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "2fcaac6e-94eb-4e3c-9ff4-51c28eba6ee2")
+	)
+	(wire
+		(pts
+			(xy 245.11 16.51) (xy 247.65 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322bb150-27ad-4595-9e52-08bf214b2aa8")
 	)
 	(wire
 		(pts
@@ -3198,6 +3204,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 16.51) (xy 257.81 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6172f7c-756a-45ad-a120-e9c947756416")
+	)
+	(wire
+		(pts
 			(xy 49.53 154.94) (xy 54.61 154.94)
 		)
 		(stroke
@@ -3255,6 +3271,16 @@
 			(type default)
 		)
 		(uuid "dbd280a7-ac6d-4b31-8c39-a69d3b04eb13")
+	)
+	(wire
+		(pts
+			(xy 247.65 19.05) (xy 247.65 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc176a02-0453-4408-a506-f2075992e04c")
 	)
 	(wire
 		(pts
@@ -4694,73 +4720,6 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 242.57 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "155aade2-1378-4f9c-a577-31cb57c45ea4")
-		(property "Reference" "#PWR057"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 242.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3873a9ec-fd12-4912-81be-fbb286acc69c")
-		)
-		(instances
-			(project "Oblique Palette 0.4 PCB"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8123,7 +8082,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 245.11 16.51 0)
+		(at 242.57 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8131,7 +8090,7 @@
 		(dnp no)
 		(uuid "aaa29913-2dfd-408b-ae80-c4ed7d531fd5")
 		(property "Reference" "#PWR058"
-			(at 245.11 20.32 0)
+			(at 242.57 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8099,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 240.284 11.684 0)
+			(at 247.396 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 16.51 0)
+			(at 242.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +8117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 16.51 0)
+			(at 242.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 245.11 16.51 0)
+			(at 242.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
