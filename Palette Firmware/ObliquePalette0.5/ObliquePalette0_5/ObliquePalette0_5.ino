@@ -14,6 +14,9 @@
 #include <Servo.h>             // For servo-range PWM controls
 #include <Wire.h>              // i2c communication for DACs
 #include <Adafruit_MCP4725.h>  // i2c DACs
+#include <pico/stdlib.h>       // To access Pico-specific libraries
+#include <hardware/adc.h>      // Direct ADC read access for high speed reads
+#include <hardware/gpio.h>     // Direct GPIO access
 
 using namespace admux;  // for ADC multiplexer
 
@@ -160,7 +163,11 @@ void updateAllServos() {
 /*************************** ADC/input functions ***************************/
 void readAllADCs() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
-    ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);
+    // ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);  // use regular ol' analogRead() max sample rate: ~ 177Hz
+    ADCSamplesToEasel[thisADCChannel] = (thisADCChannel * 512) - 1; // Test signal bypassing analogRead()
+    // if (!adc_fifo_is_empty()) { // Look at the ADC register, and if it's got anything in it, read it
+    //   ADCSamplesToEasel[thisADCChannel] = adc_fifo_get(); //
+    // }
   }
 }
 
