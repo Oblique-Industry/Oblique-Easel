@@ -73,7 +73,12 @@ Main code
 ****************************************************************************************************************************************/
 
 void setup() {
+
+  analogReadResolution(ADCBitDepth);  // Use the full bit depth of the ADCs
+
   pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(ADCPin, INPUT);
+
   digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
 
   Serial.begin(12000000);                // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
@@ -100,8 +105,8 @@ void setup() {
   }
   digitalWrite(LED_BUILTIN, HIGH);  // Switch whenever something happens
 
-  while (!findEasel())
-    ;  // Look for the Easel on boot until the Palette gets back real values
+  while (!findEasel())  // Look for the Easel on boot until the Palette gets back real values
+    ;
 }
 
 
@@ -110,8 +115,8 @@ void loop() {
   lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
 
   // Receive Serial values into array
-  receiveDACs(); 
-  
+  receiveDACs();
+
   // Read ADC values into array
   readAllADCs();
   // Send ADC values
@@ -122,7 +127,7 @@ void loop() {
   // Update all servo DAC values
   updateAllServos();
 
-  // testBlink();
+  testBlink();
 }
 /******************************************************************************************
 Functions
