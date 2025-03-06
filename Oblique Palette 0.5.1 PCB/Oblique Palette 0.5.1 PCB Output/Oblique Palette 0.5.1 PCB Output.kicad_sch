@@ -2650,7 +2650,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e7ca0ee-a6cc-40ca-a6c7-ff7f694d9770")
 		(property "Reference" "U?"
@@ -6813,6 +6813,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
