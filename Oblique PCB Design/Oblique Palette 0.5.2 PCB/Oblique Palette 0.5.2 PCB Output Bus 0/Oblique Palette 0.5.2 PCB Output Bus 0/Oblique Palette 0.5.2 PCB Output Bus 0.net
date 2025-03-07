@@ -1,0 +1,2476 @@
+(export 
+  (version "E") 
+  (design 
+    (source "H:\\My Drive\\Oblique Pallete\\Oblique Palette Output stage 0.3.2\\Oblique Palette Output stage 0.3.2.kicad_sch") 
+    (date "2024-03-31T16:52:21-0400") 
+    (tool "Eeschema 8.0.1") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "Oblique Palette Output stage 0.3.2.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "D1") 
+      (value "White") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "589b3370-544c-4378-8cae-493064dada21")) 
+    (comp 
+      (ref "D2") 
+      (value "Blue") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "25ea98da-ef91-4023-a006-9c5189793d3f")) 
+    (comp 
+      (ref "D3") 
+      (value "Yellow") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "5dea8815-aa93-468f-94d2-d294561180c5")) 
+    (comp 
+      (ref "D4") 
+      (value "Red") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "e7e1a66e-ce2d-47bc-8794-d3d47571a918")) 
+    (comp 
+      (ref "D5") 
+      (value "White") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "d756a60a-0248-4780-8245-8af8c6ed423a")) 
+    (comp 
+      (ref "D6") 
+      (value "Blue") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "797969a7-8ba8-45ba-aac3-dbba68726b15")) 
+    (comp 
+      (ref "D7") 
+      (value "Yellow") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "149f70af-374d-450b-8cc7-449875262d9e")) 
+    (comp 
+      (ref "D8") 
+      (value "Red") 
+      (footprint "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+      (datasheet "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (libsource 
+        (lib "LED") 
+        (part "IRL81A") 
+        (description "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "IR LED")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "46925582-a6d4-4400-ba45-8b091516593f")) 
+    (comp 
+      (ref "J1") 
+      (value "Conn_01x03_Male_Pin") 
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x03_Pin") 
+        (description "Generic connector, single row, 01x03, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "7f97e25f-92c4-4e64-84b0-bd66a9c50133")) 
+    (comp 
+      (ref "J2") 
+      (value "Conn_01x03_Female_Pin") 
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x03_Pin") 
+        (description "Generic connector, single row, 01x03, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "20d63ca8-830a-41ec-8aeb-e6294dc8a74a")) 
+    (comp 
+      (ref "J3") 
+      (value "Conn_01x03_Female_Pin") 
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x03_Pin") 
+        (description "Generic connector, single row, 01x03, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0b648b1a-baea-4d16-bf08-59f032a317b4")) 
+    (comp 
+      (ref "J4") 
+      (value "Conn_01x03_Male_Pin") 
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x03_Pin") 
+        (description "Generic connector, single row, 01x03, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "c8c0a3ac-14f5-4665-a59f-3287e79db74a")) 
+    (comp 
+      (ref "J5") 
+      (value "Conn_01x03_Female_Pin") 
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x03_Pin") 
+        (description "Generic connector, single row, 01x03, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "07018ba7-5dc2-4877-9483-b85b1e80d5c3")) 
+    (comp 
+      (ref "J7") 
+      (value "AudioJack2_SwitchT") 
+      (footprint "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles") 
+      (description "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")) 
+      (libsource 
+        (lib "Connector_Audio") 
+        (part "AudioJack2_SwitchT") 
+        (description "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "audio jack receptacle mono headphones phone TS connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Jack*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "9cabe409-04ab-4317-bc12-a96dee2af97f")) 
+    (comp 
+      (ref "J8") 
+      (value "AudioJack2_SwitchT") 
+      (footprint "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles") 
+      (description "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")) 
+      (libsource 
+        (lib "Connector_Audio") 
+        (part "AudioJack2_SwitchT") 
+        (description "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "audio jack receptacle mono headphones phone TS connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Jack*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "ffba6cc6-c3b3-433b-825a-fdf75302a4fb")) 
+    (comp 
+      (ref "R1") 
+      (value "10k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "1745e4b9-f701-417e-ac1f-8d26068f8839")) 
+    (comp 
+      (ref "R2") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "ce83677c-4aa9-458e-9d12-cd5a84f68b9a")) 
+    (comp 
+      (ref "R3") 
+      (value "470R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "acbd1141-d353-47de-90d1-88136c044179")) 
+    (comp 
+      (ref "R4") 
+      (value "2k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "bbb7500c-4304-4c61-add6-5dc9fa8719f9")) 
+    (comp 
+      (ref "R5") 
+      (value "5k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "06ecc575-bfc1-407e-8bcf-419b789f8505")) 
+    (comp 
+      (ref "R6") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "fdf759be-6c18-4410-a652-1c00db10615c")) 
+    (comp 
+      (ref "R7") 
+      (value "2k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "dfd9e08b-c396-4434-b683-e9ad167e128f")) 
+    (comp 
+      (ref "R8") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "994cd02e-a417-4256-bc1b-6d362cf27df4")) 
+    (comp 
+      (ref "R9") 
+      (value "2.5k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "295fda19-945f-4331-b5e0-a720bfa43647")) 
+    (comp 
+      (ref "R10") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "3047b29d-6576-4ce3-b7fe-2d07fcc1287e")) 
+    (comp 
+      (ref "R11") 
+      (value "500") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "f2235c8d-9e7b-4a5a-8fab-c5b1fcb9cb7e")) 
+    (comp 
+      (ref "R12") 
+      (value "10k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "4ace8c63-0161-46f6-94ac-bc0583284603")) 
+    (comp 
+      (ref "R13") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "76e79550-5c7a-4009-8be6-1b52d6953a9d")) 
+    (comp 
+      (ref "R14") 
+      (value "470R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "97e754fc-f94f-492a-a51c-025f6a09fb08")) 
+    (comp 
+      (ref "R15") 
+      (value "2k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "99ecb32b-3f44-4f61-812c-36976dc9577a")) 
+    (comp 
+      (ref "R16") 
+      (value "5k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "3c832bfc-42df-46f5-a022-20f2b6efa22e")) 
+    (comp 
+      (ref "R17") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "54ace5b7-6c2b-4507-891d-4ab51981d0b7")) 
+    (comp 
+      (ref "R18") 
+      (value "2k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "9f7c4cba-4238-403f-8b6a-cb1fb9b36c13")) 
+    (comp 
+      (ref "R19") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "ec7aa7fe-d0e7-46f5-a53b-8293351efe9b")) 
+    (comp 
+      (ref "R20") 
+      (value "2.5k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "d4bb699e-873b-4692-9c69-65c12e6f249f")) 
+    (comp 
+      (ref "R21") 
+      (value "1k") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8f97ac0b-638d-4752-933a-727d83d4f594")) 
+    (comp 
+      (ref "R22") 
+      (value "500") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "b0e29b83-73b9-422b-a8b8-491439a55839")) 
+    (comp 
+      (ref "TP1") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8dcba480-5696-4178-acfa-ccd74904f377")) 
+    (comp 
+      (ref "TP2") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "5b9529df-c319-49a6-8263-2686fd536c16")) 
+    (comp 
+      (ref "TP3") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "391fdc23-f7f2-44d9-aad7-8616cd1a41cd")) 
+    (comp 
+      (ref "TP4") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "f4ecc9fe-c743-4fda-9de0-aa46d5aafaec")) 
+    (comp 
+      (ref "TP5") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "84c27149-58d6-4abc-a163-b2af276f79b3")) 
+    (comp 
+      (ref "TP6") 
+      (value "TestPoint") 
+      (footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+      (description "test point") 
+      (fields 
+        (field 
+          (name "Footprint") "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "test point")) 
+      (libsource 
+        (lib "Connector") 
+        (part "TestPoint") 
+        (description "test point")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "test point tp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Pin* Test*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "344624d0-39a0-4046-904e-046342073faa")) 
+    (comp 
+      (ref "U1") 
+      (value "MCP6004") 
+      (footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads") 
+      (datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+      (description "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14") 
+      (fields 
+        (field 
+          (name "Footprint") "Package_DIP:DIP-14_W7.62mm_Socket_LongPads") 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+        (field 
+          (name "Description") "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14")) 
+      (libsource 
+        (lib "Amplifier_Operational") 
+        (part "MCP6004") 
+        (description "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "quad opamp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "6c096428-1b6c-4a06-9778-0aa2c01ddf8c" "c5ab28bd-4d26-4cb3-b41d-852dc8b36f86" "50935dad-934a-4238-8822-bedfbe51a519" "98c6c50a-f9bd-4376-ad5f-bcdc62e5b138" "220ea98c-ffa6-4b09-a4a3-c1eab8808a5d")) 
+    (comp 
+      (ref "U2") 
+      (value "MCP4822") 
+      (footprint "Package_DIP:DIP-8_W7.62mm_Socket_LongPads") 
+      (datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf") 
+      (description "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)") 
+      (fields 
+        (field 
+          (name "Footprint") "Package_DIP:DIP-8_W7.62mm_Socket_LongPads") 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf") 
+        (field 
+          (name "Description") "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)")) 
+      (libsource 
+        (lib "Analog_DAC") 
+        (part "MCP4822") 
+        (description "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "12-Bit DAC SPI Reference 2ch")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "6a96c0e2-d91c-4290-9cb6-f2428dfac59b")) 
+    (comp 
+      (ref "U3") 
+      (value "MCP6004") 
+      (footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads") 
+      (datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+      (description "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14") 
+      (fields 
+        (field 
+          (name "Footprint") "Package_DIP:DIP-14_W7.62mm_Socket_LongPads") 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+        (field 
+          (name "Description") "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14")) 
+      (libsource 
+        (lib "Amplifier_Operational") 
+        (part "MCP6004") 
+        (description "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Oblique Palette Output stage 0.3.2.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "quad opamp")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "f4b61e8a-1900-4c58-97c3-252a81abd6a9" "bd0e627a-46fa-44f4-936e-8c554c068da4" "b5c07506-8080-4a44-abd7-e7e36ccd3740" "982ab103-f0aa-461a-8c03-05b35bc86803" "526ae2fa-ece4-46d5-983d-b59b631f42f1"))) 
+  (libparts 
+    (libpart 
+      (lib "Amplifier_Operational") 
+      (part "MCP6004") 
+      (description "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14") 
+      (docs "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+      (footprints 
+        (fp "SOIC*3.9x8.7mm*P1.27mm*") 
+        (fp "DIP*W7.62mm*") 
+        (fp "TSSOP*4.4x5mm*P0.65mm*") 
+        (fp "SSOP*5.3x6.2mm*P0.65mm*") 
+        (fp "MSOP*3x3mm*P0.5mm*")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MCP6004") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf") 
+        (field 
+          (name "Description") "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "output")) 
+        (pin 
+          (num "2") 
+          (name "-") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "+") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "V+") 
+          (type "power_in")) 
+        (pin 
+          (num "5") 
+          (name "+") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "-") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "") 
+          (type "output")) 
+        (pin 
+          (num "8") 
+          (name "") 
+          (type "output")) 
+        (pin 
+          (num "9") 
+          (name "-") 
+          (type "input")) 
+        (pin 
+          (num "10") 
+          (name "+") 
+          (type "input")) 
+        (pin 
+          (num "11") 
+          (name "V-") 
+          (type "power_in")) 
+        (pin 
+          (num "12") 
+          (name "+") 
+          (type "input")) 
+        (pin 
+          (num "13") 
+          (name "-") 
+          (type "input")) 
+        (pin 
+          (num "14") 
+          (name "") 
+          (type "output")))) 
+    (libpart 
+      (lib "Analog_DAC") 
+      (part "MCP4822") 
+      (description "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)") 
+      (docs "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf") 
+      (footprints 
+        (fp "DIP*W7.62mm*") 
+        (fp "SOIC*3.9x4.9mm*P1.27mm*") 
+        (fp "MSOP*3x3mm*P0.65mm*")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MCP4822") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf") 
+        (field 
+          (name "Description") "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Vdd") 
+          (type "power_in")) 
+        (pin 
+          (num "2") 
+          (name "~{CS}") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "SCK") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "SDI") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "~{LDAC}") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "VB") 
+          (type "output")) 
+        (pin 
+          (num "7") 
+          (name "Vss") 
+          (type "power_in")) 
+        (pin 
+          (num "8") 
+          (name "VA") 
+          (type "output")))) 
+    (libpart 
+      (lib "Connector") 
+      (part "Conn_01x03_Pin") 
+      (description "Generic connector, single row, 01x03, script generated") 
+      (docs "~") 
+      (footprints 
+        (fp "Connector*:*_1x??_*")) 
+      (fields 
+        (field 
+          (name "Reference") "J") 
+        (field 
+          (name "Value") "Conn_01x03_Pin") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Generic connector, single row, 01x03, script generated")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Pin_1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "Pin_2") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "Pin_3") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Connector") 
+      (part "TestPoint") 
+      (description "test point") 
+      (docs "~") 
+      (footprints 
+        (fp "Pin*") 
+        (fp "Test*")) 
+      (fields 
+        (field 
+          (name "Reference") "TP") 
+        (field 
+          (name "Value") "TestPoint") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "test point")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Connector_Audio") 
+      (part "AudioJack2_SwitchT") 
+      (description "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)") 
+      (docs "~") 
+      (footprints 
+        (fp "Jack*")) 
+      (fields 
+        (field 
+          (name "Reference") "J") 
+        (field 
+          (name "Value") "AudioJack2_SwitchT") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")) 
+      (pins 
+        (pin 
+          (num "S") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "T") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "TN") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "R") 
+      (description "Resistor") 
+      (docs "~") 
+      (footprints 
+        (fp "R_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R") 
+        (field 
+          (name "Value") "R") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Resistor")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "LED") 
+      (part "IRL81A") 
+      (description "850nm High Power Infrared Emitter, Side-Emitter package") 
+      (docs "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+      (footprints 
+        (fp "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*")) 
+      (fields 
+        (field 
+          (name "Reference") "D") 
+        (field 
+          (name "Value") "IRL81A") 
+        (field 
+          (name "Footprint") "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm") 
+        (field 
+          (name "Datasheet") "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf") 
+        (field 
+          (name "Description") "850nm High Power Infrared Emitter, Side-Emitter package")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "K") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "A") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "Amplifier_Operational") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Amplifier_Operational.kicad_sym")) 
+    (library 
+      (logical "Analog_DAC") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Analog_DAC.kicad_sym")) 
+    (library 
+      (logical "Connector") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Connector.kicad_sym")) 
+    (library 
+      (logical "Connector_Audio") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Connector_Audio.kicad_sym")) 
+    (library 
+      (logical "Device") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Device.kicad_sym")) 
+    (library 
+      (logical "LED") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/LED.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "GNDREF") 
+      (node 
+        (ref "J1") 
+        (pin "3") 
+        (pinfunction "Pin_3") 
+        (pintype "passive")) 
+      (node 
+        (ref "J2") 
+        (pin "3") 
+        (pinfunction "Pin_3") 
+        (pintype "passive")) 
+      (node 
+        (ref "J4") 
+        (pin "3") 
+        (pinfunction "Pin_3") 
+        (pintype "passive")) 
+      (node 
+        (ref "J5") 
+        (pin "3") 
+        (pinfunction "Pin_3") 
+        (pintype "passive")) 
+      (node 
+        (ref "J7") 
+        (pin "S") 
+        (pintype "passive")) 
+      (node 
+        (ref "J8") 
+        (pin "S") 
+        (pintype "passive")) 
+      (node 
+        (ref "R10") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R13") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R14") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R15") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R15") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R16") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R17") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R19") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R2") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R21") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R3") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R4") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R4") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R5") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R6") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R8") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "11") 
+        (pinfunction "V-") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U1") 
+        (pin "2") 
+        (pinfunction "-") 
+        (pintype "input")) 
+      (node 
+        (ref "U2") 
+        (pin "5") 
+        (pinfunction "~{LDAC}") 
+        (pintype "input")) 
+      (node 
+        (ref "U2") 
+        (pin "7") 
+        (pinfunction "Vss") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U3") 
+        (pin "11") 
+        (pinfunction "V-") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U3") 
+        (pin "2") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "2") 
+      (name "Net-(D1-A)") 
+      (node 
+        (ref "D1") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "1") 
+        (pintype "output"))) 
+    (net 
+      (code "3") 
+      (name "Net-(D1-K)") 
+      (node 
+        (ref "D1") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R2") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R3") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "10") 
+        (pinfunction "+") 
+        (pintype "input")) 
+      (node 
+        (ref "U1") 
+        (pin "12") 
+        (pinfunction "+") 
+        (pintype "input")) 
+      (node 
+        (ref "U1") 
+        (pin "5") 
+        (pinfunction "+") 
+        (pintype "input"))) 
+    (net 
+      (code "4") 
+      (name "Net-(D2-A)") 
+      (node 
+        (ref "D2") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "7") 
+        (pintype "output"))) 
+    (net 
+      (code "5") 
+      (name "Net-(D2-K)") 
+      (node 
+        (ref "D2") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R6") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "6") 
+      (name "Net-(D3-A)") 
+      (node 
+        (ref "D3") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "8") 
+        (pintype "output"))) 
+    (net 
+      (code "7") 
+      (name "Net-(D3-K)") 
+      (node 
+        (ref "D3") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R8") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "8") 
+      (name "Net-(D4-A)") 
+      (node 
+        (ref "D4") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "14") 
+        (pintype "output"))) 
+    (net 
+      (code "9") 
+      (name "Net-(D4-K)") 
+      (node 
+        (ref "D4") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R10") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "10") 
+      (name "Net-(D5-A)") 
+      (node 
+        (ref "D5") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "1") 
+        (pintype "output"))) 
+    (net 
+      (code "11") 
+      (name "Net-(D5-K)") 
+      (node 
+        (ref "D5") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R12") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R13") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R14") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "10") 
+        (pinfunction "+") 
+        (pintype "input")) 
+      (node 
+        (ref "U3") 
+        (pin "12") 
+        (pinfunction "+") 
+        (pintype "input")) 
+      (node 
+        (ref "U3") 
+        (pin "5") 
+        (pinfunction "+") 
+        (pintype "input"))) 
+    (net 
+      (code "12") 
+      (name "Net-(D6-A)") 
+      (node 
+        (ref "D6") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "7") 
+        (pintype "output"))) 
+    (net 
+      (code "13") 
+      (name "Net-(D6-K)") 
+      (node 
+        (ref "D6") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R17") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "14") 
+      (name "Net-(D7-A)") 
+      (node 
+        (ref "D7") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "8") 
+        (pintype "output"))) 
+    (net 
+      (code "15") 
+      (name "Net-(D7-K)") 
+      (node 
+        (ref "D7") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R19") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "16") 
+      (name "Net-(D8-A)") 
+      (node 
+        (ref "D8") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "14") 
+        (pintype "output"))) 
+    (net 
+      (code "17") 
+      (name "Net-(D8-K)") 
+      (node 
+        (ref "D8") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "R21") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "18") 
+      (name "Net-(J1-Pin_1)") 
+      (node 
+        (ref "J1") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "J2") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "J7") 
+        (pin "T") 
+        (pintype "passive")) 
+      (node 
+        (ref "R1") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "19") 
+      (name "Net-(J3-Pin_1)") 
+      (node 
+        (ref "J3") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP6") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "3") 
+        (pinfunction "SCK") 
+        (pintype "input"))) 
+    (net 
+      (code "20") 
+      (name "Net-(J3-Pin_2)") 
+      (node 
+        (ref "J3") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP2") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP5") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "4") 
+        (pinfunction "SDI") 
+        (pintype "input"))) 
+    (net 
+      (code "21") 
+      (name "Net-(J3-Pin_3)") 
+      (node 
+        (ref "J3") 
+        (pin "3") 
+        (pinfunction "Pin_3") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP3") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "TP4") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "2") 
+        (pinfunction "~{CS}") 
+        (pintype "input"))) 
+    (net 
+      (code "22") 
+      (name "Net-(J4-Pin_1)") 
+      (node 
+        (ref "J4") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "J5") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "J8") 
+        (pin "T") 
+        (pintype "passive")) 
+      (node 
+        (ref "R12") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "23") 
+      (name "Net-(U1A-+)") 
+      (node 
+        (ref "U1") 
+        (pin "3") 
+        (pinfunction "+") 
+        (pintype "input")) 
+      (node 
+        (ref "U2") 
+        (pin "6") 
+        (pinfunction "VB") 
+        (pintype "output"))) 
+    (net 
+      (code "24") 
+      (name "Net-(U1B--)") 
+      (node 
+        (ref "R5") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R7") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "6") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "25") 
+      (name "Net-(U1C--)") 
+      (node 
+        (ref "R7") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R9") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "9") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "26") 
+      (name "Net-(U1D--)") 
+      (node 
+        (ref "R11") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R9") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "13") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "27") 
+      (name "Net-(U2-VA)") 
+      (node 
+        (ref "U2") 
+        (pin "8") 
+        (pinfunction "VA") 
+        (pintype "output")) 
+      (node 
+        (ref "U3") 
+        (pin "3") 
+        (pinfunction "+") 
+        (pintype "input"))) 
+    (net 
+      (code "28") 
+      (name "Net-(U3B--)") 
+      (node 
+        (ref "R16") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R18") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "6") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "29") 
+      (name "Net-(U3C--)") 
+      (node 
+        (ref "R18") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R20") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "9") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "30") 
+      (name "Net-(U3D--)") 
+      (node 
+        (ref "R20") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R22") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "13") 
+        (pinfunction "-") 
+        (pintype "input"))) 
+    (net 
+      (code "31") 
+      (name "VCC") 
+      (node 
+        (ref "J1") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive")) 
+      (node 
+        (ref "J2") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive")) 
+      (node 
+        (ref "J4") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive")) 
+      (node 
+        (ref "J5") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R11") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R22") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "4") 
+        (pinfunction "V+") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U2") 
+        (pin "1") 
+        (pinfunction "Vdd") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U3") 
+        (pin "4") 
+        (pinfunction "V+") 
+        (pintype "power_in"))) 
+    (net 
+      (code "32") 
+      (name "unconnected-(J7-PadTN)") 
+      (node 
+        (ref "J7") 
+        (pin "TN") 
+        (pintype "passive+no_connect"))) 
+    (net 
+      (code "33") 
+      (name "unconnected-(J8-PadTN)") 
+      (node 
+        (ref "J8") 
+        (pin "TN") 
+        (pintype "passive+no_connect")))))
