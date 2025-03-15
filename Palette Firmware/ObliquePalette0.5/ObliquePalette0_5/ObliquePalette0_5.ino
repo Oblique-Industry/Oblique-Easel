@@ -53,8 +53,8 @@ bool ledState = 0;
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin A2                                                     // The µC ADC pin
-Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(27, 26, 22));  // For addressing ADC channels with a CD4051 multiplexer
+#define ADCPin ADC2                                                   // The µC ADC pin
+Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
 const byte DACAddress[numOutputChannels] = { 0x60, 0x61, 0x62, 0x63, 0x60, 0x61, 0x62, 0x63 };  // Their respective (duplicate) i2c addresses
@@ -163,8 +163,10 @@ void updateAllServos() {
 /*************************** ADC/input functions ***************************/
 void readAllADCs() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
-    // ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);  // use regular ol' analogRead() max sample rate: ~ 177Hz
-    ADCSamplesToEasel[thisADCChannel] = (thisADCChannel * 512) - 1; // Test signal bypassing analogRead()
+    ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);  // use regular ol' analogRead() max sample rate: ~ 177Hz
+
+    // ADCSamplesToEasel[thisADCChannel] = (thisADCChannel * 512) - 1; // Test signal bypassing analogRead()
+
     // if (!adc_fifo_is_empty()) { // Look at the ADC register, and if it's got anything in it, read it
     //   ADCSamplesToEasel[thisADCChannel] = adc_fifo_get(); //
     // }
