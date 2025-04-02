@@ -1890,16 +1890,16 @@
 		(uuid "1904fffd-5eb4-47b8-8c05-3c1527544052")
 	)
 	(junction
+		(at 130.81 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24becd2f-2cbe-4d68-8c62-342f466a9d8b")
+	)
+	(junction
 		(at 162.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b1ac5dd-0344-46e2-b7ef-19a53fa75ec5")
-	)
-	(junction
-		(at 135.89 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49c3e771-472e-425e-bd70-f32d4d28720e")
 	)
 	(junction
 		(at 102.87 78.74)
@@ -1938,6 +1938,12 @@
 		(uuid "abf5548d-29e4-4afa-a36c-7450d1aa99a2")
 	)
 	(junction
+		(at 128.27 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b927cce2-df80-47c2-89ee-40b89c449667")
+	)
+	(junction
 		(at 154.94 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1950,10 +1956,10 @@
 		(uuid "d0524a23-6442-4c36-ad9e-74b0cac102d4")
 	)
 	(junction
-		(at 130.81 78.74)
+		(at 105.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d52acbdb-4342-4240-831b-48adaf677953")
+		(uuid "e801ef93-9a16-46d9-84e3-62a8b3ee4456")
 	)
 	(junction
 		(at 149.86 78.74)
@@ -1987,6 +1993,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bb690d-69aa-40c4-8de2-f308d2bf3c4d")
+	)
+	(wire
+		(pts
 			(xy 162.56 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -2007,13 +2023,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 88.9 120.65)
+			(xy 133.35 96.52) (xy 133.35 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "166bfc7c-a0cb-4336-b019-d66e9296c2f1")
+		(uuid "17e6aede-ff51-46a2-bbd2-681cc6740fc6")
 	)
 	(wire
 		(pts
@@ -2027,23 +2043,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 130.81 78.74)
+			(xy 102.87 78.74) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c4d3218-242d-41bb-8716-7f8bdbb0b760")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 135.89 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d5857cc-dea7-4af6-acc5-ade042f71660")
 	)
 	(wire
 		(pts
@@ -2087,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 88.9 78.74)
+			(xy 80.01 128.27) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2117,6 +2123,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 120.65) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f36581-e3c9-476f-a212-4924b9dfbf25")
+	)
+	(wire
+		(pts
 			(xy 154.94 87.63) (xy 154.94 97.79)
 		)
 		(stroke
@@ -2124,6 +2140,16 @@
 			(type default)
 		)
 		(uuid "5a0fb878-8521-4fc2-b6e3-c5a90770aceb")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf1116d-df71-4406-934f-0f0e11336aea")
 	)
 	(wire
 		(pts
@@ -2167,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 114.3 93.98)
+			(xy 107.95 96.52) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2187,17 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83acf1f3-e5b9-4648-90bd-62beef6db0e8")
-	)
-	(wire
-		(pts
-			(xy 107.95 93.98) (xy 107.95 97.79)
+			(xy 107.95 96.52) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2234,26 +2250,6 @@
 			(type default)
 		)
 		(uuid "9b5d6905-f34e-42fb-84b5-e0047b076e82")
-	)
-	(wire
-		(pts
-			(xy 88.9 120.65) (xy 105.41 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a360bff5-a0e6-4c7d-8103-3e790b7c7dc0")
-	)
-	(wire
-		(pts
-			(xy 130.81 78.74) (xy 149.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3d6dc7-0f8e-49c9-895e-b80f942b7713")
 	)
 	(wire
 		(pts
@@ -2367,6 +2363,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 96.52) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda2e9d5-ee24-43e4-b601-dec973686d11")
+	)
+	(wire
+		(pts
 			(xy 176.53 87.63) (xy 176.53 97.79)
 		)
 		(stroke
@@ -2387,13 +2393,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 118.11 87.63)
+			(xy 105.41 113.03) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d979a4a2-a634-4d67-b156-3c36b98b1902")
+		(uuid "d99ef508-3ea2-4162-bed1-ac900ead3420")
 	)
 	(wire
 		(pts
@@ -2427,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 114.3 120.65)
+			(xy 114.3 96.52) (xy 114.3 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 118.11 90.17)
+			(xy 139.7 87.63) (xy 139.7 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2447,17 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 139.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eadd4b24-4fbd-4721-bee1-eee247ee30a3")
-	)
-	(wire
-		(pts
-			(xy 130.81 78.74) (xy 130.81 97.79)
+			(xy 128.27 78.74) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2474,7 @@
 	)
 	(hierarchical_label "ANALOG_IN"
 		(shape input)
-		(at 85.09 78.74 180)
+		(at 80.01 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 118.11 90.17 0)
+		(at 139.7 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2823,7 +2819,7 @@
 		(fields_autoplaced yes)
 		(uuid "19fe272d-920b-46ff-aad4-b17877125271")
 		(property "Reference" "#PWR070"
-			(at 118.11 96.52 0)
+			(at 139.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2828,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 118.11 95.25 0)
+			(at 139.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 118.11 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3594,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 133.35 128.27 0)
+		(at 130.81 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3607,7 +3603,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cab4377-d2c1-4684-91e3-e5d3767ef3ee")
 		(property "Reference" "#PWR074"
-			(at 133.35 134.62 0)
+			(at 130.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3612,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 133.35 133.35 0)
+			(at 130.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 133.35 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3704,7 @@
 		(dnp no)
 		(uuid "5dd30d15-abdb-4310-b52b-f488e7825350")
 		(property "Reference" "U3"
-			(at 146.05 104.1399 90)
+			(at 148.082 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3713,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 146.05 106.6799 90)
+			(at 149.352 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
-		(at 133.35 105.41 90)
+		(at 130.81 105.41 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4370,7 +4366,7 @@
 		(dnp no)
 		(uuid "82844d7c-374a-4a82-80ed-b4d0851fc260")
 		(property "Reference" "U3"
-			(at 127 104.1399 90)
+			(at 125.476 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4375,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 127 106.6799 90)
+			(at 125.476 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 130.81 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 128.27 106.68 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4402,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 133.35 105.41 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4719,7 @@
 	)
 	(symbol
 		(lib_id "LED:IRL81A")
-		(at 133.35 115.57 90)
+		(at 130.81 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4732,7 +4728,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cc81386-d6c6-4859-bcd1-9ac7da325fc4")
 		(property "Reference" "D2"
-			(at 135.89 115.4429 90)
+			(at 133.35 115.4429 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,8 +4736,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue"
-			(at 135.89 117.9829 90)
+		(property "Value" "White"
+			(at 133.35 117.9829 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4746,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
-			(at 128.905 115.57 0)
+			(at 126.365 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4755,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
-			(at 133.35 116.84 0)
+			(at 130.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4764,7 @@
 			)
 		)
 		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
-			(at 133.35 115.57 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +4823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 124.46 0)
+		(at 130.81 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4836,7 +4832,7 @@
 		(fields_autoplaced yes)
 		(uuid "9194382d-e000-4120-8a8f-75c66c94e87a")
 		(property "Reference" "R3"
-			(at 135.89 123.1899 0)
+			(at 133.35 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,8 +4840,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68R"
-			(at 135.89 125.7299 0)
+		(property "Value" "1K"
+			(at 133.35 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 131.572 124.46 90)
+			(at 129.032 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4868,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,108 +5269,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c27c092-e841-4d87-86cc-0dc69401a956")
-		(property "Reference" "R2"
-			(at 125.73 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 125.73 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.73 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19e046c4-29c6-4134-829c-08bd7b13fb78")
-		)
-		(pin "1"
-			(uuid "2dc5dd0e-b36c-468b-a2d6-ccf7208f48c7")
-		)
-		(instances
-			(project "Oblique Palette 0.4 Input Stage"
-				(path "/150b6f87-53bb-44d6-889a-48fbcb7c0f5a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
-					(reference "R58")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
-					(reference "R42")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 152.4 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5578,109 +5472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:IRL81A")
-		(at 105.41 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b710dd5b-af29-4b82-9e5c-8b21825a2456")
-		(property "Reference" "D1"
-			(at 97.028 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "White"
-			(at 97.028 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
-			(at 100.965 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
-			(at 105.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
-			(at 105.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db0a07af-d81b-4bf8-a001-d968da017f18")
-		)
-		(pin "2"
-			(uuid "e779a0b7-e81f-46f1-8b73-88a7db39217a")
-		)
-		(instances
-			(project "Oblique Palette 0.4 Input Stage"
-				(path "/150b6f87-53bb-44d6-889a-48fbcb7c0f5a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
-					(reference "D43")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
-					(reference "D37")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
-					(reference "D31")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 105.41 128.27 0)
 		(unit 1)
@@ -5799,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Value" "270K"
+		(property "Value" "84K"
 			(at 163.83 83.82 90)
 			(effects
 				(font
@@ -6108,7 +5899,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "150K"
 			(at 186.69 83.82 90)
 			(effects
 				(font
@@ -6730,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Value" "390K"
+		(property "Value" "270k"
 			(at 143.51 83.82 90)
 			(effects
 				(font
@@ -6758,6 +6549,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 143.51 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 143.51 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 143.51 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
