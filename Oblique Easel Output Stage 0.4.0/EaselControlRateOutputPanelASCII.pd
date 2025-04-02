@@ -371,7 +371,7 @@
 #X obj 429 809 outlet~;
 #X obj 489 839 outlet~;
 #X obj 599 619 receive sampleRate;
-#X obj 453 731 note 62 7 Inter empty 0 200 200 200 0 228 228 228 0 2 sr: 201.167 Hz;
+#X obj 453 731 note 62 7 Inter empty 0 200 200 200 0 228 228 228 0 2 sr: 76.3592 Hz;
 #N canvas 733 172 450 300 formatSampleRate 0;
 #X obj 139 79 tosymbol;
 #X msg 139 199 set \$1;
