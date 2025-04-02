@@ -1929,7 +1929,7 @@
 		(at 105.41 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "822d10a2-e652-4740-96ac-438b8c8cff58")
+		(uuid "9ac5659d-becc-43f3-8b0c-736ae6f1fbe5")
 	)
 	(junction
 		(at 176.53 87.63)
@@ -1954,12 +1954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0524a23-6442-4c36-ad9e-74b0cac102d4")
-	)
-	(junction
-		(at 105.41 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e801ef93-9a16-46d9-84e3-62a8b3ee4456")
 	)
 	(junction
 		(at 149.86 78.74)
@@ -2093,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 128.27) (xy 105.41 128.27)
+			(xy 80.01 120.65) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2373,6 +2367,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 120.65) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6cf8f4-15c6-4c19-8ca8-38403f04c172")
+	)
+	(wire
+		(pts
 			(xy 176.53 87.63) (xy 176.53 97.79)
 		)
 		(stroke
@@ -2474,7 +2478,7 @@
 	)
 	(hierarchical_label "ANALOG_IN"
 		(shape input)
-		(at 80.01 128.27 180)
+		(at 80.01 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5669,110 +5673,6 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c73888de-95cc-4f6a-b43b-b781d6400e7e")
-		(property "Reference" "R1"
-			(at 107.95 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 107.95 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 103.632 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98aae441-945c-4bed-b4a2-a8a5227e9380")
-		)
-		(pin "1"
-			(uuid "84c10dac-4e93-4adb-ac5b-12c21f1c53b5")
-		)
-		(instances
-			(project "Oblique Palette 0.4 Input Stage"
-				(path "/150b6f87-53bb-44d6-889a-48fbcb7c0f5a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
-					(reference "R57")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
-					(reference "R49")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
-					(reference "R33")
 					(unit 1)
 				)
 			)
