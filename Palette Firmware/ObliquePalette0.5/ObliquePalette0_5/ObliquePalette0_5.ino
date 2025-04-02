@@ -53,7 +53,7 @@ bool ledState = 0;
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin ADC2                                                   // The µC ADC pin
+#define ADCPin 34                                                   // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
