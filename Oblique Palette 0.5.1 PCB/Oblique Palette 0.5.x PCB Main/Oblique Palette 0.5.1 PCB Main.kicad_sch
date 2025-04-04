@@ -2164,6 +2164,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
@@ -2651,10 +2776,6 @@
 		(uuid "1567d0bf-66a8-4479-9cce-260e317e1c51")
 	)
 	(no_connect
-		(at 274.32 110.49)
-		(uuid "2d9a2883-2acf-4bf7-9f69-91659f2909a6")
-	)
-	(no_connect
 		(at 274.32 148.59)
 		(uuid "3257ffdc-4051-41e4-b0dc-8d2e59c083ef")
 	)
@@ -2713,6 +2834,16 @@
 	(no_connect
 		(at 274.32 102.87)
 		(uuid "ffb32fcb-7a31-47ed-be73-de91f2786130")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 58.42 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0035d0eb-0e5a-499d-8685-e8910406040b")
 	)
 	(wire
 		(pts
@@ -2786,6 +2917,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 119.38) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5f427c-ab3b-4bb6-a481-22b19bff26e1")
+	)
+	(wire
+		(pts
 			(xy 165.1 147.32) (xy 170.18 147.32)
 		)
 		(stroke
@@ -2856,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 119.38) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d4f8d3-cb8d-425f-b712-dd415092b613")
+	)
+	(wire
+		(pts
 			(xy 21.59 73.66) (xy 223.52 73.66)
 		)
 		(stroke
@@ -2893,6 +3044,16 @@
 			(type default)
 		)
 		(uuid "2d41f1a3-d072-415e-ae4d-c2d35a03a1c1")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5e04b3-2419-4727-8559-138c8152fe99")
 	)
 	(wire
 		(pts
@@ -3006,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 59.69) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b2b981-19ee-48dd-bc8d-5115aa21a2b7")
+	)
+	(wire
+		(pts
 			(xy 119.38 154.94) (xy 124.46 154.94)
 		)
 		(stroke
@@ -3046,6 +3217,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 119.38) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b68ffee-f79d-478e-af77-f7bb4fba74c9")
+	)
+	(wire
+		(pts
 			(xy 90.17 69.85) (xy 215.9 69.85)
 		)
 		(stroke
@@ -3073,6 +3254,16 @@
 			(type default)
 		)
 		(uuid "4fce6c30-9129-4d7e-a193-44a52228e8fe")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 26.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e1db9d-d06d-4553-969a-4af3615a8ecd")
 	)
 	(wire
 		(pts
@@ -3113,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "5eba49a4-932c-4358-bc2e-ae4d31abf504")
+	)
+	(wire
+		(pts
+			(xy 85.09 119.38) (xy 85.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60420b26-f03b-44f5-b436-52a7a2aaaf29")
 	)
 	(wire
 		(pts
@@ -3216,6 +3417,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 59.69) (xy 120.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83861720-4904-477f-9320-f249c703cfbf")
+	)
+	(wire
+		(pts
 			(xy 138.43 58.42) (xy 138.43 67.31)
 		)
 		(stroke
@@ -3253,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "8fec9de8-8139-49b9-bc5f-c686c266081d")
+	)
+	(wire
+		(pts
+			(xy 73.66 59.69) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903aed9d-cd26-40d9-ad9c-dfc557340334")
 	)
 	(wire
 		(pts
@@ -3326,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 59.69) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f35146-ac99-4193-938e-38380bdd5d9f")
+	)
+	(wire
+		(pts
 			(xy 124.46 147.32) (xy 132.08 147.32)
 		)
 		(stroke
@@ -3343,6 +3574,26 @@
 			(type default)
 		)
 		(uuid "ae41d63e-0c1a-4ce7-b6bd-da1980b21098")
+	)
+	(wire
+		(pts
+			(xy 274.32 110.49) (xy 276.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64fba0c-56c8-4e22-9a68-2e0d8a978424")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aa3270-81b5-4c70-be01-47ab212c1e18")
 	)
 	(wire
 		(pts
@@ -3426,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 59.69) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85625af-6688-447c-86f4-defc66d1902e")
+	)
+	(wire
+		(pts
 			(xy 64.77 71.12) (xy 218.44 71.12)
 		)
 		(stroke
@@ -3456,6 +3717,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 59.69) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15f16c1-0b8f-41c1-b697-49664444bf5b")
+	)
+	(wire
+		(pts
 			(xy 232.41 29.21) (xy 210.82 29.21)
 		)
 		(stroke
@@ -3476,6 +3747,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 119.38) (xy 191.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33a89de-918a-43eb-a3c5-d0a7218e5af9")
+	)
+	(wire
+		(pts
 			(xy 165.1 149.86) (xy 165.1 154.94)
 		)
 		(stroke
@@ -3483,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "f471e530-337f-4551-b277-88206e3758c9")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4968827-4ef5-4d5d-ab2f-0cc9f2a4e233")
 	)
 	(wire
 		(pts
@@ -4515,6 +4806,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 45.72 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003bc385-b441-48e5-a132-c5b62080b6d2")
+		(property "Reference" "#PWR0343"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "704f74f0-4e30-4a01-a27b-d07bd098ec66")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0343")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 54.61 152.4 0)
 		(unit 1)
@@ -4716,6 +5074,72 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "121261b0-9b69-404b-899b-427d06c9e758")
+		(property "Reference" "#PWR0331"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77cce0c0-ad7b-44fc-8c10-7f44bb5b7be5")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -5124,6 +5548,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c49bbe-925e-4552-a7f5-347b8975e4b3")
+		(property "Reference" "#PWR0335"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b595cd0c-8c5f-479c-8900-e387003cb66e")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 26.67 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25b9cd0d-609a-40d2-bdf7-c07f2a492d57")
+		(property "Reference" "#PWR034"
+			(at 26.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0c3115-eeb5-460d-9dc0-e34b15e395ae")
+		)
+		(instances
+			(project ""
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2626440b-a27b-4a3c-89e6-6505686c8e2f")
+		(property "Reference" "#PWR0134"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e523bb3e-7bfc-480d-b1d4-42b1c940e772")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 279.4 19.05 0)
 		(unit 1)
@@ -5191,7 +5813,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 151.765 58.42 0)
+		(at 152.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5200,7 +5822,7 @@
 		(fields_autoplaced yes)
 		(uuid "2adfd894-94b1-4b53-bd6e-c89d7d47a537")
 		(property "Reference" "#PWR040"
-			(at 151.765 64.77 0)
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5831,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 151.765 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.765 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.765 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 151.765 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,6 +5873,72 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 125.73 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d792c47-a803-4904-9a45-65e079add495")
+		(property "Reference" "#PWR0342"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 125.73 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 125.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63586d6c-ae37-45b4-a281-4b4eb42ddad3")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -5394,6 +6082,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "358ed63f-21a3-4440-96c8-4827dc4baf23")
+		(property "Reference" "#PWR0332"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6687a801-8169-4761-bacb-0781f084f03a")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 62.23 118.11 180)
 		(unit 1)
@@ -5528,7 +6282,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 52.07 58.42 180)
+		(at 53.34 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5537,7 +6291,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a6cbe92-7551-4b4c-8000-c6b401fc0e4b")
 		(property "Reference" "#PWR09"
-			(at 52.07 54.61 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +6300,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 52.07 62.865 0)
+			(at 53.34 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +6308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +6317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 52.07 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 100.965 58.42 180)
+		(at 101.6 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6069,7 +6823,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f2b9f6c-dbc5-452f-8f55-e93477a7dd8e")
 		(property "Reference" "#PWR023"
-			(at 100.965 54.61 0)
+			(at 101.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6832,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 100.965 62.865 0)
+			(at 101.6 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.965 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.965 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 100.965 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6946,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 29.21 58.42 180)
+		(at 30.48 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6201,7 +6955,7 @@
 		(fields_autoplaced yes)
 		(uuid "50fc3afb-5513-46f3-a393-172e018b00be")
 		(property "Reference" "#PWR02"
-			(at 29.21 54.61 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6964,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 29.21 62.865 0)
+			(at 30.48 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 58.42 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 58.42 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 29.21 58.42 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +7012,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 31.115 58.42 0)
+		(at 33.02 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6267,7 +7021,7 @@
 		(fields_autoplaced yes)
 		(uuid "52a94a19-fb7f-4c41-80f7-2aab899549c7")
 		(property "Reference" "#PWR03"
-			(at 31.115 64.77 0)
+			(at 33.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +7030,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 31.115 63.5 0)
+			(at 33.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +7039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 58.42 0)
+			(at 33.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +7048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 58.42 0)
+			(at 33.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +7057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 31.115 58.42 0)
+			(at 33.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,6 +7072,73 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 152.4 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53036550-19a1-4224-af70-a03608b39f77")
+		(property "Reference" "#PWR0338"
+			(at 152.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b6031f-d30f-448c-ad5f-8bba1d797841")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -6528,7 +7349,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 123.19 58.42 180)
+		(at 124.46 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6537,7 +7358,7 @@
 		(fields_autoplaced yes)
 		(uuid "58de7bf9-e79b-4009-8544-aaca879e27c6")
 		(property "Reference" "#PWR030"
-			(at 123.19 54.61 0)
+			(at 124.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +7367,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 123.19 62.865 0)
+			(at 124.46 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,7 +7375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 58.42 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +7384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 58.42 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +7393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 123.19 58.42 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +7746,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 103.505 58.42 0)
+		(at 104.14 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6934,7 +7755,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ca28f7-3b5e-4f6b-8347-8083e3dcb1e0")
 		(property "Reference" "#PWR024"
-			(at 103.505 64.77 0)
+			(at 104.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +7764,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 103.505 63.5 0)
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.505 58.42 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 58.42 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 103.505 58.42 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7880,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 149.225 58.42 180)
+		(at 149.86 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7068,7 +7889,7 @@
 		(fields_autoplaced yes)
 		(uuid "621d4357-16b1-4dde-a70d-fdb5b5c66a8a")
 		(property "Reference" "#PWR039"
-			(at 149.225 54.61 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +7898,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 149.225 62.865 0)
+			(at 149.86 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.225 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.225 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 149.225 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,6 +7939,71 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636d50d5-c4f6-4ebe-82ae-90f497cc9770")
+		(property "Reference" "#PWR0151"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 189.23 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf597f8d-cf6a-4a84-9fb9-7c6f0d0ce932")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -7258,6 +8144,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 218.44 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6786d616-d7f5-4003-9542-6f114f518266")
+		(property "Reference" "#PWR0336"
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0151b517-8055-4b48-a780-05db4aa55ec5")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0336")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 238.76 105.41 270)
 		(unit 1)
@@ -7391,6 +8343,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 73.66 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701f52f9-6b8d-4ade-9861-8874b2c81131")
+		(property "Reference" "#PWR057"
+			(at 73.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e156fa57-1e4e-49b8-8a7f-8f3b661fddb5")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 147.32 152.4 0)
 		(unit 1)
@@ -7455,6 +8473,72 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b9a02e-4ee9-4a68-a5e7-177358528998")
+		(property "Reference" "#PWR0340"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 72.39 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f1b5fc-3bc4-4da6-9845-c726957bc054")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
@@ -7727,6 +8811,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e2b6c1f-38c9-433d-950a-6fdd70d80f99")
+		(property "Reference" "#PWR0100"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1352500f-5a48-4d2c-b09d-64912c348f30")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 195.58 118.11 180)
 		(unit 1)
@@ -7787,6 +8937,72 @@
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 146.05 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e9aeaa9-4c8b-4d3c-ab44-768d9d347070")
+		(property "Reference" "#PWR0117"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b679a5d-6765-4071-b681-f07669ad5ea3")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7930,7 +9146,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 54.61 58.42 0)
+		(at 55.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7939,7 +9155,7 @@
 		(fields_autoplaced yes)
 		(uuid "9908b46f-380d-4e0b-bd0a-31d6c0f2fb3a")
 		(property "Reference" "#PWR010"
-			(at 54.61 64.77 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +9164,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 54.61 63.5 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +9173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 58.42 0)
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +9182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 58.42 0)
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,7 +9191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 54.61 58.42 0)
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,6 +9486,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a35cb090-8489-4c88-8fc1-a26e870a63aa")
+		(property "Reference" "#PWR083"
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a19bd8-74bd-4e14-bbc8-41af5e853be6")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 276.86 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ee13f7-1fb6-4d7e-b608-e2a7b706efde")
+		(property "Reference" "#PWR038"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 280.162 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 276.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58277869-35c7-4fa5-b80c-40f0456e3321")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 132.08 147.32 0)
 		(unit 1)
@@ -8400,6 +9747,138 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 138.43 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9204541-d511-425a-83d7-0c6eb359254b")
+		(property "Reference" "#PWR0333"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91198b27-25ac-41f1-95f3-c304f54d9811")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9890d0d-9158-4c9e-bd1a-fbc36f02d771")
+		(property "Reference" "#PWR0334"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b54621-df63-47a6-9226-f5a7e488a521")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -8746,6 +10225,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a7b2db-8b06-482c-9cf6-0b3e0764dec2")
+		(property "Reference" "#PWR0330"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4e37319-45a9-464b-ac2d-20a755234c61")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f16786-7f21-4bb8-8bcc-91f1de634b57")
+		(property "Reference" "#PWR0329"
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d6adcb8-583a-4aa5-9010-3d94ddfd4d92")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 274.32 100.33 0)
 		(unit 1)
@@ -8806,6 +10417,72 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 19.05 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3229c30-f500-43c5-a68c-03b469b1fab6")
+		(property "Reference" "#PWR0339"
+			(at 19.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 19.05 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17cd3ecd-f709-45d4-9e83-bda7c87efbfe")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -8939,6 +10616,139 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 179.07 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5f3c19-82bf-4861-baac-38b4574ce178")
+		(property "Reference" "#PWR0344"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 179.07 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7144a43-ef45-40fe-b3bb-aa6dea68852e")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0344")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 205.74 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb96c12-1b82-4594-b353-3f201fff8e91")
+		(property "Reference" "#PWR0337"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 205.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90bf7725-7d19-481a-9afa-3682eecfabae")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -9349,7 +11159,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 174.625 58.42 180)
+		(at 173.99 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9358,7 +11168,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd373801-d168-4c76-bfea-274ef48f3657")
 		(property "Reference" "#PWR045"
-			(at 174.625 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +11177,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 174.625 62.865 0)
+			(at 173.99 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +11185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.625 58.42 0)
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +11194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.625 58.42 0)
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +11203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 174.625 58.42 0)
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,6 +11420,73 @@
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 99.06 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e2fadc-b39f-4443-9483-ce9b36f18876")
+		(property "Reference" "#PWR0341"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76b58e5-c4c6-4007-8e9b-a5bd16de1876")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -10133,7 +12010,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 126.365 58.42 0)
+		(at 127 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10142,7 +12019,7 @@
 		(fields_autoplaced yes)
 		(uuid "fab870f7-d5e0-4d18-8af6-919321a490e4")
 		(property "Reference" "#PWR032"
-			(at 126.365 64.77 0)
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +12028,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 126.365 63.5 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +12037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 126.365 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +12046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +12055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 126.365 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,6 +12279,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 49.53 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff82b16b-e4cf-4409-ba42-b9595d5db19d")
+		(property "Reference" "#PWR042"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e36411-9701-48a5-b612-ab63669edb42")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 69.85 74.93)
 		(size 22.86 43.18)
@@ -10477,6 +12420,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 85.09 118.11 270)
+			(uuid "fe91e438-236d-4967-9ed6-55d3772764ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 72.39 118.11 270)
+			(uuid "7064ce2e-71d2-42c7-afcb-8f11ae95418d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -10531,7 +12494,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 100.965 58.42 270)
+			(at 101.6 58.42 270)
 			(uuid "db9ff3b2-400a-44c3-b577-e27116cc0a18")
 			(effects
 				(font
@@ -10541,8 +12504,18 @@
 			)
 		)
 		(pin "GNDREF" input
-			(at 103.505 58.42 270)
+			(at 104.14 58.42 270)
 			(uuid "021880af-9ddd-4601-a6d9-5317f4546314")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 97.79 58.42 270)
+			(uuid "618bc041-e80a-4d74-a726-8d3f383d5585")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,6 +12606,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 191.77 118.11 270)
+			(uuid "5ed5415e-5e57-4165-b6b6-8ef81d8f655f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 179.07 118.11 270)
+			(uuid "d8f417fe-8805-4e95-9362-c39bdeaf10f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -10687,7 +12680,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 52.07 58.42 270)
+			(at 53.34 58.42 270)
 			(uuid "f5a155e8-0fe8-4580-8d38-2cc688c9bab8")
 			(effects
 				(font
@@ -10697,8 +12690,18 @@
 			)
 		)
 		(pin "GNDREF" input
-			(at 54.61 58.42 270)
+			(at 55.88 58.42 270)
 			(uuid "717d929f-1647-411e-8da3-632c18b49c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 49.53 58.42 270)
+			(uuid "da731957-ccaf-43c5-aff8-6c992ebefb97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,6 +12792,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 138.43 118.11 270)
+			(uuid "0978b4ff-56de-4c85-809b-a16f04612d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 125.73 118.11 270)
+			(uuid "677c249c-4f34-478a-818b-e34365dbe56a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -10872,6 +12895,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 111.76 118.11 270)
+			(uuid "0579a6c3-3e71-4f03-84f1-767fd48cbb52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 99.06 118.11 270)
+			(uuid "837c560b-258c-41eb-bb78-bb685eff4552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -10938,6 +12981,16 @@
 		(pin "GNDREF" input
 			(at 200.025 58.42 270)
 			(uuid "58f9e739-06ef-4b5e-8b33-9f51d2b7fb87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 193.04 58.42 270)
+			(uuid "14141f4f-c8c0-4497-941b-bb7bb387405f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,6 +13081,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 31.75 118.11 270)
+			(uuid "899d395d-ee42-4934-bc44-0cf1e12d8090")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 19.05 118.11 270)
+			(uuid "1d44ce0a-612f-4b5f-862b-dfe25b63318f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -11082,7 +13155,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 174.625 58.42 270)
+			(at 173.99 58.42 270)
 			(uuid "6352eb87-740c-48fc-9dc1-9621c4510d74")
 			(effects
 				(font
@@ -11094,6 +13167,16 @@
 		(pin "GNDREF" input
 			(at 176.53 58.42 270)
 			(uuid "815fa2f9-b084-4dd1-ab10-4e4eb2e37009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 170.18 58.42 270)
+			(uuid "51835437-ce31-46c2-b4d3-e97c8d9eeb78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,6 +13267,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 218.44 118.11 270)
+			(uuid "e8363893-e8c5-4660-857e-d8ce58acc25b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 205.74 118.11 270)
+			(uuid "af322d40-ec6c-4e59-b044-f117f633cd5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -11238,7 +13341,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 149.225 58.42 270)
+			(at 149.86 58.42 270)
 			(uuid "3026cadd-4789-4080-a1b9-93efb9bb05b9")
 			(effects
 				(font
@@ -11248,8 +13351,18 @@
 			)
 		)
 		(pin "GNDREF" input
-			(at 151.765 58.42 270)
+			(at 152.4 58.42 270)
 			(uuid "a8a703a5-dbf5-4115-86cc-f19b70e825b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 146.05 58.42 270)
+			(uuid "21294d2c-513f-4d3d-9070-13470c6c1685")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,6 +13436,16 @@
 		(pin "GNDREF" input
 			(at 80.01 58.42 270)
 			(uuid "327bcfcd-fda7-4232-b5c7-f36c6b5ce184")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 73.66 58.42 270)
+			(uuid "c5b9523b-32ea-4709-a126-2bea26807082")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,6 +13536,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 165.1 118.11 270)
+			(uuid "063fb43f-db8c-4773-bec1-160bed391642")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 152.4 118.11 270)
+			(uuid "18b235c4-bfdb-45f0-9d35-73fcac9f2684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -11496,6 +13639,26 @@
 				(justify left)
 			)
 		)
+		(pin "3v3" input
+			(at 58.42 118.11 270)
+			(uuid "12b8490a-d6c4-4f54-8940-1d967dc4758e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_ADDR" output
+			(at 45.72 118.11 270)
+			(uuid "d02a678e-4835-4e48-b543-d9687db81929")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
@@ -11549,7 +13712,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 29.21 58.42 270)
+			(at 30.48 58.42 270)
 			(uuid "328a6a43-f0a4-4396-be0a-c15886475d64")
 			(effects
 				(font
@@ -11559,8 +13722,18 @@
 			)
 		)
 		(pin "GNDREF" input
-			(at 31.115 58.42 270)
+			(at 33.02 58.42 270)
 			(uuid "5473fef3-e481-40ec-8099-472fb8142371")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 26.67 58.42 270)
+			(uuid "4d4b2ead-c867-4ec5-a797-fac32eb0ae6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +13795,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 123.19 58.42 270)
+			(at 124.46 58.42 270)
 			(uuid "9e34aeb8-dfe0-481b-8cdf-8e8e440a9b5c")
 			(effects
 				(font
@@ -11632,8 +13805,18 @@
 			)
 		)
 		(pin "GNDREF" input
-			(at 126.365 58.42 270)
+			(at 127 58.42 270)
 			(uuid "ad93b753-5235-4a12-a449-be30c6b71e08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 120.65 58.42 270)
+			(uuid "5faf47bd-048c-4212-8539-21c88e13dcd3")
 			(effects
 				(font
 					(size 1.27 1.27)

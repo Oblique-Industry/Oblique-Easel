@@ -1884,6 +1884,12 @@
 		(uuid "00a55de8-ffe0-4101-a8e5-5076fa7d6ad6")
 	)
 	(junction
+		(at 102.87 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b86d9dd-c0ac-460e-a513-979dbdda9b4a")
+	)
+	(junction
 		(at 180.34 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1900,12 +1906,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b1ac5dd-0344-46e2-b7ef-19a53fa75ec5")
-	)
-	(junction
-		(at 102.87 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55b30ed5-ea93-4e38-adfd-b29f9376a473")
 	)
 	(junction
 		(at 153.67 71.12)
@@ -1938,10 +1938,10 @@
 		(uuid "abf5548d-29e4-4afa-a36c-7450d1aa99a2")
 	)
 	(junction
-		(at 128.27 78.74)
+		(at 102.87 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b927cce2-df80-47c2-89ee-40b89c449667")
+		(uuid "ada7d402-f1e7-4709-9d27-3f3ba4231dce")
 	)
 	(junction
 		(at 154.94 87.63)
@@ -1967,13 +1967,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 102.87 97.79)
+			(xy 102.87 87.63) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02b71692-4a4a-49b3-89a1-0e4c5413669d")
+		(uuid "00c3f6ac-3f63-465a-94a9-e88ba6d2769f")
 	)
 	(wire
 		(pts
@@ -1984,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "035cf48e-3063-42fe-8258-b22bf8be1542")
-	)
-	(wire
-		(pts
-			(xy 128.27 78.74) (xy 149.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bb690d-69aa-40c4-8de2-f308d2bf3c4d")
 	)
 	(wire
 		(pts
@@ -2037,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 128.27 78.74)
+			(xy 102.87 78.74) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2217,6 +2207,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 100.33) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8798cb68-817b-45d9-8fd8-682c9cb3e5f5")
+	)
+	(wire
+		(pts
 			(xy 180.34 68.58) (xy 180.34 63.5)
 		)
 		(stroke
@@ -2244,6 +2244,46 @@
 			(type default)
 		)
 		(uuid "9b5d6905-f34e-42fb-84b5-e0047b076e82")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0ecc62-3f95-4012-a9af-9876b5da6752")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a4e485-e7d8-4fea-bc44-94953744c5ee")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d98e13-2228-4f8a-8b3d-a13c562a1fa5")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a569c721-20f8-46cd-89ca-3d2ea44054e5")
 	)
 	(wire
 		(pts
@@ -2304,6 +2344,16 @@
 			(type default)
 		)
 		(uuid "bf9f32d4-2529-4e91-95c4-22e8be1485b9")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c181e490-c8c8-4176-9477-c0ea30fa77b7")
 	)
 	(wire
 		(pts
@@ -2455,16 +2505,6 @@
 		)
 		(uuid "ead8b9ef-4e10-4072-bcd6-079ed60c101e")
 	)
-	(wire
-		(pts
-			(xy 128.27 78.74) (xy 128.27 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0178d3b-833e-43e9-b1a8-cb142eeaf60c")
-	)
 	(hierarchical_label "GNDREF"
 		(shape input)
 		(at 121.92 43.18 90)
@@ -2486,6 +2526,17 @@
 			(justify right)
 		)
 		(uuid "11c5679b-f0a7-4037-ba31-6f432edbe6f1")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 181.61 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d6b275-3704-4559-9665-a4242c87b0ec")
 	)
 	(hierarchical_label "VCC"
 		(shape input)
@@ -2598,6 +2649,104 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
 					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162c4e11-431a-47ba-9628-087b79d2d213")
+		(property "Reference" "R68"
+			(at 105.41 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 105.41 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 101.092 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95b8b95d-7707-45ec-9a76-135744b481dc")
+		)
+		(pin "1"
+			(uuid "507b8f79-fb43-4452-9499-48fdc42a0863")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
+					(reference "R83")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
+					(reference "R105")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
+					(reference "R94")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -3229,7 +3378,7 @@
 		(dnp no)
 		(uuid "2d9271f5-cfb8-460a-aa53-d0cbaa19571a")
 		(property "Reference" "U3"
-			(at 184.658 101.346 90)
+			(at 180.086 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3386,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 184.658 103.886 90)
+			(at 180.086 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,6 +3501,101 @@
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
 					(reference "U7")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f83f961-d620-4479-870e-787a083860c8")
+		(property "Reference" "R160"
+			(at 95.504 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K"
+			(at 96.266 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 97.79 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90076891-d24a-4500-ae8d-e49c10744605")
+		)
+		(pin "1"
+			(uuid "aa1dbf58-ad7c-4adc-81c2-d07c07d1fe56")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
+					(reference "R163")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
+					(reference "R161")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
+					(reference "R167")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
+					(reference "R166")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
+					(reference "R165")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
+					(reference "R162")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
+					(reference "R160")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
+					(reference "R164")
+					(unit 1)
 				)
 			)
 		)
@@ -4133,6 +4377,101 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 92.71 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70681cd6-bc01-462d-b1ac-e6bf8760224d")
+		(property "Reference" "#PWR0214"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa35729-c558-4128-9bab-a781390f9aed")
+		)
+		(instances
+			(project "Oblique Palette 0.5.1 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -5376,106 +5715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 181.61 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae57cfa9-0165-4658-a0a6-17e530d1c582")
-		(property "Reference" "#PWR083"
-			(at 181.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 181.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3676e474-680e-4b87-8424-7cbba329051d")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main Input Stage"
-				(path "/150b6f87-53bb-44d6-889a-48fbcb7c0f5a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
-					(reference "#PWR0168")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "#PWR083")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 105.41 128.27 0)
 		(unit 1)
@@ -5594,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Value" "84K"
+		(property "Value" "110K"
 			(at 163.83 83.82 90)
 			(effects
 				(font
@@ -6421,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "300k"
 			(at 143.51 83.82 90)
 			(effects
 				(font
