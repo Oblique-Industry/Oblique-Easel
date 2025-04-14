@@ -2008,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 77.47) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d82d73-8ae5-4f04-a51c-4a8988ee2422")
+	)
+	(wire
+		(pts
 			(xy 58.42 36.83) (xy 58.42 44.45)
 		)
 		(stroke
@@ -2328,16 +2338,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 102.87 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0d3879-62d8-43ce-8557-9b4a7efd87e7")
-	)
-	(wire
-		(pts
 			(xy 73.66 29.21) (xy 73.66 36.83)
 		)
 		(stroke
@@ -2378,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 71.12) (xy 102.87 44.45)
+			(xy 102.87 69.85) (xy 102.87 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6076,7 +6076,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 74.93 180)
+		(at 102.87 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6084,7 +6084,7 @@
 		(dnp no)
 		(uuid "d57bb0df-1213-4681-a830-851a45f58877")
 		(property "Reference" "R153"
-			(at 107.95 76.9621 90)
+			(at 107.95 75.6921 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6093,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 105.664 76.962 90)
+			(at 105.664 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6102,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.648 74.93 90)
+			(at 104.648 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 74.93 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 74.93 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
