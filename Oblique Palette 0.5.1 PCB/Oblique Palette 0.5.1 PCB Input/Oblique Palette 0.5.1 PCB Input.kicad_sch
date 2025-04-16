@@ -2222,16 +2222,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 105.41 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430dc9ca-9171-48ad-8aa1-5a789395c0e2")
-	)
-	(wire
-		(pts
 			(xy 97.79 63.5) (xy 99.06 63.5)
 		)
 		(stroke
@@ -2239,6 +2229,16 @@
 			(type default)
 		)
 		(uuid "4ba22dc8-5a15-4a0d-b0f5-bcfb93b9cc12")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc295ed-c0e8-4d92-93ba-2fd910d3c91e")
 	)
 	(wire
 		(pts
@@ -2562,16 +2562,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.65) (xy 105.41 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6cf8f4-15c6-4c19-8ca8-38403f04c172")
-	)
-	(wire
-		(pts
 			(xy 176.53 87.63) (xy 176.53 97.79)
 		)
 		(stroke
@@ -2653,12 +2643,12 @@
 	)
 	(hierarchical_label "ANALOG_PIN"
 		(shape input)
-		(at 77.47 120.65 90)
+		(at 105.41 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "11c5679b-f0a7-4037-ba31-6f432edbe6f1")
 	)
@@ -5943,107 +5933,6 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
 					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 105.41 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba43bb1b-12b9-48fa-a1aa-ac766d2d3df5")
-		(property "Reference" "#PWR068"
-			(at 105.41 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 105.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd01969f-3f7b-4394-a6aa-119304eebcd4")
-		)
-		(instances
-			(project "Oblique Palette 0.4 Input Stage"
-				(path "/150b6f87-53bb-44d6-889a-48fbcb7c0f5a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/10bc258e-81e1-44f3-990d-192650ef1d17"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/57e02da9-4257-4ca7-873b-16131b7a2160"
-					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/7745d2af-7356-4abb-bb12-892bad795ddc"
-					(reference "#PWR0187")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/987e670c-6148-4b51-9cfd-5f14311b6128"
-					(reference "#PWR0170")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b5a2c36a-8809-438c-979e-3df70d5c3577"
-					(reference "#PWR0153")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/b606fcb4-531c-4aac-8b9c-456946edc41a"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f541c48a-fb18-4fa4-aa45-9d69b2f53442"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
