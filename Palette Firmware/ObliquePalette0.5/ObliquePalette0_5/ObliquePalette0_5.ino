@@ -25,7 +25,7 @@ using namespace admux;  // for ADC multiplexer
 Hardware configuration of the Palette
 ***********************************/
 const char modelName[] = "Palette";       // Model name
-const char firmwareVersion[] = "v0.5.1";  // Version number of this firmware
+const char firmwareVersion[] = "v0.5.3";  // Version number of this firmware
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution

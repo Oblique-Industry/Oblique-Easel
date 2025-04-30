@@ -2641,8 +2641,8 @@
 		)
 		(uuid "0d4ea179-7370-4660-aeb0-752b2f423543")
 	)
-	(hierarchical_label "ANALOG_PIN"
-		(shape input)
+	(hierarchical_label "ANALOG_CHANNEL"
+		(shape output)
 		(at 105.41 129.54 180)
 		(effects
 			(font
