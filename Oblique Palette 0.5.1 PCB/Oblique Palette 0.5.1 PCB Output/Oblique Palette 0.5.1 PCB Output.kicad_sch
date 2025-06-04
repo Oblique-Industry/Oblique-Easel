@@ -1883,10 +1883,10 @@
 		(uuid "56bc674f-aae8-4e5e-8130-cf4d93c643fe")
 	)
 	(junction
-		(at 73.66 53.34)
+		(at 73.66 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e42bb98-8e91-423e-9919-4cb1d148ca95")
+		(uuid "7a268f46-25e0-4375-98a1-b693d0480043")
 	)
 	(junction
 		(at 102.87 78.74)
@@ -1978,7 +1978,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 67.31) (xy 54.61 67.31)
+			(xy 54.61 67.31) (xy 73.66 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2088,16 +2088,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 53.34) (xy 66.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498cb525-39f7-41cf-ab49-ac30238fdb42")
-	)
-	(wire
-		(pts
 			(xy 102.87 113.03) (xy 115.57 113.03)
 		)
 		(stroke
@@ -2135,6 +2125,16 @@
 			(type default)
 		)
 		(uuid "60e83ec1-f8f3-48e9-8f9a-10d307a2e373")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63228726-88e4-4540-bbbb-56873cd2c26c")
 	)
 	(wire
 		(pts
@@ -2238,16 +2238,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 52.07) (xy 73.66 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b04d2cc-7c87-497f-9a60-8911e0684c9e")
-	)
-	(wire
-		(pts
 			(xy 115.57 54.61) (xy 115.57 49.53)
 		)
 		(stroke
@@ -2275,6 +2265,16 @@
 			(type default)
 		)
 		(uuid "9291a000-da09-4f77-8ad6-5f5ad706eb96")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9709e423-db82-4376-9579-abaa59602542")
 	)
 	(wire
 		(pts
@@ -2368,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 73.66 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc5d07c-a6d6-4db8-aa6d-af904d9cbcf6")
-	)
-	(wire
-		(pts
 			(xy 102.87 69.85) (xy 102.87 44.45)
 		)
 		(stroke
@@ -2425,16 +2415,6 @@
 			(type default)
 		)
 		(uuid "c8dce4f1-8471-4b7c-bd3c-187b25c4f985")
-	)
-	(wire
-		(pts
-			(xy 73.66 53.34) (xy 66.04 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce97663d-a917-43b5-9905-7665d5ab1ad5")
 	)
 	(wire
 		(pts
@@ -3831,7 +3811,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 73.66 55.88 0)
+		(at 73.66 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3840,7 +3820,7 @@
 		(fields_autoplaced yes)
 		(uuid "51addc3e-3b52-4296-b0e6-bcab80c95531")
 		(property "Reference" "#PWR0205"
-			(at 73.66 62.23 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3829,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 73.66 60.96 0)
+			(at 73.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 55.88 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 55.88 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 73.66 55.88 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

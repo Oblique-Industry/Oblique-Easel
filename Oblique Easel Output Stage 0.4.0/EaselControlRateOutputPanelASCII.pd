@@ -371,7 +371,7 @@
 #X obj 429 809 outlet~;
 #X obj 489 839 outlet~;
 #X obj 599 619 receive sampleRate;
-#X obj 453 731 note 62 7 Inter empty 0 200 200 200 0 228 228 228 0 2 sr: 76.3592 Hz;
+#X obj 453 731 note 62 7 Inter empty 0 200 200 200 0 228 228 228 0 2 sr: 86.0511 Hz;
 #N canvas 733 172 450 300 formatSampleRate 0;
 #X obj 139 79 tosymbol;
 #X msg 139 199 set \$1;
@@ -484,6 +484,13 @@
 #X connect 6 0 5 0 32.................Z....PF...fF....jA...LC....;
 #X restore -151 579 pd formatPaletteVersion;
 #X msg 199 129 open 3;
+#X obj 659 419 EaselControlRateOutputPanelASCII;
+#X obj 657 287 scale~ -1 1 0 1;
+#X obj 789 299 scope~ 200 100 42 3 1024 0 1 0 0 0 0 77 77 77 228 228 228 183 183 183 0 empty;
+#X obj 681 175 *~;
+#X obj 797 116 osc~ 2.13;
+#X obj 664 352 *~ 0.5;
+#X obj 641 69 osc~ 0.25;
 #X connect 1 0 7 0 48.................P....HC....D....x....3C...vq....9....7J...v4....;
 #X connect 3 0 11 0 48.................I....nC...PB....5....H++++OR....x++++iD...P9++++;
 #X connect 3 0 10 1 32.................KA...bD...vR....GA...DE....;
@@ -537,4 +544,10 @@
 #X connect 57 0 43 0;
 #X connect 58 0 10 0 32.................V....79+++uE....u++++OH....;
 #X connect 58 0 7 0 32.................W....7J...vE....uB...TK....;
+#X connect 60 0 64 0;
+#X connect 62 0 60 0;
+#X connect 63 0 62 1;
+#X connect 64 0 59 0;
+#X connect 64 0 61 0;
+#X connect 65 0 62 0;
 #X coords 0 0 1 1 402 105 1 115 685;
