@@ -585,169 +585,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1883,12 +1720,6 @@
 		(uuid "56bc674f-aae8-4e5e-8130-cf4d93c643fe")
 	)
 	(junction
-		(at 73.66 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a268f46-25e0-4375-98a1-b693d0480043")
-	)
-	(junction
 		(at 102.87 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1911,12 +1742,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aacd7ed4-f9c9-41e6-83d8-27f60ef3fff4")
-	)
-	(junction
-		(at 54.61 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae878118-2a92-44e3-8821-43121c3774dc")
 	)
 	(junction
 		(at 219.71 49.53)
@@ -1978,16 +1803,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 67.31) (xy 73.66 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b61a0c2-f8a4-490c-98d4-cbd9d479f1b1")
-	)
-	(wire
-		(pts
 			(xy 148.59 149.86) (xy 148.59 152.4)
 		)
 		(stroke
@@ -2035,16 +1850,6 @@
 			(type default)
 		)
 		(uuid "1894e670-3c3c-4027-8541-cf97dad5f53c")
-	)
-	(wire
-		(pts
-			(xy 62.23 46.99) (xy 62.23 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5ebc74-15d8-468e-a0b8-9284f4b8e942")
 	)
 	(wire
 		(pts
@@ -2108,16 +1913,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 50.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc2cb59-2d65-4ab0-94cd-e3957717ff9f")
-	)
-	(wire
-		(pts
 			(xy 62.23 46.99) (xy 63.5 46.99)
 		)
 		(stroke
@@ -2128,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 52.07) (xy 73.66 67.31)
+			(xy 73.66 52.07) (xy 73.66 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2268,16 +2063,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 73.66 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9709e423-db82-4376-9579-abaa59602542")
-	)
-	(wire
-		(pts
 			(xy 212.09 49.53) (xy 219.71 49.53)
 		)
 		(stroke
@@ -2295,16 +2080,6 @@
 			(type default)
 		)
 		(uuid "9b9b05bc-6826-476c-8ad2-138dd6264760")
-	)
-	(wire
-		(pts
-			(xy 54.61 59.69) (xy 44.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7760f6-ea1f-4cd0-b1c4-b8175edd1a2d")
 	)
 	(wire
 		(pts
@@ -2525,16 +2300,6 @@
 			(type default)
 		)
 		(uuid "ef47e755-eb23-4bc1-8287-d07b377a1aa3")
-	)
-	(wire
-		(pts
-			(xy 62.23 59.69) (xy 54.61 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05de3c5-9362-478d-b7fa-597aca45077b")
 	)
 	(wire
 		(pts
@@ -4015,108 +3780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 39.37 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69e2e70c-1ebf-4e07-ae02-08bbd23c9c4d")
-		(property "Reference" "J39"
-			(at 40.005 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 40.005 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41ebc4b5-4fe8-4811-8c95-cf2cf19fb8a6")
-		)
-		(pin "2"
-			(uuid "a74f58ff-944a-4da4-9fd9-a7bfc1765de7")
-		)
-		(instances
-			(project ""
-				(path "/00348c18-df7d-44f3-beed-018db1dcb244"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/022a3c20-b737-44af-ba73-d19394daee4b"
-					(reference "J47")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4da6c3e1-5ca6-4e72-af16-cc8ebb015547"
-					(reference "J63")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6cf0b9d2-816b-448d-9cad-dfabd1e278ce"
-					(reference "J55")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6f368469-9c5c-40dd-b0b6-6d9a851f06ab"
-					(reference "J51")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
-					(reference "J39")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/a92755aa-291f-481b-bbbb-60e570bb5340"
-					(reference "J67")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d58aa536-32e9-4655-95be-d28e543fbe7f"
-					(reference "J59")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d6ba7066-8690-49dc-8dca-2245681ea7d4"
-					(reference "J43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 123.19 149.86 0)
 		(unit 4)
@@ -4349,106 +4012,6 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d6ba7066-8690-49dc-8dca-2245681ea7d4"
 					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 50.8 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72752d15-c671-4c34-a41c-4ad9838a5302")
-		(property "Reference" "#PWR0203"
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 50.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20d385fc-2ad8-4cc3-852a-3e45d7c66a31")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main Output Stage"
-				(path "/00348c18-df7d-44f3-beed-018db1dcb244"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/022a3c20-b737-44af-ba73-d19394daee4b"
-					(reference "#PWR0233")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4da6c3e1-5ca6-4e72-af16-cc8ebb015547"
-					(reference "#PWR0293")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6cf0b9d2-816b-448d-9cad-dfabd1e278ce"
-					(reference "#PWR0263")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6f368469-9c5c-40dd-b0b6-6d9a851f06ab"
-					(reference "#PWR0248")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/a92755aa-291f-481b-bbbb-60e570bb5340"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d58aa536-32e9-4655-95be-d28e543fbe7f"
-					(reference "#PWR0278")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d6ba7066-8690-49dc-8dca-2245681ea7d4"
-					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -5945,110 +5508,6 @@
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d6ba7066-8690-49dc-8dca-2245681ea7d4"
 					(reference "#PWR0227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3c41800-7b02-4dc8-9893-8372dce1a9bd")
-		(property "Reference" "R66"
-			(at 57.15 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 57.15 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 56.388 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "751d9a31-b219-47d1-ad0d-164d39ffff2c")
-		)
-		(pin "1"
-			(uuid "7787ef55-bf1f-4278-a116-f47d664b2955")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main Output Stage"
-				(path "/00348c18-df7d-44f3-beed-018db1dcb244"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/022a3c20-b737-44af-ba73-d19394daee4b"
-					(reference "R88")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4da6c3e1-5ca6-4e72-af16-cc8ebb015547"
-					(reference "R132")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6cf0b9d2-816b-448d-9cad-dfabd1e278ce"
-					(reference "R110")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/6f368469-9c5c-40dd-b0b6-6d9a851f06ab"
-					(reference "R99")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/97491e82-802c-4092-b5a2-1c67d3bd66f7"
-					(reference "R66")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/a92755aa-291f-481b-bbbb-60e570bb5340"
-					(reference "R143")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d58aa536-32e9-4655-95be-d28e543fbe7f"
-					(reference "R121")
-					(unit 1)
-				)
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/d6ba7066-8690-49dc-8dca-2245681ea7d4"
-					(reference "R77")
 					(unit 1)
 				)
 			)
