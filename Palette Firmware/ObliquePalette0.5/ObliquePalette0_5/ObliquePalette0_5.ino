@@ -18,6 +18,7 @@
 #include <hardware/adc.h>      // Direct ADC read access for high speed reads
 #include <hardware/gpio.h>     // Direct GPIO access
 
+
 using namespace admux;  // for ADC multiplexer
 
 
@@ -29,7 +30,7 @@ const char firmwareVersion[] = "v0.5.3";  // Version number of this firmware
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
-const int numInputChannels = 8;           // Number of input channels on the Palette
+const int numInputChannels = 2;           // Number of input channels on the Palette
 char specsheet[32];                       // Buffer to carry the specsheet string to the Easel
 
 const int numSamplesPerChannel = 1;  // How many samples to pack for transmission (for increasing sample rate later)
@@ -53,15 +54,15 @@ bool ledState = 0;
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin 34                                                   // The µC ADC pin
+#define ADCPin 28                                                     // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
-const byte DACAddress[numOutputChannels] = { 0x60, 0x61, 0x62, 0x63, 0x60, 0x61, 0x62, 0x63 };  // Their respective (duplicate) i2c addresses
+const byte DACAddress[numOutputChannels] = { 0x62, 0x63, 0x60, 0x61, 0x62, 0x63, 0x60, 0x61 };  // Their respective (duplicate) i2c addresses (note order)
 const byte DACi2cBus[numOutputChannels] = { 0, 0, 0, 0, 1, 1, 1, 1 };                           // Which bus each DAC is on respectively
-
-byte servoPin[numOutputChannels] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // Servo pins mirror the output of their associated DAC channel
-Servo servoChannel[numOutputChannels];                          // All output servos
+                                                                                                //
+byte servoPin[numOutputChannels] = { 2, 3, 4, 5, 6, 7, 8, 9 };                                  // Servo pins mirror the output of their associated DAC channel
+Servo servoChannel[numOutputChannels];                                                          // All output servos
 
 /********************************************************************
 Serial buffer and the values to parse between Easel and Palette & back
@@ -89,17 +90,22 @@ void setup() {
 
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
+  Wire.begin();
 
   Wire1.setSDA(10);  // Data line for DACs 4-7
   Wire1.setSCL(11);  // Serial clock line for DACs 4-7
+  Wire1.begin();
 
   // begin all DACs on both i2c busses
-  for (byte thisDAC = 0; thisDAC < numOutputChannels; thisDAC++) {
-    if (DACi2cBus[thisDAC] == 0) {
-      DAC[thisDAC].begin(DACAddress[thisDAC]);          // begin each DAC on i2c bus 0
-    } else {                                            //
-      DAC[thisDAC].begin(DACAddress[thisDAC], &Wire1);  // begin each DAC on i2c bus 1
-    }
+  for (byte thisDAC = 4; thisDAC < numOutputChannels; thisDAC++) { // DEBUG LINE Remember to start thisDAC back at 0.
+
+      DAC[thisDAC].begin(DACAddress[thisDAC], &Wire1);  // begin each DAC on i2c bus 1 DEBUG LINE
+
+    // if (DACi2cBus[thisDAC] == 0) {
+    //   DAC[thisDAC].begin(DACAddress[thisDAC]);          // begin each DAC on i2c bus 0
+    // } else {                                            //
+    //   DAC[thisDAC].begin(DACAddress[thisDAC], &Wire1);  // begin each DAC on i2c bus 1
+    // }
   }
   testBlink();
 
@@ -176,7 +182,7 @@ void readAllADCs() {
 void sendADCToEasel() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
     Serial.print(ADCSamplesToEasel[thisADCChannel]);
-    Serial.write(32);
+    Serial.write(32);  // Space delineated values
   }
   Serial.write(13);  // Carriage return to end the transmission
 }

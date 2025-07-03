@@ -11137,6 +11137,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 273.05 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ff7421-7927-4425-b9bc-891773a1fbd5")
+		(property "Reference" "#PWR068"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e5609fc-c857-4346-80d6-9aa2b13f2e1d")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 256.54 153.67 0)
 		(unit 1)
@@ -11332,6 +11398,72 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 273.05 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09a4d68-161b-4c48-85f6-c7f0b5b6bc40")
+		(property "Reference" "#FLG03"
+			(at 273.05 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 273.05 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e49b701-0ced-4ad1-b667-04c1494de86c")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11880,7 +12012,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "11")
 				)
@@ -11963,7 +12095,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "4")
 				)
@@ -12066,7 +12198,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "15")
 				)
@@ -12149,7 +12281,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "2")
 				)
@@ -12252,7 +12384,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "13")
 				)
@@ -12355,7 +12487,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "12")
 				)
@@ -12438,7 +12570,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "8")
 				)
@@ -12541,7 +12673,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "9")
 				)
@@ -12624,7 +12756,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "7")
 				)
@@ -12727,7 +12859,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "16")
 				)
@@ -12810,7 +12942,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "6")
 				)
@@ -12893,7 +13025,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "3")
 				)
@@ -12996,7 +13128,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "14")
 				)
@@ -13099,7 +13231,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "10")
 				)
@@ -13181,7 +13313,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "1")
 				)
@@ -13264,7 +13396,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "5")
 				)

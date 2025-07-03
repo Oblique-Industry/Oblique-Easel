@@ -2581,7 +2581,7 @@
 		)
 		(uuid "47a0c84b-57b5-4bd7-959d-38ee9b4a1c69")
 	)
-	(hierarchical_label "3v3"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 110.49 38.1 270)
 		(effects
