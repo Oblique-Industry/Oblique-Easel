@@ -4156,7 +4156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003bc385-b441-48e5-a132-c5b62080b6d2")
-		(property "Reference" "#PWR0343"
+		(property "Reference" "#PWR01"
 			(at 17.78 129.54 0)
 			(effects
 				(font
@@ -4207,7 +4207,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0343")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "121261b0-9b69-404b-899b-427d06c9e758")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR019"
 			(at 83.82 120.65 0)
 			(effects
 				(font
@@ -4273,7 +4273,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0331")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a84d7d3-9945-420f-8d95-cd2e2fef8c75")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 267.97 17.145 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cfcbd4e-6071-4875-be60-817a64af1d72")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 200.025 64.77 0)
 			(effects
 				(font
@@ -4406,7 +4406,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2118cf41-0a3b-490e-93af-0719c68d12d2")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c49bbe-925e-4552-a7f5-347b8975e4b3")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR047"
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0335")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242dcc38-fb56-4bf4-81cd-4ca9339f7a7d")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 256.54 95.2501 0)
 			(effects
 				(font
@@ -4609,7 +4609,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4625,7 +4625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b9cd0d-609a-40d2-bdf7-c07f2a492d57")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR02"
 			(at 26.67 55.88 0)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 		(instances
 			(project ""
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR034")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2626440b-a27b-4a3c-89e6-6505686c8e2f")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR042"
 			(at 170.18 55.88 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0134")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4757,7 +4757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b0c8a4-5a28-4eb5-897f-eef4d350716a")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 279.4 17.145 0)
 			(effects
 				(font
@@ -4807,7 +4807,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2adfd894-94b1-4b53-bd6e-c89d7d47a537")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -4874,7 +4874,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4890,7 +4890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d792c47-a803-4904-9a45-65e079add495")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR023"
 			(at 97.79 119.38 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0342")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea0d2e6-880e-461d-84e6-5345189b4e30")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR064"
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR072")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358ed63f-21a3-4440-96c8-4827dc4baf23")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR026"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -5139,7 +5139,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0332")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5221,7 +5221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3603b50d-2756-4f80-a982-f2846596ebe3")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 247.65 128.2699 0)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a1e5de5-b8ef-4a98-9630-0eff904e2a1b")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 248.92 92.7099 0)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a6cbe92-7551-4b4c-8000-c6b401fc0e4b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 53.34 54.61 0)
 			(effects
 				(font
@@ -5411,7 +5411,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3e9eb3-d743-42ba-a3a6-4e0036ec01a8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 170.18 129.54 0)
 			(effects
 				(font
@@ -5478,7 +5478,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5494,7 +5494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f5f4899-96a0-4a0a-b49e-1e85854cceeb")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 266.7 29.845 0)
 			(effects
 				(font
@@ -5544,7 +5544,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5559,7 +5559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "428d30f0-f0c7-4788-9be6-826519969ebc")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 197.485 54.61 0)
 			(effects
 				(font
@@ -5609,7 +5609,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5625,7 +5625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "466f253f-a8fb-4379-b9be-2178fc296969")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 223.52 129.54 0)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5692,7 +5692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472f4d93-d5ce-4c7a-96e8-28db22c393a8")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 231.14 143.51 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5759,7 +5759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47fe4cbe-ac56-452b-b11d-40da25be0553")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 143.51 129.54 0)
 			(effects
 				(font
@@ -5810,7 +5810,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5826,7 +5826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddb2f10-ec16-434d-b1b6-1c8be672a013")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR074"
 			(at 279.4 15.24 0)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR066")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5892,7 +5892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2b9f6c-dbc5-452f-8f55-e93477a7dd8e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50fc3afb-5513-46f3-a393-172e018b00be")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -6008,7 +6008,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6024,7 +6024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a94a19-fb7f-4c41-80f7-2aab899549c7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 33.02 64.77 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6091,7 +6091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ddc768-e0e8-496e-bdc5-bca1ec8f755a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR071"
 			(at 274.32 104.14 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR036")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53036550-19a1-4224-af70-a03608b39f77")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR031"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0338")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6224,7 +6224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53af8fe4-0c57-477f-9acf-1540132724e6")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR066"
 			(at 266.7 27.94 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR073")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6357,7 +6357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577d0425-7871-45b8-98cb-32ac29673167")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 34.29 119.38 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ca28f7-3b5e-4f6b-8347-8083e3dcb1e0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6747,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "615ece55-144e-4a72-9c0d-d3a2c0e2bb85")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6798,7 +6798,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621d4357-16b1-4dde-a70d-fdb5b5c66a8a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 149.86 54.61 0)
 			(effects
 				(font
@@ -6864,7 +6864,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6879,7 +6879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "636d50d5-c4f6-4ebe-82ae-90f497cc9770")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR048"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0151")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6945,7 +6945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "640ab558-fb49-4e3f-a110-7a87aad1ddc0")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 231.14 118.11 0)
 			(effects
 				(font
@@ -6996,7 +6996,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7012,7 +7012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a5021f-0a4a-4f36-b976-9afc1fe2a22e")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 279.4 105.41 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7079,7 +7079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6786d616-d7f5-4003-9542-6f114f518266")
-		(property "Reference" "#PWR0336"
+		(property "Reference" "#PWR054"
 			(at 217.17 120.65 0)
 			(effects
 				(font
@@ -7129,7 +7129,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0336")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7145,7 +7145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb0a794-4ea7-4107-bd13-71037312bc71")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 231.14 105.41 0)
 			(effects
 				(font
@@ -7196,7 +7196,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ce6f3a9-054c-4b8f-935c-4f784a2cac14")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701f52f9-6b8d-4ade-9861-8874b2c81131")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR016"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -7328,7 +7328,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR057")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7343,7 +7343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b9a02e-4ee9-4a68-a5e7-177358528998")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR08"
 			(at 44.45 119.38 0)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0340")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70bb2829-c113-4ebc-87c2-e30a15758d17")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -7459,7 +7459,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7541,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78df9d81-66c6-4a2f-8f2e-3f8fc74416a9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 196.85 129.54 0)
 			(effects
 				(font
@@ -7592,7 +7592,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7608,7 +7608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2b6c1f-38c9-433d-950a-6fdd70d80f99")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR029"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -7658,7 +7658,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0100")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7674,7 +7674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e17660e-6ebf-4671-80c2-63e65b9ef0fc")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 194.31 119.38 0)
 			(effects
 				(font
@@ -7724,7 +7724,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7740,7 +7740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9aeaa9-4c8b-4d3c-ab44-768d9d347070")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR036"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -7790,7 +7790,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0117")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9908b46f-380d-4e0b-bd0a-31d6c0f2fb3a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -7857,7 +7857,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdf30e0-2fcc-4483-978c-41f0368b409c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 279.4 130.81 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7940,7 +7940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27dc5e9-f445-435f-82e7-47ce823053ae")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 231.14 130.81 0)
 			(effects
 				(font
@@ -7991,7 +7991,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35cb090-8489-4c88-8fc1-a26e870a63aa")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR022"
 			(at 97.79 55.88 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR083")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5ee13f7-1fb6-4d7e-b608-e2a7b706efde")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR072"
 			(at 275.59 114.3 0)
 			(effects
 				(font
@@ -8122,7 +8122,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR038")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9204541-d511-425a-83d7-0c6eb359254b")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR033"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0333")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8204,7 +8204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9890d0d-9158-4c9e-bd1a-fbc36f02d771")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR040"
 			(at 163.83 120.65 0)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0334")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8270,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e4a1fb-57f7-4bcf-8010-2e5d2903c306")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 254 19.05 0)
 			(effects
 				(font
@@ -8321,7 +8321,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8336,7 +8336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaa29913-2dfd-408b-ae80-c4ed7d531fd5")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -8387,7 +8387,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8403,7 +8403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a7b2db-8b06-482c-9cf6-0b3e0764dec2")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR012"
 			(at 57.15 120.65 0)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0330")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8469,7 +8469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f16786-7f21-4bb8-8bcc-91f1de634b57")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR04"
 			(at 30.48 120.65 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0329")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8534,7 +8534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1c51c2a-f007-43b9-b08b-0961ef507a66")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR073"
 			(at 276.86 106.68 0)
 			(effects
 				(font
@@ -8585,7 +8585,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR062")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8601,7 +8601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3229c30-f500-43c5-a68c-03b469b1fab6")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR053"
 			(at 204.47 119.38 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0339")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8667,7 +8667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b952f722-2f03-4b07-bc21-2b3c130ccc50")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8733,7 +8733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5f3c19-82bf-4861-baac-38b4574ce178")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR038"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -8783,7 +8783,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0344")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8799,7 +8799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb96c12-1b82-4594-b353-3f201fff8e91")
-		(property "Reference" "#PWR0337"
+		(property "Reference" "#PWR046"
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -8850,7 +8850,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0337")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda68c34-7f76-4949-963f-978ef3840169")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR063"
 			(at 250.19 129.54 0)
 			(effects
 				(font
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR08")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9066,7 +9066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c84e45de-3a8a-4b9f-b585-57f85ab1eae7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -9116,7 +9116,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9132,7 +9132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd373801-d168-4c76-bfea-274ef48f3657")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 173.99 54.61 0)
 			(effects
 				(font
@@ -9182,7 +9182,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9198,7 +9198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf4da724-3590-46bf-9538-f4a302c3d328")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 220.98 119.38 0)
 			(effects
 				(font
@@ -9248,7 +9248,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0d06b0d-8d3a-4b09-ab66-d4c26e6a2220")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 255.27 130.8101 0)
 			(effects
 				(font
@@ -9318,11 +9318,11 @@
 		(instances
 			(project ""
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9338,7 +9338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2e2fadc-b39f-4443-9483-ce9b36f18876")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR015"
 			(at 71.12 129.54 0)
 			(effects
 				(font
@@ -9389,7 +9389,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR0341")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3ff7421-7927-4425-b9bc-891773a1fbd5")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR075"
 			(at 279.4 27.94 0)
 			(effects
 				(font
@@ -9455,7 +9455,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR068")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -9471,7 +9471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d70ff180-7345-46ff-8762-61ef67d54b3c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 256.54 160.02 0)
 			(effects
 				(font
@@ -9522,7 +9522,7 @@
 		(instances
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9538,7 +9538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7d37dc-59d4-49d6-b4dc-93500cb876a2")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR067"
 			(at 267.97 25.4 0)
 			(effects
 				(font
@@ -9589,7 +9589,7 @@
 		(instances
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR061")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9605,7 +9605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f09a4d68-161b-4c48-85f6-c7f0b5b6bc40")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 279.4 29.845 0)
 			(effects
 				(font
@@ -9655,7 +9655,7 @@
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -9918,7 +9918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff82b16b-e4cf-4409-ba42-b9595d5db19d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR09"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 		(instances
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR042")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

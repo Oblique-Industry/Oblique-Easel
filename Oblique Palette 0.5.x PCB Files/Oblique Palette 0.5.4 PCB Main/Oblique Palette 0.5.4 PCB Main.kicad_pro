@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [],
@@ -698,6 +698,38 @@
     [
       "a92755aa-291f-481b-bbbb-60e570bb5340",
       "Output8"
+    ],
+    [
+      "92a2ba2b-beb1-4849-8909-5269bbd35e6b",
+      "Servo2"
+    ],
+    [
+      "264c6bc9-b813-402b-a789-8b4ad4c0574f",
+      "Servo1"
+    ],
+    [
+      "c28bda45-570c-42cb-b4a3-0f1890277eeb",
+      "Servo3"
+    ],
+    [
+      "873df1a4-5c0d-4a85-963d-dfb581eec1df",
+      "Servo4"
+    ],
+    [
+      "5225e1e9-803e-4115-8333-410239679d8a",
+      "Servo5"
+    ],
+    [
+      "cbf9d742-848a-4b19-8d36-d964850feef8",
+      "Servo6"
+    ],
+    [
+      "4741897c-b21d-41a5-80df-f4d97359d1cd",
+      "Servo7"
+    ],
+    [
+      "4b78c912-1c8a-41db-913e-44c7cc22a08b",
+      "Servo8"
     ]
   ],
   "text_variables": {}

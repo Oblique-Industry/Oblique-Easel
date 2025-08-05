@@ -1153,6 +1153,280 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N5817"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5817"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5817_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5817_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi_and_Boards:Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2503,58 +2777,28 @@
 		(uuid "055f4486-a1a3-4fe0-92c9-20608184aac6")
 	)
 	(junction
-		(at 33.02 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "119ecf7e-22ca-423d-82c8-be0d4bb8a3ad")
-	)
-	(junction
-		(at 147.32 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c055135-938c-4c20-b34e-8d034075dffb")
-	)
-	(junction
-		(at 193.04 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "230749b9-ed12-43b3-b0e7-c6550410aae4")
-	)
-	(junction
-		(at 101.6 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aa7038b-4da5-4f3d-8435-681fcfb8817d")
-	)
-	(junction
 		(at 187.96 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33e35387-5a66-46b6-b250-b8e85e6042ab")
+		(uuid "37b3b7b2-3258-453c-9686-28b96d9f2ae3")
 	)
 	(junction
-		(at 49.53 154.94)
+		(at 127 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48ec137a-4d9f-48a1-8b6a-a6f3a8cd0959")
-	)
-	(junction
-		(at 119.38 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e3d6079-869e-4158-ad55-e42064b18a09")
-	)
-	(junction
-		(at 165.1 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63d22966-8f23-417b-abb0-d3625bb41acd")
+		(uuid "43e72931-b6da-4a4c-9332-f39c7433e2a6")
 	)
 	(junction
 		(at 142.24 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6dffd9c0-2407-4ca4-8fdd-4b4cb18a9b12")
+		(uuid "4e2e4c95-27d0-4f51-a760-d85e817d1fb7")
+	)
+	(junction
+		(at 72.39 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f3b0c9a-9216-472b-b7d9-a25fd01ee694")
 	)
 	(junction
 		(at 27.94 154.94)
@@ -2563,108 +2807,152 @@
 		(uuid "750b1b0d-cce2-460c-a92f-32223b669b8a")
 	)
 	(junction
-		(at 72.39 154.94)
+		(at 35.56 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ed2ef99-e597-44f3-9988-d7edcdaa6261")
+		(uuid "75721229-407d-468e-a12b-f1747c54041b")
 	)
 	(junction
-		(at 77.47 147.32)
+		(at 172.72 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a81a297a-cf8e-463a-bfe5-5c2da219eb48")
+		(uuid "916703ff-ba94-4ef4-a758-c5266f1e5216")
 	)
 	(junction
-		(at 54.61 147.32)
+		(at 80.01 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b27adbb9-fae8-4b90-aafe-8cf5b9015fe1")
+		(uuid "a98936b1-0b00-420d-8822-3f4fba5d9d01")
 	)
 	(junction
-		(at 124.46 147.32)
+		(at 195.58 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6c5654b-bc2f-4467-ae5b-dbbd2d53f3fb")
+		(uuid "a9aa7a45-6722-4deb-a935-3ca97af70ab3")
 	)
 	(junction
-		(at 170.18 147.32)
+		(at 62.23 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da90082d-f123-4786-8a9a-b9143399bfff")
+		(uuid "bba202fa-4f60-465c-a5de-109cf1dfe423")
+	)
+	(junction
+		(at 104.14 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf411d5b-608c-4898-adbf-7b84b0e66e59")
+	)
+	(junction
+		(at 250.19 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c152a52e-ca6d-4ba1-899a-2aef1a01c281")
+	)
+	(junction
+		(at 165.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f92c90-d935-442e-a95c-6376118adcaf")
+	)
+	(junction
+		(at 119.38 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccc9da5a-effe-457e-bdda-b636be4a5dde")
+	)
+	(junction
+		(at 49.53 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd6ddec-12e3-49fc-889e-9d1021d2ec62")
+	)
+	(junction
+		(at 149.86 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd81628-7196-411a-8b0b-988a44552ca6")
+	)
+	(junction
+		(at 57.15 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd4b43ad-70c2-4238-80fc-795146c39675")
+	)
+	(junction
+		(at 251.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37ef1a6-aaf4-44df-a347-2456f4ca0bad")
 	)
 	(junction
 		(at 96.52 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7c18b68-7e88-4fc7-ae2b-8e97b25d673d")
+		(uuid "e5f8bd38-3090-42e9-9325-46ed4ee81a5d")
 	)
 	(no_connect
-		(at 238.76 138.43)
+		(at 237.49 138.43)
 		(uuid "091daacc-5bb3-4851-a632-3c0709eb2dc5")
 	)
 	(no_connect
-		(at 254 153.67)
+		(at 252.73 153.67)
 		(uuid "1567d0bf-66a8-4479-9cce-260e317e1c51")
 	)
 	(no_connect
-		(at 274.32 148.59)
+		(at 273.05 148.59)
 		(uuid "3257ffdc-4051-41e4-b0dc-8d2e59c083ef")
 	)
 	(no_connect
-		(at 274.32 120.65)
+		(at 273.05 120.65)
 		(uuid "6860d190-0b0a-48c2-acf2-0e9329ab21c5")
 	)
 	(no_connect
-		(at 274.32 118.11)
+		(at 273.05 118.11)
 		(uuid "84a36d86-2efb-428c-97dd-380afbe517d4")
 	)
 	(no_connect
-		(at 274.32 123.19)
+		(at 273.05 123.19)
 		(uuid "8d69f70e-5370-4b83-90d8-c60e1fae7019")
 	)
 	(no_connect
-		(at 274.32 125.73)
+		(at 273.05 125.73)
 		(uuid "8f931907-9c49-4dbf-8a46-b7fa8751cf3e")
 	)
 	(no_connect
-		(at 274.32 138.43)
+		(at 273.05 138.43)
 		(uuid "91b5fd5d-0858-4aba-aca7-26efbfe78262")
 	)
 	(no_connect
-		(at 274.32 107.95)
+		(at 273.05 107.95)
 		(uuid "93a855f3-db8a-42b3-914d-c8beff8110c1")
 	)
 	(no_connect
-		(at 238.76 148.59)
+		(at 237.49 148.59)
 		(uuid "991f77df-cf27-4602-afc4-a4990b4e3302")
 	)
 	(no_connect
-		(at 238.76 140.97)
+		(at 237.49 140.97)
 		(uuid "9f6e9da0-5366-4f65-a0c1-dbc0b3c4822f")
 	)
 	(no_connect
-		(at 259.08 153.67)
+		(at 257.81 153.67)
 		(uuid "a34a7e59-cf25-46a2-a6b6-ad7dc06dfb8e")
 	)
 	(no_connect
-		(at 274.32 140.97)
+		(at 273.05 140.97)
 		(uuid "d5dd897b-bba7-442d-8ba6-eba20244ac85")
 	)
 	(no_connect
-		(at 274.32 128.27)
+		(at 273.05 128.27)
 		(uuid "eb1c3d74-308b-4758-9807-16ef21631125")
 	)
 	(no_connect
-		(at 238.76 146.05)
+		(at 237.49 146.05)
 		(uuid "f85e05ed-16ae-4f52-907a-36dc68aab690")
 	)
 	(no_connect
-		(at 274.32 113.03)
+		(at 273.05 113.03)
 		(uuid "f874a7a4-25aa-4abb-84ca-37baca6670a3")
-	)
-	(no_connect
-		(at 274.32 102.87)
-		(uuid "ffb32fcb-7a31-47ed-be73-de91f2786130")
 	)
 	(wire
 		(pts
@@ -2678,23 +2966,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 149.86) (xy 119.38 154.94)
+			(xy 165.1 148.59) (xy 165.1 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0148ddfa-d4ee-4023-bab8-64332f8cb9df")
-	)
-	(wire
-		(pts
-			(xy 187.96 147.32) (xy 193.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054dbafa-d311-4e2c-9633-167435077708")
+		(uuid "038d6cc2-386b-43b2-af40-98036875cbf0")
 	)
 	(wire
 		(pts
@@ -2705,16 +2983,6 @@
 			(type default)
 		)
 		(uuid "0aed25a8-e322-493c-be03-b424225ebb8a")
-	)
-	(wire
-		(pts
-			(xy 54.61 147.32) (xy 62.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1bc2c5-89bd-41ff-b554-9a762c3cea10")
 	)
 	(wire
 		(pts
@@ -2738,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 154.94) (xy 77.47 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e2fb491-4510-44c2-a110-e73dc2ec4173")
-	)
-	(wire
-		(pts
 			(xy 165.1 119.38) (xy 165.1 118.11)
 		)
 		(stroke
@@ -2758,23 +3016,53 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 147.32) (xy 170.18 147.32)
+			(xy 72.39 148.59) (xy 72.39 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11c6d76c-6050-494c-971c-aff1acbda92d")
+		(uuid "0e890885-2f58-4666-9046-d4e86517751d")
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 154.94 147.32)
+			(xy 57.15 148.59) (xy 57.15 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "120bd5d5-684f-40f8-a8d8-0b130ac43d4f")
+		(uuid "0e8dd600-1e20-49b8-9ead-cdcba12bb38b")
+	)
+	(wire
+		(pts
+			(xy 172.72 147.32) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa5d47a-4a4b-47b3-9525-6dbb21724c7e")
+	)
+	(wire
+		(pts
+			(xy 251.46 100.33) (xy 237.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102e74cc-6327-461b-9b2e-c2cfdbf43ba1")
+	)
+	(wire
+		(pts
+			(xy 172.72 148.59) (xy 172.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10558634-ee59-4bb7-a8fb-dd3809427b89")
 	)
 	(wire
 		(pts
@@ -2788,6 +3076,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 102.87) (xy 237.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1667910a-ed1d-44bd-8f5a-f10d718689a8")
+	)
+	(wire
+		(pts
+			(xy 149.86 148.59) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17228465-9326-4fe1-8cac-eab0c5772b99")
+	)
+	(wire
+		(pts
 			(xy 186.69 64.77) (xy 205.74 64.77)
 		)
 		(stroke
@@ -2795,6 +3103,46 @@
 			(type default)
 		)
 		(uuid "18e69c1a-c8d5-415e-9b31-8c98b3dcc10d")
+	)
+	(wire
+		(pts
+			(xy 49.53 149.86) (xy 49.53 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1964aa55-bff8-4bda-a1a0-75ecdc413e72")
+	)
+	(wire
+		(pts
+			(xy 187.96 148.59) (xy 187.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae5a098-5add-4075-8675-85a7319e56c3")
+	)
+	(wire
+		(pts
+			(xy 254 97.79) (xy 254 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bad7e88-b119-42e0-9282-8a05fd637e93")
+	)
+	(wire
+		(pts
+			(xy 104.14 148.59) (xy 104.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7f5584-b285-419b-9ac1-dfc043f090ad")
 	)
 	(wire
 		(pts
@@ -2818,13 +3166,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 147.32) (xy 124.46 147.32)
+			(xy 104.14 148.59) (xy 104.14 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f8be70a-dca2-429b-8598-81d1501adffd")
+		(uuid "1f52f614-262c-4c02-99ab-6de99cc29e70")
 	)
 	(wire
 		(pts
@@ -2838,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 153.67) (xy 256.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22555f19-2279-474f-bc1f-f59a16274a6c")
+	)
+	(wire
+		(pts
 			(xy 213.36 31.75) (xy 213.36 68.58)
 		)
 		(stroke
@@ -2848,6 +3206,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 148.59) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265f4fa1-1980-4162-a47e-d2a3fd506f28")
+	)
+	(wire
+		(pts
+			(xy 57.15 148.59) (xy 57.15 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f12882-28e9-4ae5-99e8-36fe1879b677")
+	)
+	(wire
+		(pts
 			(xy 208.28 26.67) (xy 208.28 66.04)
 		)
 		(stroke
@@ -2855,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "2ac28005-7085-42a0-83c8-f1bdef1728d7")
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c13afbd-e3c2-4f05-997f-64c7f617fa2e")
 	)
 	(wire
 		(pts
@@ -2878,26 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 147.32) (xy 177.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da780e2-25b3-44bd-83c5-24d22ff950a5")
-	)
-	(wire
-		(pts
-			(xy 96.52 147.32) (xy 101.6 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef5e3d6-5189-4f1d-9f8e-135b0305dcd2")
-	)
-	(wire
-		(pts
 			(xy 210.82 29.21) (xy 210.82 67.31)
 		)
 		(stroke
@@ -2905,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "2fa81724-f901-4565-ad0c-c18a9dc4f541")
-	)
-	(wire
-		(pts
-			(xy 147.32 147.32) (xy 147.32 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcaac6e-94eb-4e3c-9ff4-51c28eba6ee2")
 	)
 	(wire
 		(pts
@@ -2928,13 +3286,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 147.32) (xy 101.6 149.86)
+			(xy 187.96 149.86) (xy 187.96 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34d0554c-2cd7-4293-9082-97d2568147ca")
+		(uuid "349b73c0-0b30-4332-85b5-7ee6eda92db8")
 	)
 	(wire
 		(pts
@@ -2958,16 +3316,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 147.32) (xy 33.02 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9e0ee3-2692-45d8-b9af-a10ac7cb0187")
-	)
-	(wire
-		(pts
 			(xy 281.94 46.99) (xy 281.94 135.89)
 		)
 		(stroke
@@ -2988,13 +3336,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 147.32) (xy 170.18 149.86)
+			(xy 172.72 148.59) (xy 172.72 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ebc0ca5-9642-4a16-b8dc-c0e254fb82ef")
+		(uuid "4306a2fa-6b89-4781-af50-adc4bc93582a")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438de660-1ef0-4e28-863b-acded7f04244")
+	)
+	(wire
+		(pts
+			(xy 252.73 125.73) (xy 250.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b18872-6354-483f-affe-2d3fd774e737")
 	)
 	(wire
 		(pts
@@ -3008,17 +3376,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 154.94) (xy 124.46 154.94)
+			(xy 96.52 149.86) (xy 96.52 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "453ec385-9d61-4d9a-bb36-a536c396dcd1")
+		(uuid "45f8d80b-30d7-4a77-8dea-e975d25f9af2")
 	)
 	(wire
 		(pts
-			(xy 27.94 154.94) (xy 33.02 154.94)
+			(xy 27.94 154.94) (xy 35.56 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3035,16 +3403,6 @@
 			(type default)
 		)
 		(uuid "47ea3e48-2834-47b4-bd03-2838dc1aebe7")
-	)
-	(wire
-		(pts
-			(xy 33.02 147.32) (xy 40.64 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481dd315-2d5c-47bc-95fb-3cb13867a529")
 	)
 	(wire
 		(pts
@@ -3078,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 148.59) (xy 149.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de181e1-45ad-4a86-9ae7-d5cbf5e24d02")
+	)
+	(wire
+		(pts
 			(xy 26.67 59.69) (xy 26.67 58.42)
 		)
 		(stroke
@@ -3098,33 +3466,43 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 154.94) (xy 170.18 154.94)
+			(xy 149.86 147.32) (xy 154.94 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "571b0b27-7db6-4571-8962-33357aa53a57")
+		(uuid "54abc6e2-bdaa-4c2c-93ee-be412d7e185a")
 	)
 	(wire
 		(pts
-			(xy 27.94 147.32) (xy 33.02 147.32)
+			(xy 251.46 97.79) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "586125fb-ae40-4ea0-ae53-5cabbf31e254")
+		(uuid "56303a2b-640f-496b-a0b1-b896f61cfb8b")
 	)
 	(wire
 		(pts
-			(xy 142.24 149.86) (xy 142.24 154.94)
+			(xy 237.49 135.89) (xy 252.73 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eba49a4-932c-4358-bc2e-ae4d31abf504")
+		(uuid "584f154d-bb93-4994-8363-0507645f69b1")
+	)
+	(wire
+		(pts
+			(xy 273.05 102.87) (xy 276.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c38a2a2-6cdc-4f9d-8817-9844b9956350")
 	)
 	(wire
 		(pts
@@ -3148,23 +3526,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 147.32) (xy 193.04 149.86)
+			(xy 80.01 148.59) (xy 80.01 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "617ff819-34fe-4782-98a7-6315575bf8c8")
+		(uuid "61c89eed-45ed-4941-b8bf-d89f28466618")
 	)
 	(wire
 		(pts
-			(xy 49.53 149.86) (xy 49.53 154.94)
+			(xy 57.15 147.32) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62c07458-be14-46f0-8892-722ae28b0781")
+		(uuid "649b0ff9-8c26-4fc3-8fd6-5422ab986a9c")
 	)
 	(wire
 		(pts
@@ -3178,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 147.32) (xy 54.61 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677b4767-996e-4297-8729-c7369cc65a4d")
-	)
-	(wire
-		(pts
 			(xy 232.41 26.67) (xy 208.28 26.67)
 		)
 		(stroke
@@ -3195,6 +3563,36 @@
 			(type default)
 		)
 		(uuid "6adb4167-f799-48e9-9347-9eb41536a846")
+	)
+	(wire
+		(pts
+			(xy 27.94 148.59) (xy 27.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e015a71-a3f2-4c15-b9ae-34e4d9267251")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 165.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0d9862-672a-470c-a6e8-923f9c343586")
+	)
+	(wire
+		(pts
+			(xy 195.58 147.32) (xy 200.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ca12b2-2ee4-4fc5-9db6-2ce2d405fce4")
 	)
 	(wire
 		(pts
@@ -3208,27 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 147.32) (xy 77.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "725017b0-72cb-45bf-9ebe-1cd1776123ff")
-	)
-	(wire
-		(pts
-			(xy 187.96 149.86) (xy 187.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b12c21-a7ea-4265-b365-20c84b4526c6")
-	)
-	(wire
-		(pts
-			(xy 274.32 133.35) (xy 280.67 133.35)
+			(xy 273.05 133.35) (xy 280.67 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3238,13 +3616,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 147.32) (xy 85.09 147.32)
+			(xy 252.73 135.89) (xy 252.73 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "833ae136-63b3-410d-96e9-2d1dc8cfe682")
+		(uuid "82038dd7-ba11-41ea-9233-d049ade5c3a7")
 	)
 	(wire
 		(pts
@@ -3268,6 +3646,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 148.59) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85af3a7e-69e4-4c67-b11b-0ded03b98288")
+	)
+	(wire
+		(pts
 			(xy 257.81 39.37) (xy 279.4 39.37)
 		)
 		(stroke
@@ -3288,17 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 154.94) (xy 147.32 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c625f61-271b-43e3-9820-183f9c440521")
-	)
-	(wire
-		(pts
-			(xy 274.32 146.05) (xy 283.21 146.05)
+			(xy 273.05 146.05) (xy 283.21 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3712,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "944ed895-5699-4bb6-9277-e923ac03fa66")
+		(uuid "91f31a5f-9f3f-4427-bc95-1f82fb9b2a24")
+	)
+	(wire
+		(pts
+			(xy 195.58 148.59) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925ac12a-d74a-416e-8e8d-e4812fb79841")
+	)
+	(wire
+		(pts
+			(xy 142.24 149.86) (xy 142.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a161f7-3e64-4660-b520-06777c5e4478")
 	)
 	(wire
 		(pts
@@ -3358,7 +3756,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 135.89) (xy 281.94 135.89)
+			(xy 195.58 148.59) (xy 195.58 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a462f50-296a-4d1b-9608-a35e49f206dc")
+	)
+	(wire
+		(pts
+			(xy 273.05 135.89) (xy 281.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3368,43 +3776,33 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 154.94) (xy 193.04 154.94)
+			(xy 165.1 154.94) (xy 172.72 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce8c216-a9d5-4ceb-8a32-0c2064281ab2")
+		(uuid "9a74fffc-62e9-45d7-96a0-6f77d76dfcfe")
 	)
 	(wire
 		(pts
-			(xy 54.61 147.32) (xy 54.61 149.86)
+			(xy 49.53 148.59) (xy 49.53 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4fc0e3c-9b96-4873-8bd7-242a4308ddbe")
+		(uuid "9aff49f3-b534-4d1b-8cae-db0267d0657a")
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 101.6 154.94)
+			(xy 119.38 149.86) (xy 119.38 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8777ee9-8d1d-42e2-8a4a-d6cdc35ee9e2")
-	)
-	(wire
-		(pts
-			(xy 142.24 147.32) (xy 147.32 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a926d091-da1c-4c04-bc86-ba24e2a5611d")
+		(uuid "a5b9f7f4-4853-4fba-9c6a-10e6fa39f314")
 	)
 	(wire
 		(pts
@@ -3418,13 +3816,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 132.08 147.32)
+			(xy 35.56 148.59) (xy 35.56 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab6888b4-1b6a-42c5-833e-bc4d44beb030")
+		(uuid "ab41078c-851d-4582-a6ff-5d19b47a8a74")
 	)
 	(wire
 		(pts
@@ -3438,6 +3836,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 147.32) (xy 109.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5aa151-96c5-4e62-9f4c-76da9eca1082")
+	)
+	(wire
+		(pts
 			(xy 280.67 49.53) (xy 280.67 133.35)
 		)
 		(stroke
@@ -3448,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 110.49) (xy 276.86 110.49)
+			(xy 273.05 110.49) (xy 275.59 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3475,6 +3883,16 @@
 			(type default)
 		)
 		(uuid "b82b44a9-f42b-4ecb-affc-1f0a47888ca0")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 40.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b867ed20-3a07-4305-881d-8bb3e1194b5e")
 	)
 	(wire
 		(pts
@@ -3508,13 +3926,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 54.61 154.94)
+			(xy 251.46 90.17) (xy 254 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8fa4786-b7d0-4b98-8681-2858c5162954")
+		(uuid "c6f8ecd3-d4d1-4765-b1ea-1e48af225452")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 142.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93d3ef1-cc2d-4e68-8881-49145a1990a5")
 	)
 	(wire
 		(pts
@@ -3538,6 +3966,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 147.32) (xy 85.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd865b00-8fb5-4540-98da-6c41dfa94c02")
+	)
+	(wire
+		(pts
 			(xy 17.78 58.42) (xy 17.78 73.66)
 		)
 		(stroke
@@ -3548,13 +3986,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 147.32) (xy 109.22 147.32)
+			(xy 274.32 100.33) (xy 273.05 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d24e3ab8-5310-43e7-9b03-47ac6651e073")
+		(uuid "cf967873-c9af-460e-91b6-75f96bb5de6f")
 	)
 	(wire
 		(pts
@@ -3568,13 +4006,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 147.32) (xy 200.66 147.32)
+			(xy 119.38 154.94) (xy 127 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d545e746-c38c-46f4-a782-9b02674ab750")
+		(uuid "d2f5077e-1ba3-4570-afac-61a08dc02ca8")
 	)
 	(wire
 		(pts
@@ -3588,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 154.94) (xy 80.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d969635a-532c-45c3-95a3-e7da798f716e")
+	)
+	(wire
+		(pts
 			(xy 64.77 71.12) (xy 218.44 71.12)
 		)
 		(stroke
@@ -3595,16 +4043,6 @@
 			(type default)
 		)
 		(uuid "db58462f-5085-4070-bd30-b537479dc14a")
-	)
-	(wire
-		(pts
-			(xy 96.52 149.86) (xy 96.52 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd280a7-ac6d-4b31-8c39-a69d3b04eb13")
 	)
 	(wire
 		(pts
@@ -3628,6 +4066,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 154.94) (xy 57.15 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d79dc0-6087-4cf8-9348-4097094f3a70")
+	)
+	(wire
+		(pts
 			(xy 232.41 29.21) (xy 210.82 29.21)
 		)
 		(stroke
@@ -3635,6 +4083,46 @@
 			(type default)
 		)
 		(uuid "e255587d-a387-477b-8554-8fffbeacfd45")
+	)
+	(wire
+		(pts
+			(xy 96.52 154.94) (xy 104.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2668740-dbeb-4cd4-979f-4089183744fe")
+	)
+	(wire
+		(pts
+			(xy 35.56 148.59) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e424789c-33d9-41c1-b50f-6ec888621062")
+	)
+	(wire
+		(pts
+			(xy 127 147.32) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e451c13d-9b4f-4b1d-b97a-c84294aa132d")
+	)
+	(wire
+		(pts
+			(xy 142.24 154.94) (xy 149.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ac04cf-a418-4e68-bc4a-a2ce2dfcb87f")
 	)
 	(wire
 		(pts
@@ -3648,13 +4136,33 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 115.57) (xy 274.32 115.57)
+			(xy 80.01 148.59) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdaa787-5b59-4a62-b242-23a270ad614e")
+	)
+	(wire
+		(pts
+			(xy 279.4 115.57) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edd4572e-2450-4dc6-9aef-28f8d588d9c7")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 250.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01c99e0-b864-4003-96ae-0df36d454468")
 	)
 	(wire
 		(pts
@@ -3668,16 +4176,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 149.86) (xy 165.1 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f471e530-337f-4551-b277-88206e3758c9")
-	)
-	(wire
-		(pts
 			(xy 218.44 119.38) (xy 218.44 118.11)
 		)
 		(stroke
@@ -3688,23 +4186,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 124.46 149.86)
+			(xy 127 148.59) (xy 127 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f725dcca-a928-4fb4-9ffe-5fe0875af707")
-	)
-	(wire
-		(pts
-			(xy 77.47 147.32) (xy 77.47 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa92808b-06ad-4a63-aa82-38b20354ee6a")
+		(uuid "f83108d4-5347-436c-9113-6661cd48f54a")
 	)
 	(wire
 		(pts
@@ -3728,7 +4216,7 @@
 	)
 	(global_label "SCL_1"
 		(shape input)
-		(at 160.02 118.11 270)
+		(at 156.21 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3738,7 +4226,7 @@
 		)
 		(uuid "025d545d-ccf1-4b2d-ae76-5805d8084a62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 126.7799 90)
+			(at 156.21 126.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +4238,7 @@
 	)
 	(global_label "SERVO_7"
 		(shape input)
-		(at 238.76 125.73 180)
+		(at 237.49 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3760,7 +4248,7 @@
 		)
 		(uuid "045329a4-4a39-4443-ac51-9d77a6f43f71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 125.73 0)
+			(at 226.2801 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +4260,7 @@
 	)
 	(global_label "SDA_1"
 		(shape input)
-		(at 156.21 118.11 270)
+		(at 160.02 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3782,7 +4270,7 @@
 		)
 		(uuid "069bddba-98e0-4e7e-9ae4-c73d0953a8a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 126.8404 90)
+			(at 160.02 126.8404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +4348,7 @@
 	)
 	(global_label "SDA_1"
 		(shape input)
-		(at 129.54 118.11 270)
+		(at 133.35 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3870,7 +4358,7 @@
 		)
 		(uuid "17f2e4f6-206e-4d91-8d15-4d86878711c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 126.8404 90)
+			(at 133.35 126.8404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,8 +4370,7 @@
 	)
 	(global_label "SDA_1"
 		(shape input)
-		(at 238.76 133.35 180)
-		(fields_autoplaced yes)
+		(at 237.49 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3892,19 +4379,19 @@
 		)
 		(uuid "1c722fcf-4283-4e28-b5dc-81fa2c815ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0296 133.35 0)
+			(at 250.19 134.7796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SERVO_1"
 		(shape input)
-		(at 238.76 107.95 180)
+		(at 237.49 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3914,7 +4401,7 @@
 		)
 		(uuid "2a16f174-01c0-4268-a7db-d006da37464d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 107.95 0)
+			(at 226.2801 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4457,7 @@
 	)
 	(global_label "SERVO_4"
 		(shape input)
-		(at 238.76 115.57 180)
+		(at 237.49 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3980,7 +4467,7 @@
 		)
 		(uuid "38b3ebb6-8d22-4835-80a8-3fbfc59278b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 115.57 0)
+			(at 226.2801 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4501,7 @@
 	)
 	(global_label "SERVO_8"
 		(shape input)
-		(at 238.76 128.27 180)
+		(at 237.49 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4024,7 +4511,7 @@
 		)
 		(uuid "5efc4ea7-5d98-44f0-a03f-18e705d908ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 128.27 0)
+			(at 226.2801 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4523,7 @@
 	)
 	(global_label "SDA_1"
 		(shape input)
-		(at 209.55 118.11 270)
+		(at 213.36 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4046,7 +4533,7 @@
 		)
 		(uuid "68f1574a-796a-4632-a6eb-08215ff97eea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 126.8404 90)
+			(at 213.36 126.8404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4545,7 @@
 	)
 	(global_label "SDA_1"
 		(shape input)
-		(at 182.88 118.11 270)
+		(at 186.69 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4068,7 +4555,7 @@
 		)
 		(uuid "6ba87489-cded-4ab7-9e89-5e8c4c69f763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 126.8404 90)
+			(at 186.69 126.8404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4567,7 @@
 	)
 	(global_label "SERVO_2"
 		(shape input)
-		(at 238.76 110.49 180)
+		(at 237.49 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4090,7 +4577,7 @@
 		)
 		(uuid "70bae4f4-ae46-4f54-9d59-ff02d462dd8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 110.49 0)
+			(at 226.2801 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4589,7 @@
 	)
 	(global_label "SERVO_5"
 		(shape input)
-		(at 238.76 120.65 180)
+		(at 237.49 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4112,7 +4599,7 @@
 		)
 		(uuid "848f512e-cbdf-4a1b-9e0e-2a0faf58b224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 120.65 0)
+			(at 226.2801 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4633,7 @@
 	)
 	(global_label "SCL_0"
 		(shape input)
-		(at 238.76 102.87 180)
+		(at 237.49 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4156,7 +4643,7 @@
 		)
 		(uuid "8c156df6-d0df-4308-a82a-45f3c91cebc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0901 102.87 0)
+			(at 228.8201 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4655,7 @@
 	)
 	(global_label "SCL_1"
 		(shape input)
-		(at 213.36 118.11 270)
+		(at 209.55 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4178,7 +4665,7 @@
 		)
 		(uuid "8d3222f8-d6ee-43e9-bfb8-efc1c072f088")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 126.7799 90)
+			(at 209.55 126.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4677,7 @@
 	)
 	(global_label "SERVO_6"
 		(shape input)
-		(at 238.76 123.19 180)
+		(at 237.49 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4200,7 +4687,7 @@
 		)
 		(uuid "95455551-93e3-4716-8539-dee7a5dea87d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 123.19 0)
+			(at 226.2801 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4765,7 @@
 	)
 	(global_label "SDA_0"
 		(shape input)
-		(at 238.76 100.33 180)
+		(at 237.49 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4288,7 +4775,7 @@
 		)
 		(uuid "b8bef3e3-2791-45ad-a236-b7eedf884ce4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0296 100.33 0)
+			(at 228.7596 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4831,7 @@
 	)
 	(global_label "SCL_1"
 		(shape input)
-		(at 133.35 118.11 270)
+		(at 129.54 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4354,7 +4841,7 @@
 		)
 		(uuid "d449c31f-166b-4eff-a732-a2cd923a81a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 126.7799 90)
+			(at 129.54 126.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4919,7 @@
 	)
 	(global_label "SCL_1"
 		(shape input)
-		(at 186.69 118.11 270)
+		(at 182.88 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4442,7 +4929,7 @@
 		)
 		(uuid "f074dab3-207d-437c-b94f-1282c1b4c97a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 126.7799 90)
+			(at 182.88 126.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,8 +4941,7 @@
 	)
 	(global_label "SCL_1"
 		(shape input)
-		(at 238.76 135.89 180)
-		(fields_autoplaced yes)
+		(at 237.49 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,12 +4950,12 @@
 		)
 		(uuid "f429cf25-1820-43cb-907c-44efe634b4c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0901 135.89 0)
+			(at 247.65 134.8401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4498,7 +4984,7 @@
 	)
 	(global_label "SERVO_3"
 		(shape input)
-		(at 238.76 113.03 180)
+		(at 237.49 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4508,7 +4994,7 @@
 		)
 		(uuid "fcff8d09-ad52-4516-b2f3-167d151555b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5501 113.03 0)
+			(at 226.2801 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,76 +5072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 54.61 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01bbec43-393e-4d00-af06-79e06a1e3011")
-		(property "Reference" "C2"
-			(at 57.15 150.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 57.15 153.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b1317c6-2478-435e-9e6f-7ec2a449aed2")
-		)
-		(pin "1"
-			(uuid "623ac885-1608-4666-96e1-dff3beb61517")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 27.94 154.94 0)
 		(unit 1)
@@ -4723,17 +5139,84 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 101.6 152.4 0)
+		(lib_id "power:GNDREF")
+		(at 187.96 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b1e8897-e4e3-4846-b999-51076b8983e7")
-		(property "Reference" "C4"
-			(at 104.14 150.5838 0)
+		(uuid "063701ab-3432-459a-aa6a-eaf33d14a52b")
+		(property "Reference" "#PWR031"
+			(at 187.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 187.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f8d22a-4d22-4464-ae0d-775ff5bf350a")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 80.01 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0779c522-6b8c-46fb-ba28-9b27684b818e")
+		(property "Reference" "C3"
+			(at 82.55 150.5838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,8 +5224,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 104.14 153.1238 0)
+		(property "Value" "1mF"
+			(at 82.55 153.1238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 101.6 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +5252,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 101.6 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,15 +5261,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "579180cb-1c30-4f00-9da2-de51ea77a001")
+			(uuid "ff1f9b8f-8ff9-445d-9315-1e8855e60b60")
 		)
 		(pin "1"
-			(uuid "bf6bbcd0-ff34-46ab-8a98-7c116d88d625")
+			(uuid "03bd8d8f-25b0-4a43-9895-2c86211d9a9e")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C4")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 72.39 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce53fb0-e4a5-47da-96bc-f1d85deb6451")
+		(property "Reference" "#PWR090"
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 72.39 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f06834bb-b373-418d-beee-dbe8a74ed340")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -4876,8 +5426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 38.354 148.59 0)
+		(property "Value" "Vser"
+			(at 38.862 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5484,7 @@
 		(dnp no)
 		(uuid "16ce81de-1174-4b74-9ab7-491ccfeabbde")
 		(property "Reference" "J4"
-			(at 45.085 139.7 0)
+			(at 44.45 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5492,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 45.085 142.24 0)
+			(at 44.45 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,16 +5678,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 85.09 147.32 0)
+		(lib_id "Diode:1N5817")
+		(at 146.05 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "209a2402-937c-4f72-8e2d-e4414c9a80a6")
-		(property "Reference" "#PWR022"
-			(at 85.09 151.13 0)
+		(uuid "1fd7823f-c5c0-4aa7-9459-cc62a1e748f2")
+		(property "Reference" "D31"
+			(at 144.018 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 146.05 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,17 +5711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 83.058 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 147.32 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,17 +5720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 85.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 85.09 147.32 0)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,12 +5730,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "97ab9743-531b-442e-a29c-79f2364c297c")
+			(uuid "6a1271cc-523c-43cb-b363-a01dd591f71d")
+		)
+		(pin "2"
+			(uuid "2c80972a-a61b-4fa5-b3dc-db296d9c9901")
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR022")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5195,7 +5746,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 143.51 90)
+		(at 273.05 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5204,15 +5755,6 @@
 		(fields_autoplaced yes)
 		(uuid "2118cf41-0a3b-490e-93af-0719c68d12d2")
 		(property "Reference" "#PWR065"
-			(at 280.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -5221,8 +5763,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GNDREF"
+			(at 278.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 274.32 143.51 0)
+			(at 273.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 143.51 0)
+			(at 273.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 143.51 0)
+			(at 273.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,6 +5806,73 @@
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 53.34 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "219c765f-3b33-431f-87da-4590929e80d7")
+		(property "Reference" "D7"
+			(at 51.308 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 53.34 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.34 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d13865af-dfeb-4b06-b6ce-9420bf113faa")
+		)
+		(pin "2"
+			(uuid "010cb86f-2d39-4374-a80e-5e410cfe03f0")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5321,6 +5939,76 @@
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "242dcc38-fb56-4bf4-81cd-4ca9339f7a7d")
+		(property "Reference" "R10"
+			(at 256.54 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33k"
+			(at 256.54 92.7101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 252.222 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce05e33-c42c-4ca0-ae3f-f56dfab05327")
+		)
+		(pin "2"
+			(uuid "1b14cba2-62e0-449d-acb4-be0fcdba243a")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5592,6 +6280,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 165.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b8b522a-8bd2-4a1d-882f-099bdde88a08")
+		(property "Reference" "#PWR022"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67eacdf6-856b-47cc-aec7-24e173834f61")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 99.06 118.11 180)
 		(unit 1)
@@ -5658,6 +6413,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 251.46 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea0d2e6-880e-461d-84e6-5345189b4e30")
+		(property "Reference" "#PWR072"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e7bd1f-739a-4d90-87b3-9eceedba5608")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 22.86 147.32 0)
 		(unit 1)
@@ -5667,7 +6488,7 @@
 		(dnp no)
 		(uuid "2f8863b1-64a7-4c4b-9907-c8f9b06313d7")
 		(property "Reference" "J2"
-			(at 23.495 139.7 0)
+			(at 22.86 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +6496,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 23.495 142.24 0)
+			(at 22.86 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,17 +6748,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 96.52 154.94 0)
+		(lib_id "Device:R")
+		(at 250.19 129.54 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3844f83f-e49d-4cb9-b021-30c9fad1eabf")
-		(property "Reference" "#PWR020"
-			(at 96.52 161.29 0)
+		(uuid "3603b50d-2756-4f80-a982-f2846596ebe3")
+		(property "Reference" "R2"
+			(at 247.65 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33k"
+			(at 247.65 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 251.968 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,8 +6784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 96.52 160.02 0)
+		(property "Datasheet" "~"
+			(at 250.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,26 +6793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 96.52 154.94 0)
+		(property "Description" "Resistor"
+			(at 250.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,12 +6803,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "92d585f4-6063-490a-b7ad-b3a9c898cc76")
+			(uuid "bc2a9640-71a6-4cb3-8074-d8426fbb99b5")
+		)
+		(pin "2"
+			(uuid "8f8f7703-fd63-4d1a-81ee-2622c8066634")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR020")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a1e5de5-b8ef-4a98-9630-0eff904e2a1b")
+		(property "Reference" "R9"
+			(at 248.92 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33k"
+			(at 248.92 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 253.238 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08efa66-e499-49fb-9919-27331d7ef33f")
+		)
+		(pin "2"
+			(uuid "f297a03d-5498-409b-84bf-8e15a738bf9b")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6127,6 +7021,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 149.86 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f389064-1afa-4758-8355-f29c79847c27")
+		(property "Reference" "C6"
+			(at 152.4 150.5838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 152.4 153.1238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 149.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 149.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "083ea39f-2270-45f6-b1ed-dffb6d662a75")
+		)
+		(pin "1"
+			(uuid "6731913a-20db-4843-88dd-a5ac4f89660a")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 266.7 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f5f4899-96a0-4a0a-b49e-1e85854cceeb")
+		(property "Reference" "#FLG04"
+			(at 266.7 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 266.7 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "522d084e-6a28-4b52-b6ba-e45d3387e2a1")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 197.485 58.42 180)
 		(unit 1)
@@ -6260,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 238.76 143.51 270)
+		(at 237.49 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +7299,7 @@
 		(fields_autoplaced yes)
 		(uuid "472f4d93-d5ce-4c7a-96e8-28db22c393a8")
 		(property "Reference" "#PWR056"
-			(at 232.41 143.51 0)
+			(at 231.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +7308,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 233.68 143.51 0)
+			(at 232.41 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +7317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 143.51 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +7326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 143.51 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +7335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 238.76 143.51 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,6 +7423,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 142.24 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489910c1-7c99-45f8-beaf-b8d5a20d166a")
+		(property "Reference" "#PWR01"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5300ccdc-64ac-4761-8dff-11177005c2e4")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 62.23 147.32 0)
 		(unit 1)
@@ -6411,12 +7508,13 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 60.452 148.59 0)
+			(at 64.262 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6592,72 +7690,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 154.94 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50887225-6bb6-47da-a51d-d345ed711dbe")
-		(property "Reference" "#PWR033"
-			(at 154.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 153.162 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bdf5963-f851-45d6-9f2e-4b244a4f860b")
-		)
-		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 30.48 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6790,6 +7822,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 274.32 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52ddc768-e0e8-496e-bdc5-bca1ec8f755a")
+		(property "Reference" "#PWR036"
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vser"
+			(at 274.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vser"
+			(at 274.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc5b421-9af1-41c4-b852-c7fa02dbbbd0")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 125.73 118.11 0)
 		(unit 1)
@@ -6857,6 +7955,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53af8fe4-0c57-477f-9acf-1540132724e6")
+		(property "Reference" "#PWR073"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vser"
+			(at 266.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vser"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ecce52-bd2a-4c4e-be1f-eb75e4cd91b9")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 91.44 118.11 0)
 		(unit 1)
@@ -6918,6 +8082,73 @@
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 191.77 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "573df0dd-4691-42d5-b44d-f4bc59436031")
+		(property "Reference" "D43"
+			(at 189.738 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 191.77 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 191.77 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ab2d54-49dc-4a01-b215-fbe80e0aaaba")
+		)
+		(pin "2"
+			(uuid "3a2ba88f-3603-481b-b958-777751df3984")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -6999,7 +8230,7 @@
 		(dnp no)
 		(uuid "57c11cb1-e0be-4191-94ed-db724f9e7f27")
 		(property "Reference" "J7"
-			(at 92.075 139.7 0)
+			(at 91.44 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +8238,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 92.075 142.24 0)
+			(at 91.44 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +8358,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 33.02 152.4 0)
+		(at 35.56 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7136,7 +8367,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c5090a2-92f2-4c3a-9a6f-f1a05985d003")
 		(property "Reference" "C1"
-			(at 35.56 150.5838 0)
+			(at 38.1 150.5838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,8 +8375,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 35.56 153.1238 0)
+		(property "Value" "1mF"
+			(at 38.1 153.1238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +8385,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 33.02 152.4 0)
+			(at 35.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +8394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 152.4 0)
+			(at 35.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +8403,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 33.02 152.4 0)
+			(at 35.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,33 +8427,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
-		(at 256.54 124.46 0)
+		(lib_id "power:VCC")
+		(at 132.08 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "5cf35d14-95b5-424e-903e-99564a299039")
-		(property "Reference" "U2"
-			(at 256.54 92.71 0)
+		(dnp no)
+		(uuid "5c7a61d1-406e-4e62-8095-c1038c17fdea")
+		(property "Reference" "#PWR020"
+			(at 132.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Pico"
-			(at 256.54 95.25 0)
+		(property "Value" "Vser"
+			(at 130.302 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
-			(at 256.54 124.46 90)
+		(property "Footprint" ""
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +8463,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 124.46 0)
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84695ca4-5781-4b3c-a9c1-3687e607e155")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
+		(at 255.27 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5cf35d14-95b5-424e-903e-99564a299039")
+		(property "Reference" "U2"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pico"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
+			(at 255.27 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +8537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 124.46 0)
+			(at 255.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,6 +8684,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 200.66 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e87ee80-819d-469b-8e8c-330f3a899950")
+		(property "Reference" "#PWR033"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vser"
+			(at 198.882 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de38c4bb-5d83-4c49-b6f5-41ce6aa6d467")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 67.31 147.32 0)
 		(unit 1)
@@ -7396,7 +8759,7 @@
 		(dnp no)
 		(uuid "5fa3da3a-97fc-47eb-ae4b-a79ffe2e3d5f")
 		(property "Reference" "J5"
-			(at 67.945 139.7 0)
+			(at 67.31 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +8767,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 67.945 142.24 0)
+			(at 67.31 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +9086,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 238.76 118.11 270)
+		(at 237.49 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7732,7 +9095,7 @@
 		(fields_autoplaced yes)
 		(uuid "640ab558-fb49-4e3f-a110-7a87aad1ddc0")
 		(property "Reference" "#PWR054"
-			(at 232.41 118.11 0)
+			(at 231.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +9104,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 233.68 118.11 0)
+			(at 232.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +9113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 118.11 0)
+			(at 237.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +9122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 118.11 0)
+			(at 237.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +9131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 238.76 118.11 0)
+			(at 237.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +9153,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 105.41 90)
+		(at 273.05 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7799,15 +9162,6 @@
 		(fields_autoplaced yes)
 		(uuid "66a5021f-0a4a-4f36-b976-9afc1fe2a22e")
 		(property "Reference" "#PWR063"
-			(at 280.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
 			(at 279.4 105.41 0)
 			(effects
 				(font
@@ -7816,8 +9170,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GNDREF"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 274.32 105.41 0)
+			(at 273.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +9189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 105.41 0)
+			(at 273.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +9198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 105.41 0)
+			(at 273.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +9286,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 238.76 105.41 270)
+		(at 237.49 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7932,7 +9295,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bb0a794-4ea7-4107-bd13-71037312bc71")
 		(property "Reference" "#PWR053"
-			(at 232.41 105.41 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +9304,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 233.68 105.41 0)
+			(at 232.41 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +9313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +9322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +9331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 238.76 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,76 +9478,6 @@
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 147.32 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "705b010f-3319-4f03-b04c-428af51f7633")
-		(property "Reference" "C6"
-			(at 149.86 150.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 149.86 153.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b13ead4-e27c-408f-bd65-4ae65cf3bff2")
-		)
-		(pin "1"
-			(uuid "b9ba02b6-c2f7-4bfa-80ec-28bb9264c420")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8388,17 +9681,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 165.1 154.94 0)
+		(lib_id "Device:C_Polarized_Small")
+		(at 172.72 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7829ff2d-b8ae-4efb-87c2-369c1a108cc4")
-		(property "Reference" "#PWR036"
-			(at 165.1 161.29 0)
+		(uuid "786cb33b-2d82-4c3d-b597-546ce085d93d")
+		(property "Reference" "C7"
+			(at 175.26 150.5838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 175.26 153.1238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,8 +9717,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 165.1 160.02 0)
+		(property "Datasheet" "~"
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,8 +9726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 154.94 0)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,31 +9735,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "4444ac8f-034e-4bbc-9e5e-0bfa230270c1")
 		)
 		(pin "1"
-			(uuid "c6b35d29-f531-4661-876e-23ccb4aaf758")
+			(uuid "d47961f5-2f30-40b3-8502-ede049f8044c")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR036")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8522,6 +9818,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 57.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c2f3306-f48f-4661-b23b-c9170aba1630")
+		(property "Reference" "C2"
+			(at 59.69 150.5838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 59.69 153.1238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a13e5a5-66ef-422d-87ba-283a9248d264")
+		)
+		(pin "1"
+			(uuid "efb72a5e-26bd-4a6d-b9eb-60dac34981b9")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 120.65 59.69 180)
 		(unit 1)
@@ -8582,6 +9948,273 @@
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 62.23 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e651260-c15a-4e23-9d72-a13193a1b352")
+		(property "Reference" "#PWR089"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vser"
+			(at 60.452 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbaf855a-b085-42bf-a4fe-a4020777de6c")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 100.33 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e9f4fba-f689-4054-b64d-59c21afcd54a")
+		(property "Reference" "D19"
+			(at 98.298 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 100.33 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 100.33 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "959e9d98-d518-4526-91d5-e5a782f62d11")
+		)
+		(pin "2"
+			(uuid "d91d96fb-0715-486d-96a8-ce065b1df88e")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 119.38 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8278272a-1ec0-496b-ad4c-07dd2b9a15f1")
+		(property "Reference" "#PWR012"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f232ae3e-0083-477b-86fc-87a9ee4faf5e")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 123.19 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dac39be-30d8-474e-b437-fff1f82a16c8")
+		(property "Reference" "D25"
+			(at 121.158 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 123.19 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 123.19 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f405a59-801e-42c0-b464-de5be0725390")
+		)
+		(pin "2"
+			(uuid "3aaf4a9f-eb3b-4529-a50e-e7ad65ab22c4")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -8720,72 +10353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 200.66 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f78a6d4-b61e-49be-93f6-7168e8aeb6e5")
-		(property "Reference" "#PWR01"
-			(at 200.66 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 195.834 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 200.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4bc3227-36ab-45da-82d6-0270894a50a3")
-		)
-		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 137.16 147.32 0)
 		(unit 1)
@@ -8795,7 +10362,7 @@
 		(dnp no)
 		(uuid "9416e82a-3a33-4644-9f7e-da84f673c7ba")
 		(property "Reference" "J11"
-			(at 137.795 139.7 0)
+			(at 137.16 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +10370,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 137.795 142.24 0)
+			(at 137.16 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,6 +10417,142 @@
 			(project "Oblique Palette 0.5 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f6af66-3b44-4d77-bf77-554541fd2f6d")
+		(property "Reference" "#PWR025"
+			(at 177.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vser"
+			(at 176.022 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2caf8eee-fba8-4bdf-8706-af7867e66612")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 195.58 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98171c0f-b76f-48ab-9c67-b7284be4b915")
+		(property "Reference" "C8"
+			(at 198.12 150.5838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 198.12 153.1238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27609090-e8b1-4679-bd57-22c9a42d8994")
+		)
+		(pin "1"
+			(uuid "af1505dc-1d9b-4f9d-a48f-6aa8491a3ef4")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8923,78 +10626,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 124.46 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b90ee68-82ed-41c8-884b-da427ef58219")
-		(property "Reference" "C5"
-			(at 127 150.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 127 153.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "186d4ec3-641e-4e05-8cc7-2766192dca8e")
-		)
-		(pin "1"
-			(uuid "834aa8e6-3ac4-46cf-96f1-8f10f0cc0f53")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 130.81 90)
+		(at 273.05 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9003,15 +10636,6 @@
 		(fields_autoplaced yes)
 		(uuid "9fdf30e0-2fcc-4483-978c-41f0368b409c")
 		(property "Reference" "#PWR064"
-			(at 280.67 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
 			(at 279.4 130.81 0)
 			(effects
 				(font
@@ -9020,8 +10644,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GNDREF"
+			(at 278.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 274.32 130.81 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +10663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 130.81 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +10672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 130.81 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,16 +10694,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 170.18 152.4 0)
+		(at 104.14 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a17feeaf-a1cd-44a4-8a98-3aa76e94b14b")
-		(property "Reference" "C7"
-			(at 172.72 150.5838 0)
+		(uuid "a25e969f-27dc-49de-bdfc-b4b1d9d0ed08")
+		(property "Reference" "C4"
+			(at 106.68 150.5838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,8 +10711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 172.72 153.1238 0)
+		(property "Value" "1mF"
+			(at 106.68 153.1238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +10721,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 170.18 152.4 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +10730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 152.4 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +10739,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 170.18 152.4 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,15 +10748,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f6446bc7-9eb9-45b2-8d1f-3abc03a67434")
+			(uuid "06704a81-388c-42a1-af66-19d458c0a1a2")
 		)
 		(pin "1"
-			(uuid "02be2f76-df04-4dda-955c-e9cfee347c84")
+			(uuid "6a05eb27-6868-4da1-a7d0-f4e6a56c9e02")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9131,7 +10764,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 238.76 130.81 270)
+		(at 237.49 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9140,7 +10773,7 @@
 		(fields_autoplaced yes)
 		(uuid "a27dc5e9-f445-435f-82e7-47ce823053ae")
 		(property "Reference" "#PWR055"
-			(at 232.41 130.81 0)
+			(at 231.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +10782,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 233.68 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +10791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 130.81 0)
+			(at 237.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +10800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 130.81 0)
+			(at 237.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +10809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 238.76 130.81 0)
+			(at 237.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +10897,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 276.86 110.49 0)
+		(at 275.59 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9272,7 +10905,7 @@
 		(dnp no)
 		(uuid "a5ee13f7-1fb6-4d7e-b608-e2a7b706efde")
 		(property "Reference" "#PWR038"
-			(at 276.86 114.3 0)
+			(at 275.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +10914,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 277.876 109.728 90)
+			(at 276.606 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +10922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 110.49 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +10931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 110.49 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +10940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 276.86 110.49 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,15 +10962,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 132.08 147.32 0)
+		(at 109.22 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7345f08-5217-4641-bb79-e06e88845d0c")
-		(property "Reference" "#PWR012"
-			(at 132.08 151.13 0)
+		(uuid "a604512a-e633-413f-b470-fc6d250d79c2")
+		(property "Reference" "#PWR017"
+			(at 109.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,8 +10978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 130.302 148.59 0)
+		(property "Value" "Vser"
+			(at 107.442 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +10988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 147.32 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 147.32 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +11006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 132.08 147.32 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,82 +11015,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4c7acb2-10f5-4cc8-b9a4-dcec814b5fd0")
+			(uuid "b445d43a-9c0d-41f6-aa8d-66cc003edba8")
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 193.04 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7fb7049-5aef-4398-ab59-7004f06b40d7")
-		(property "Reference" "C8"
-			(at 195.58 150.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 195.58 153.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 193.04 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 193.04 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "405de2cd-91f7-4427-8430-e8c8247de082")
-		)
-		(pin "1"
-			(uuid "4edcec52-ed8c-4094-9ff3-1b0e3d68b620")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C8")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9738,7 +11301,7 @@
 		(dnp no)
 		(uuid "aaca9da8-7ed9-46fe-87ab-9788e8f87bf7")
 		(property "Reference" "J13"
-			(at 160.655 139.7 0)
+			(at 160.02 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +11309,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 160.655 142.24 0)
+			(at 160.02 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,17 +11362,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 119.38 154.94 0)
+		(lib_id "power:VCC")
+		(at 85.09 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac305623-ebf4-42f6-9231-22355025b382")
-		(property "Reference" "#PWR025"
-			(at 119.38 161.29 0)
+		(uuid "ae5676e7-8161-47b9-9206-8172695eb9b0")
+		(property "Reference" "#PWR0106"
+			(at 85.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,17 +11379,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 119.38 160.02 0)
+		(property "Value" "Vser"
+			(at 83.312 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 154.94 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +11398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 154.94 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,8 +11406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 119.38 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,12 +11416,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6567929-f2f0-4aad-b9c9-8b6936aaa3b9")
+			(uuid "6768b84f-d14d-45de-b7d8-a06687f7fb52")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR025")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9875,7 +11437,7 @@
 		(dnp no)
 		(uuid "b047c353-f2a2-4219-8bc0-46efc7ed934e")
 		(property "Reference" "J14"
-			(at 183.515 139.7 0)
+			(at 182.88 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +11445,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 183.515 142.24 0)
+			(at 182.88 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +11631,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 274.32 100.33 0)
+		(at 276.86 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10077,7 +11639,7 @@
 		(dnp no)
 		(uuid "b1c51c2a-f007-43b9-b08b-0961ef507a66")
 		(property "Reference" "#PWR062"
-			(at 274.32 104.14 0)
+			(at 276.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,7 +11648,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 269.494 95.504 0)
+			(at 275.336 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,7 +11657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 100.33 0)
+			(at 276.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,7 +11666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 100.33 0)
+			(at 276.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +11675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 274.32 100.33 0)
+			(at 276.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,17 +11762,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 49.53 154.94 0)
+		(lib_id "Diode:1N5817")
+		(at 168.91 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b38a65ab-320c-49a6-8b14-be92da7f712c")
-		(property "Reference" "#PWR011"
-			(at 49.53 161.29 0)
+		(uuid "b5517cc7-a5a2-44cb-ba64-c44680f70c40")
+		(property "Reference" "D37"
+			(at 166.878 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 168.91 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 168.91 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,8 +11795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 49.53 160.02 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,26 +11804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 49.53 154.94 0)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,12 +11814,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a148343b-34c4-42c7-8b4a-1200bfb00a87")
+			(uuid "a36627b5-1d47-4eb5-9f26-7028953edf0e")
+		)
+		(pin "2"
+			(uuid "86502e72-9ad0-4af3-aa34-1f10e17c6cb6")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR011")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -10460,6 +12022,139 @@
 			(project "Oblique Palette 0.5.1 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR0337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 250.19 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda68c34-7f76-4949-963f-978ef3840169")
+		(property "Reference" "#PWR08"
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33413823-d7a3-46c0-9616-8a116daf8a7f")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 76.2 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43de5f8-b86d-49b9-a1f8-f2768009c3f0")
+		(property "Reference" "D13"
+			(at 74.168 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 76.2 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ced55f-aa23-43b8-b489-aefe4a994810")
+		)
+		(pin "2"
+			(uuid "f11f32b5-e69b-4449-be51-52ab6590d1e6")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10666,35 +12361,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 77.47 152.4 0)
+		(lib_id "power:GNDREF")
+		(at 96.52 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9ec0085-432e-4c1e-8272-923756a8d645")
-		(property "Reference" "C3"
-			(at 80.01 150.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 80.01 153.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 77.47 152.4 0)
+		(uuid "ccf3dd4d-6a3e-4a95-8ff1-4183a09267f1")
+		(property "Reference" "#PWR015"
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,68 +12379,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 152.4 0)
+		(property "Value" "GNDREF"
+			(at 96.52 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 77.47 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2186c5a4-ac7e-48e0-b47b-79bf241c042a")
-		)
-		(pin "1"
-			(uuid "12e2cb07-7d9d-4fa4-aeb3-840314f807ee")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 109.22 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb7702ec-8ebd-4d81-b24e-a3f7b06e00c1")
-		(property "Reference" "#PWR017"
-			(at 109.22 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 107.442 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 147.32 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +12398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 147.32 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,8 +12406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 109.22 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,12 +12416,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "07629eed-84d7-44b9-a6b7-221d4704106e")
+			(uuid "81eb18ba-7f20-4849-a0da-ef9c23ccfd63")
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10877,7 +12503,7 @@
 		(dnp no)
 		(uuid "ce461a98-8a32-45e7-ab8f-2ac47fc65647")
 		(property "Reference" "J9"
-			(at 114.935 139.7 0)
+			(at 114.3 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +12511,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male_Pin"
-			(at 114.935 142.24 0)
+			(at 114.3 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,25 +12630,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 177.8 147.32 0)
+		(lib_id "Device:R")
+		(at 252.73 129.54 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d198dcb1-20a6-43aa-aaae-b2755d8be715")
-		(property "Reference" "#PWR04"
-			(at 177.8 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 172.974 142.494 0)
+		(uuid "d0d06b0d-8d3a-4b09-ab66-d4c26e6a2220")
+		(property "Reference" "R1"
+			(at 255.27 130.8101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,8 +12648,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 147.32 0)
+		(property "Value" "R33k"
+			(at 255.27 128.2701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 250.952 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,8 +12666,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 177.8 147.32 0)
+		(property "Datasheet" "~"
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,8 +12675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 177.8 147.32 0)
+		(property "Description" "Resistor"
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,12 +12685,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d15cd31-1260-48ae-a837-bc81bb00734d")
+			(uuid "5632d53f-03cd-4268-a9d4-0350bbe865c8")
+		)
+		(pin "2"
+			(uuid "3d200391-08f3-4273-99f6-61d9023ade02")
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project ""
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR04")
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/f139377a-d7a4-4f83-81e4-8f98ca8ad38f"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11137,6 +12771,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 279.4 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ff7421-7927-4425-b9bc-891773a1fbd5")
+		(property "Reference" "#PWR068"
+			(at 279.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 279.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e5609fc-c857-4346-80d6-9aa2b13f2e1d")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 127 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e066f7-5930-47ae-895b-603c9b20f4e6")
+		(property "Reference" "C5"
+			(at 129.54 150.5838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 129.54 153.1238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c922dd76-e5f6-4e18-b959-65db3ea605f7")
+		)
+		(pin "1"
+			(uuid "28f96b51-0533-4733-8641-4a5e08d07d1d")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 256.54 153.67 0)
 		(unit 1)
@@ -11198,6 +12968,73 @@
 			(project "Oblique Palette 0.4 PCB"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 31.75 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc85afce-3c89-43df-ab10-32da408b44f4")
+		(property "Reference" "D1"
+			(at 29.718 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 31.75 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 31.75 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 31.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 31.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e89839-e0eb-4f3c-9122-6b4a828de6db")
+		)
+		(pin "2"
+			(uuid "780604f2-1569-4fd9-a55b-b09b2a29e490")
+		)
+		(instances
+			(project ""
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11271,17 +13108,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 142.24 154.94 0)
+		(lib_id "power:VCC")
+		(at 154.94 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e47309f0-dcf1-41e4-87e4-c7464a73f38d")
-		(property "Reference" "#PWR031"
-			(at 142.24 161.29 0)
+		(uuid "e880f425-d6ed-415c-9f05-734e4ef9b48b")
+		(property "Reference" "#PWR04"
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,17 +13125,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 142.24 160.02 0)
+		(property "Value" "Vser"
+			(at 153.162 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 154.94 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +13144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 154.94 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,8 +13152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 142.24 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,12 +13162,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b4080ad-92e1-465c-93c4-2eba3544c92c")
+			(uuid "c6729aaa-8598-4595-a77f-8b44b35fa95b")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR031")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11339,16 +13175,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 187.96 154.94 0)
+		(at 49.53 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0b69d11-5583-485d-8906-ab671064db50")
-		(property "Reference" "#PWR041"
-			(at 187.96 161.29 0)
+		(uuid "e9bebe14-fb8f-49b7-a8d7-05dd0fb4f311")
+		(property "Reference" "#PWR011"
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +13193,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 187.96 160.02 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +13202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 154.94 0)
+			(at 49.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +13211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 154.94 0)
+			(at 49.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +13220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 187.96 154.94 0)
+			(at 49.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,12 +13229,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0306d85-e48c-4442-8691-a7a7f2a3e09f")
+			(uuid "475c6a07-dc07-4014-9675-0ea1a557a067")
 		)
 		(instances
-			(project "Oblique Palette 0.5 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR041")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 279.4 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09a4d68-161b-4c48-85f6-c7f0b5b6bc40")
+		(property "Reference" "#FLG03"
+			(at 279.4 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 279.4 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e49b701-0ced-4ad1-b667-04c1494de86c")
+		)
+		(instances
+			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11579,73 +13481,6 @@
 			(project "Oblque Easel Full Circuit"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 72.39 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb8f4a28-ca7c-4377-8279-0f1c20134dac")
-		(property "Reference" "#PWR015"
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 72.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 72.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9d20e6f-d51f-427a-adaf-7ad7c2696ee3")
-		)
-		(instances
-			(project "Oblique Palette 0.5 PCB Main"
-				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11880,7 +13715,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "11")
 				)
@@ -11963,7 +13798,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "4")
 				)
@@ -12066,7 +13901,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "15")
 				)
@@ -12149,7 +13984,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "2")
 				)
@@ -12252,7 +14087,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "13")
 				)
@@ -12355,7 +14190,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "12")
 				)
@@ -12438,7 +14273,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "8")
 				)
@@ -12541,7 +14376,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "9")
 				)
@@ -12624,7 +14459,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "7")
 				)
@@ -12727,7 +14562,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "16")
 				)
@@ -12810,7 +14645,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "6")
 				)
@@ -12893,7 +14728,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "3")
 				)
@@ -12996,7 +14831,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "14")
 				)
@@ -13099,7 +14934,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "10")
 				)
@@ -13181,7 +15016,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "1")
 				)
@@ -13264,7 +15099,7 @@
 			)
 		)
 		(instances
-			(project "Oblique Palette 0.5.1 PCB Main"
+			(project "Oblique Palette 0.5.4 PCB Main"
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef"
 					(page "5")
 				)

@@ -89,12 +89,16 @@ void setup() {
   Serial.begin(12000000);                // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
   digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
 
-  Wire.setSDA(0);  // Data line for DACs 0-3
+  Wire.setSDA(0);  // Data line for DACs 0-3 (output channels 1-4)
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
-  Wire.begin();
 
-  Wire1.setSDA(10);  // Data line for DACs 4-7
+  gpio_set_pulls(10, true, false); // Set internal pullups on 12c bus 1
+  gpio_set_pulls(11, true, false);
+  
+  Wire1.setSDA(10);  // Data line for DACs 4-7 (output)
   Wire1.setSCL(11);  // Serial clock line for DACs 4-7
+
+  Wire.begin();
   Wire1.begin();
 
   // begin all DACs on both i2c busses
@@ -210,7 +214,7 @@ void testRepeater() {
 
 // Call out for the Easel and blink the onboard LED if it's not found yet
 bool findEasel() {
-  if (Serial.available()) {                                   //If the Palette is receiving data from the Easel, start talking!
+  if (Serial.available()) {                                          //If the Palette is receiving data from the Easel, start talking!
     analogWrite(LED_BUILTIN, int((testLEDBrightness + 0.1)) % 255);  // Rising sawtooth LED indicator
     communicationTimeoutStart = micros();
     return (1);

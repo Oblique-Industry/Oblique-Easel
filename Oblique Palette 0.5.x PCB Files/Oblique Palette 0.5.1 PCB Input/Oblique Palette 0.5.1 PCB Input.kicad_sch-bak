@@ -2581,7 +2581,7 @@
 		)
 		(uuid "47a0c84b-57b5-4bd7-959d-38ee9b4a1c69")
 	)
-	(hierarchical_label "3v3"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 110.49 38.1 270)
 		(effects
@@ -2810,7 +2810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100K"
 			(at 105.41 83.8199 0)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "200K"
 			(at 96.266 83.312 90)
 			(effects
 				(font

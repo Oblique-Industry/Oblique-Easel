@@ -1785,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 46.99) (xy 137.16 46.99)
+			(xy 140.97 46.99) (xy 137.16 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2205,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c2f81d-a46b-4996-ac7f-06d8aae38801")
-	)
-	(wire
-		(pts
 			(xy 111.76 99.06) (xy 107.95 99.06)
 		)
 		(stroke
@@ -2343,15 +2333,6 @@
 			)
 		)
 		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C144198"
 			(at 73.66 44.45 0)
 			(effects
 				(font
@@ -5227,7 +5208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 46.99 270)
+		(at 144.78 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5235,7 +5216,7 @@
 		(dnp no)
 		(uuid "d2eb3554-c664-49dc-aab0-2799829c585c")
 		(property "Reference" "R17"
-			(at 145.5421 41.91 90)
+			(at 146.8121 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,8 +5224,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 145.542 44.196 90)
+		(property "Value" "1k"
+			(at 146.812 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 45.212 90)
+			(at 144.78 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 46.99 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5252,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 46.99 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
