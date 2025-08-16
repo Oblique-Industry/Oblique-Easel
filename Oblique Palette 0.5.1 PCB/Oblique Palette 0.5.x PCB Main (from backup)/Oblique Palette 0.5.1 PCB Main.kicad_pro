@@ -48,28 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "net_conflict|235157000|45427000|6c2c980e-a6fb-4999-8f24-2793e405d416|00000000-0000-0000-0000-000000000000",
-          "Pin unused"
-        ],
-        [
-          "text_height|248750000|57660000|9cf7dd0f-f45f-4252-871d-9d3d3d4882c1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|118250000|21660000|793acbbb-a787-49f5-91be-6b7ba8347dce|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|217547000|21457000|eeaf8db9-f77d-40c1-985e-05e9537de530|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -99,7 +82,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
+        "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -113,13 +96,12 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -469,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Oblique Palette 0.5.4 PCB Main.kicad_pro",
+    "filename": "Oblique Palette 0.5.1 PCB Main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +486,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Oblique Palette 0.5.4 PCB Main.net",
+      "netlist": "Oblique Palette 0.5.1 PCB Main.net",
       "plot": "",
       "pos_files": "production/",
       "specctra_dsn": "",
@@ -715,38 +697,6 @@
     [
       "a92755aa-291f-481b-bbbb-60e570bb5340",
       "Output8"
-    ],
-    [
-      "92a2ba2b-beb1-4849-8909-5269bbd35e6b",
-      "Servo2"
-    ],
-    [
-      "264c6bc9-b813-402b-a789-8b4ad4c0574f",
-      "Servo1"
-    ],
-    [
-      "c28bda45-570c-42cb-b4a3-0f1890277eeb",
-      "Servo3"
-    ],
-    [
-      "873df1a4-5c0d-4a85-963d-dfb581eec1df",
-      "Servo4"
-    ],
-    [
-      "5225e1e9-803e-4115-8333-410239679d8a",
-      "Servo5"
-    ],
-    [
-      "cbf9d742-848a-4b19-8d36-d964850feef8",
-      "Servo6"
-    ],
-    [
-      "4741897c-b21d-41a5-80df-f4d97359d1cd",
-      "Servo7"
-    ],
-    [
-      "4b78c912-1c8a-41db-913e-44c7cc22a08b",
-      "Servo8"
     ]
   ],
   "text_variables": {}

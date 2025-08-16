@@ -937,6 +937,10 @@
 		)
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/264c6bc9-b813-402b-a789-8b4ad4c0574f"
+					(reference "D1")
+					(unit 1)
+				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4741897c-b21d-41a5-80df-f4d97359d1cd"
 					(reference "D73")
 					(unit 1)
@@ -1031,6 +1035,10 @@
 		)
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/264c6bc9-b813-402b-a789-8b4ad4c0574f"
+					(reference "J1")
+					(unit 1)
+				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4741897c-b21d-41a5-80df-f4d97359d1cd"
 					(reference "J15")
 					(unit 1)
@@ -1125,6 +1133,10 @@
 		)
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/264c6bc9-b813-402b-a789-8b4ad4c0574f"
+					(reference "C1")
+					(unit 1)
+				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4741897c-b21d-41a5-80df-f4d97359d1cd"
 					(reference "C23")
 					(unit 1)
@@ -1216,6 +1228,10 @@
 		)
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/264c6bc9-b813-402b-a789-8b4ad4c0574f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4741897c-b21d-41a5-80df-f4d97359d1cd"
 					(reference "#PWR0203")
 					(unit 1)
@@ -1306,6 +1322,10 @@
 		)
 		(instances
 			(project "Oblique Palette 0.5.4 PCB Main"
+				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/264c6bc9-b813-402b-a789-8b4ad4c0574f"
+					(reference "#PWR0106")
+					(unit 1)
+				)
 				(path "/28718c51-05fa-44bf-9e59-30883fb9ecef/4741897c-b21d-41a5-80df-f4d97359d1cd"
 					(reference "#PWR0218")
 					(unit 1)
