@@ -3351,6 +3351,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C116668"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb18029")
 		)
@@ -3578,6 +3587,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C116668"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -3819,6 +3837,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C116668"
 			(at 152.4 105.41 0)
 			(effects
 				(font
@@ -4583,6 +4610,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C116668"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "f254ed05-7e13-4da4-aa5c-1ca73fb1802b")
 		)
@@ -5145,6 +5181,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C116668"
 			(at 173.99 105.41 0)
 			(effects
 				(font
