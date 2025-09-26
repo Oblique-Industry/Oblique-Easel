@@ -10978,7 +10978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../Oblique Palette 0.5.1 PCB Output/Oblique Palette 0.5.1 PCB Output.kicad_sch"
+		(property "Sheetfile" "../../Oblique Palette 0.5.1 PCB Output/Oblique Palette 0.5.1 PCB Output.kicad_sch"
 			(at 38.6846 123.19 90)
 			(effects
 				(font
@@ -11744,7 +11744,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../Oblique Palette 0.5.1 PCB Input/Oblique Palette 0.5.1 PCB Input.kicad_sch"
+		(property "Sheetfile" "../../Oblique Palette 0.5.1 PCB Input/Oblique Palette 0.5.1 PCB Input.kicad_sch"
 			(at 13.97 59.0046 0)
 			(effects
 				(font
