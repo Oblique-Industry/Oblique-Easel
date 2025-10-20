@@ -25,7 +25,7 @@ using namespace admux;  // for ADC multiplexer
 Hardware configuration of the Palette
 ***********************************/
 const char modelName[] = "Palette";       // Model name
-const char firmwareVersion[] = "v0.5.4";  // Version number of this firmware
+const char firmwareVersion[] = "v0.5.5";  // Version number of this firmware
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
@@ -47,13 +47,13 @@ Analytics
 *********************************/
 long lastTime;                          // For holding the time to measure the amount of time processing takes
 const int communicationTimeout = 1000;  // How long to wait to hear back
-int communicationTimeoutStart;         // If communication goes down, start a timer
+long communicationTimeoutStart;         // If communication goes down, start a timer
 bool ledState = 0;
 
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin 28                                                     // The µC ADC pin
+#define ADCPin 28                                                   // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
@@ -82,10 +82,10 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(ADCPin, INPUT);
 
-  digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
+  testBlink();  // Switch whenever something happens
 
   Serial.begin(12000000);                // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
-  digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
+  testBlink();  // Switch whenever something happens
 
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
@@ -106,7 +106,7 @@ void setup() {
   for (byte servoToSetup = 0; servoToSetup < numOutputChannels; servoToSetup++) {  // Make a servo object for each DAC channel
     servoChannel[servoToSetup].attach(servoPin[servoToSetup]);                     // Attach each servo to its pin
   }
-  digitalWrite(LED_BUILTIN, HIGH);  // Switch whenever something happens
+  testBlink();  // Switch whenever something happens
 
   while (!findEasel())  // Look for the Easel on boot until the Palette gets back real values
     ;
@@ -119,6 +119,7 @@ void loop() {
 
   // Receive Serial values into array
   receiveDACs();
+  testBlink();
 
   // Read ADC values into array
   readAllADCs();
@@ -130,7 +131,6 @@ void loop() {
   // Update all servo DAC values
   updateAllServos();
 
-  testBlink();
 }
 /******************************************************************************************
 Functions
@@ -176,12 +176,12 @@ void readAllADCs() {
 void sendADCToEasel() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
     Serial.print(ADCSamplesToEasel[thisADCChannel]);
-    Serial.write(32);
+    Serial.write(32); // Space to delineate values
   }
   Serial.write(13);  // Carriage return to end the transmission
 }
 
-// Insert this f() before sending to the Easel to just repeat back input channels so we can make sure the Easel is sending/Palette is receiving.
+// Insert this function before sending to the Easel to just repeat back input channels so we can make sure the Easel is sending/Palette is receiving.
 void testRepeater() {
   for (int thisChannelToRepeat = 1; thisChannelToRepeat < numInputChannels; thisChannelToRepeat++) {
     ADCSamplesToEasel[thisChannelToRepeat] = DACSamplesFromEasel[thisChannelToRepeat];
@@ -193,8 +193,8 @@ void testRepeater() {
 // Call out for the Easel and blink the onboard LED if it's not found yet
 bool findEasel() {
   if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
-    digitalWrite(LED_BUILTIN, HIGH);
-    communicationTimeoutStart = millis();
+    testBlink();
+    communicationTimeoutStart = micros();
     return (1);
 
   } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
