@@ -25,7 +25,7 @@ using namespace admux;  // for ADC multiplexer
 Hardware configuration of the Palette
 ***********************************/
 const char modelName[] = "Palette";       // Model name
-const char firmwareVersion[] = "v0.5.3";  // Version number of this firmware
+const char firmwareVersion[] = "v0.5.4";  // Version number of this firmware
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
@@ -47,13 +47,13 @@ Analytics
 *********************************/
 long lastTime;                          // For holding the time to measure the amount of time processing takes
 const int communicationTimeout = 1000;  // How long to wait to hear back
-long communicationTimeoutStart;         // If communication goes down, start a timer
+int communicationTimeoutStart;         // If communication goes down, start a timer
 bool ledState = 0;
 
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin 34                                                   // The µC ADC pin
+#define ADCPin 28                                                     // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
@@ -194,7 +194,7 @@ void testRepeater() {
 bool findEasel() {
   if (Serial.available()) {  //If the Palette is receiving data from the Easel, start talking!
     digitalWrite(LED_BUILTIN, HIGH);
-    communicationTimeoutStart = micros();
+    communicationTimeoutStart = millis();
     return (1);
 
   } else {  // When the Palette hasn't heard from the Easel yet, ping out with identifying information
