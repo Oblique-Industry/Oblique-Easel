@@ -17,6 +17,8 @@
 #include <pico/stdlib.h>       // To access Pico-specific libraries
 #include <hardware/adc.h>      // Direct ADC read access for high speed reads
 #include <hardware/gpio.h>     // Direct GPIO access
+// #include "Adafruit_TinyUSB.h"  // Better USB communication
+
 
 using namespace admux;  // for ADC multiplexer
 
@@ -53,7 +55,7 @@ bool ledState = 0;
 /*********************************
 ADCs and DACs
 *********************************/
-#define ADCPin 28                                                   // The µC ADC pin
+#define ADCPin 28                                                     // The µC ADC pin
 Mux ADCMux(Pin(ADCPin, INPUT, PinType::Analog), Pinset(21, 20, 17));  // For addressing ADC channels with a CD4051 multiplexer
 
 Adafruit_MCP4725 DAC[numOutputChannels];                                                        // All DACs
@@ -84,8 +86,8 @@ void setup() {
 
   testBlink();  // Switch whenever something happens
 
-  Serial.begin(12000000);                // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
-  testBlink();  // Switch whenever something happens
+  Serial.begin(12000000);   // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
+  testBlink();              // Switch whenever something happens
 
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
@@ -130,7 +132,6 @@ void loop() {
   updateAllDACs();
   // Update all servo DAC values
   updateAllServos();
-
 }
 /******************************************************************************************
 Functions
@@ -176,7 +177,7 @@ void readAllADCs() {
 void sendADCToEasel() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
     Serial.print(ADCSamplesToEasel[thisADCChannel]);
-    Serial.write(32); // Space to delineate values
+    Serial.write(32);  // Space to delineate values
   }
   Serial.write(13);  // Carriage return to end the transmission
 }
@@ -217,4 +218,5 @@ bool findEasel() {
 
 void testBlink() {
   digitalWrite(LED_BUILTIN, !ledState);  // Switch whenever something happens
+  ledState = !ledState;
 }
