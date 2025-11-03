@@ -4564,7 +4564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R33k"
+		(property "Value" "R1k"
 			(at 256.54 92.7101 0)
 			(effects
 				(font
@@ -5230,7 +5230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R33k"
+		(property "Value" "R2k"
 			(at 247.65 130.8099 0)
 			(effects
 				(font
@@ -5300,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R33k"
+		(property "Value" "R1k"
 			(at 248.92 95.2499 0)
 			(effects
 				(font
@@ -9273,7 +9273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R33k"
+		(property "Value" "R1k"
 			(at 255.27 128.2701 0)
 			(effects
 				(font

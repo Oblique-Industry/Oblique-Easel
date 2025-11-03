@@ -17,7 +17,7 @@
 #include <pico/stdlib.h>       // To access Pico-specific libraries
 #include <hardware/adc.h>      // Direct ADC read access for high speed reads
 #include <hardware/gpio.h>     // Direct GPIO access
-// #include "Adafruit_TinyUSB.h"  // Better USB communication
+#include "Adafruit_TinyUSB.h"  // Better USB communication
 
 
 using namespace admux;  // for ADC multiplexer
@@ -27,7 +27,7 @@ using namespace admux;  // for ADC multiplexer
 Hardware configuration of the Palette
 ***********************************/
 const char modelName[] = "Palette";       // Model name
-const char firmwareVersion[] = "v0.5.5";  // Version number of this firmware
+const char firmwareVersion[] = "v0.5.6";  // Version number of this firmware
 const int DACBitDepth = 12;               // Output/DAC resolution
 const int numOutputChannels = 8;          // Number of output channels on the Palette
 const int ADCBitDepth = 12;               // Input/ADC resolution
@@ -86,14 +86,18 @@ void setup() {
 
   testBlink();  // Switch whenever something happens
 
-  Serial.begin(12000000);   // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
-  testBlink();              // Switch whenever something happens
+  // TinyUSBDevice.begin(115200);  // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
+  testBlink();                  // Switch whenever something happens
 
+  Wire.setClock(400000);
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
+  testBlink();     // Switch whenever something happens
 
+  Wire1.setClock(1000000);
   Wire1.setSDA(10);  // Data line for DACs 4-7
   Wire1.setSCL(11);  // Serial clock line for DACs 4-7
+  testBlink();       // Switch whenever something happens
 
   // begin all DACs on both i2c busses
   for (byte thisDAC = 0; thisDAC < numOutputChannels; thisDAC++) {
@@ -115,7 +119,9 @@ void setup() {
 }
 
 
-/******************************************** LOOP ********************************************/
+
+
+/**************************************** VVV LOOP VVV ****************************************/
 void loop() {
   lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
 
@@ -133,6 +139,11 @@ void loop() {
   // Update all servo DAC values
   updateAllServos();
 }
+/**************************************** ΛΛΛ LOOP ΛΛΛ ****************************************/
+
+
+
+
 /******************************************************************************************
 Functions
 ******************************************************************************************/
@@ -178,6 +189,7 @@ void sendADCToEasel() {
   for (byte thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
     Serial.print(ADCSamplesToEasel[thisADCChannel]);
     Serial.write(32);  // Space to delineate values
+    Serial.flush();
   }
   Serial.write(13);  // Carriage return to end the transmission
 }
