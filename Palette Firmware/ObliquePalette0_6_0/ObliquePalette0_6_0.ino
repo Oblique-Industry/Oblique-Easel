@@ -93,6 +93,7 @@ void setup() {
 
   testBlink();  // Switch whenever something happens
 
+  Serial.setTimeout(500);
   Serial.begin(12000000);  // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
   testBlink();             // Switch whenever something happens
 
@@ -141,10 +142,12 @@ void loop() {
   }
   // Update all servo DAC values
   updateAllServos();
-}
 
-/* The loop1() function does all the communicating to and from the Easel.*/
-void loop1() {
+  /***Uncomment the next few lines to turn multithreading on.***/
+  // }
+  // /* The loop1() function does all the communicating to and from the Easel.*/
+  // void loop1() {
+  /**********Uncomment above to turn multithreading on.*********/
 
   // Receive Serial values into array
   receiveDACs();
@@ -170,12 +173,13 @@ Functions
 
 // Receive all DAC values from the Easel
 void receiveDACs() {
+  while (Serial.available() == 0) {};
   if (DACBufferIsFull == false) {
     for (thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
       DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
     }
-    DACBufferIsFull = true;
   }
+  DACBufferIsFull = true;
 }
 
 // Scroll through all DACs to update them with data from the Easel
