@@ -20,9 +20,7 @@
 #include <hardware/gpio.h>     // Direct GPIO access
 #include "Adafruit_TinyUSB.h"  // Better USB communication
 
-
 using namespace admux;  // for ADC multiplexer
-
 
 /**********************************
 Hardware configuration of the Palette
@@ -77,7 +75,7 @@ Serial buffer and the values to parse between Easel and Palette & back
 int DACSamplesFromEasel[numValuesFromEaselPerPacket] = { 511, 1023, 1535, 2047, 2559, 3071, 3583, 4095 };  // The buffer of values received from the Easel
 volatile bool DACBufferIsFull = false;                                                                     // Has the DAC been read, so the buffer can be refilled?
 int ADCSamplesToEasel[numValuesToEaselPerPacket];                                                          // The values to send to the Easel
-volatile bool ADCBufferIsWritten = false;                                                                  // Has the ADC data been sent to the Easel?
+volatile bool ADCBufferIsFull = false;                                                                     // Has the ADC data been sent to the Easel?
 
 
 /****************************************************************************************************************************************
@@ -96,7 +94,9 @@ void setup() {
   Serial.setTimeout(500);
   Serial.begin(12000000);  // Baud setting is ignored, as it's handled by USB peripherals & Easel/OS
   testBlink();             // Switch whenever something happens
+}
 
+void setup1() {
   Wire.setClock(400000);
   Wire.setSDA(0);  // Data line for DACs 0-3
   Wire.setSCL(1);  // Serial clock line for DACs 0-3
@@ -134,26 +134,34 @@ void setup() {
 /* The loop0() function does all of the reading and writing to and from the hardware.*/
 void loop() {
   lastTime = micros() - lastTime;  // Time for the whole loop. Use for diagnostics if you gotta.
-  if (DACBufferIsFull) {
+
+  if (ADCBufferIsFull == false) {
     readAllADCs();  // Read ADC values into array
+    ADCBufferIsFull = true;
   }
-  if (ADCBufferIsWritten) {
-    updateAllDACs();  // Update DAC values
+  if (DACBufferIsFull == true) {
+    updateAllDACs();  // Read all DAC values into their respective hardware DACs
+    DACBufferIsFull = false;
   }
   // Update all servo DAC values
   updateAllServos();
 
   /***Uncomment the next few lines to turn multithreading on.***/
-  // }
-  // /* The loop1() function does all the communicating to and from the Easel.*/
-  // void loop1() {
+}
+/* The loop1() function does all the communicating to and from the Easel.*/
+void loop1() {
   /**********Uncomment above to turn multithreading on.*********/
 
   // Receive Serial values into array
-  receiveDACs();
-
+  if (DACBufferIsFull == false) {
+    receiveDACs();
+    DACBufferIsFull = true;
+  }
   // Send ADC values
-  sendADCToEasel();
+  if (ADCBufferIsFull == true) {
+    sendADCToEasel();
+    ADCBufferIsFull = false;
+  }
 
   // Let us know if you succeeded
   digitalWrite(LED_BUILTIN, LOW);
@@ -174,12 +182,9 @@ Functions
 // Receive all DAC values from the Easel
 void receiveDACs() {
   while (Serial.available() == 0) {};
-  if (DACBufferIsFull == false) {
-    for (thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
-      DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
-    }
+  for (thisDACChannel = 0; thisDACChannel < numOutputChannels; thisDACChannel++) {
+    DACSamplesFromEasel[thisDACChannel] = Serial.parseInt();
   }
-  DACBufferIsFull = true;
 }
 
 // Scroll through all DACs to update them with data from the Easel
@@ -199,11 +204,8 @@ void updateAllServos() {
 
 /*************************** ADC/input functions ***************************/
 void readAllADCs() {
-  if (ADCBufferIsWritten = false) {
-    for (thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
-      ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);  // use regular ol' analogRead() max sample rate: ~ 177Hz
-    }
-    ADCBufferIsWritten = true;
+  for (thisADCChannel = 0; thisADCChannel < numInputChannels; thisADCChannel++) {
+    ADCSamplesToEasel[thisADCChannel] = ADCMux.read(thisADCChannel);  // use regular ol' analogRead() max witnessed sample rate: ~ 430Hz/48000Hz
   }
 }
 
